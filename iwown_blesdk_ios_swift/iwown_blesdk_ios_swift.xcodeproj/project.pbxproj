@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -206,7 +206,6 @@
 				D649FE6E20C5219700101AD7 /* Frameworks */,
 				D649FE6F20C5219700101AD7 /* Resources */,
 				51A92614A195CF094CC7BF51 /* [CP] Embed Pods Frameworks */,
-				6128661EF1BAF75EB8454605 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,29 +268,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6128661EF1BAF75EB8454605 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		72AC4D601F79688B9BB899F0 /* [CP] Check Pods Manifest.lock */ = {
@@ -480,7 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J4RUNBVTXN;
+				DEVELOPMENT_TEAM = L855ZMKEYR;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iwown_blesdk_ios_swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -501,7 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J4RUNBVTXN;
+				DEVELOPMENT_TEAM = L855ZMKEYR;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iwown_blesdk_ios_swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

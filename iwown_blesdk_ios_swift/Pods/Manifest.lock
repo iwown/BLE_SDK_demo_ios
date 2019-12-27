@@ -1,0 +1,20 @@
+PODS:
+  - BLE3Framework (5.3.9):
+    - Protobuf
+  - Protobuf (3.11.2)
+
+DEPENDENCIES:
+  - BLE3Framework
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BLE3Framework
+    - Protobuf
+
+SPEC CHECKSUMS:
+  BLE3Framework: 15c233374965dbd09e21d51d805eee28ee2b851e
+  Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
+
+PODFILE CHECKSUM: 39356a882fb263f003f6d3d682f4445992a78cda
+
+COCOAPODS: 1.8.4

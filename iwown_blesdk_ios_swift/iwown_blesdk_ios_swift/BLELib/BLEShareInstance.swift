@@ -31,7 +31,7 @@ class BLEShareInstance: NSObject {
     
     func startWithConnectedDevice(device : ZRBlePeripheral) -> Void {
         _name = device.deviceName
-        _solstice = _bleAutumn?.solstice(withConnectedPeripheral: device)
+        _solstice = _bleAutumn?.solstice()
         _bleAutumn?.registerSolsticeEquinox(self as BLEquinox)
     }
     
