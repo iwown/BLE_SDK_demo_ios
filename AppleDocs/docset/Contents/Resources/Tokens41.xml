@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/BLEParamSign.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/BLEParamSign</TokenIdentifier>
+			<Abstract type="html">* If your smartband supportted this option ,that is meant this device might show message sign replaced a bluetooth icon noticed connectted state .If you don&apos;t want to ,Please implement
+\@method \bleParamSignSetting of \@protocol \BleConnectDelegate .use \@code \BLEParamSignConnect you will get bluetooth icon on screen of your smartband;
+* 如果你的手环支持这个协议，你将在手环上看到一个消息标示而不是一个表示连接状态的蓝牙图标。如果你不想要这样，请实现bleParamSignSetting方法，使用BLEParamSignConnect选项，你就可以在你手环屏幕上看到那个可爱的蓝牙图标了。</Abstract>
+			<DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLEParamSignConnect</TokenIdentifier>
+            <Abstract type="html">! Compatible mode，recommended&lt;##&gt;</Abstract>
+            <Declaration>BLEParamSignConnect</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="41"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLEParamSignMSGOption</TokenIdentifier>
+            <Abstract type="html">! Used for special version</Abstract>
+            <Declaration>BLEParamSignMSGOption</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="41"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLEParamSignMSGOptionDelay</TokenIdentifier>
+            <Abstract type="html">! Android used</Abstract>
+            <Declaration>BLEParamSignMSGOptionDelay</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="41"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

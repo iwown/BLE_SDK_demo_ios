@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/BLECmdResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/BLECmdResponse</TokenIdentifier>
+			<Abstract type="html">BLECmdResponse
+pare with braceletCmdCommandt。</Abstract>
+			<DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_GET_INFORMATION</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_GET_INFORMATION</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_GET_BATTERY</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_GET_BATTERY</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_RESET</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_RESET</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_UPDATE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_UPDATE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_REQ_REBOND</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_REQ_REBOND</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_DO_REBOND</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_DO_REBOND</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_DND_MODE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_DND_MODE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_WEATHER</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_WEATHER</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_SYNCDATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_SYNCDATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_HEARTBEAT_SIGNAL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_HEARTBEAT_SIGNAL</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DEVICE_HW_OPTION_SUPPERT</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DEVICE_HW_OPTION_SUPPERT</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_SET_TIME</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_SET_TIME</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_GET_TIME</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_GET_TIME</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_SET_BLE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_SET_BLE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_GET_BLE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_GET_BLE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_SET_AC</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_SET_AC</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_GET_AC</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_GET_AC</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_SET_NMA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_SET_NMA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_GET_NMA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_GET_NMA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_SET_HW_OPTION</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_SET_HW_OPTION</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_GET_HW_OPTION</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_GET_HW_OPTION</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_GET_SPORT_LIST</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_GET_SPORT_LIST</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_SET_SPORT_TARGET</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_SET_SPORT_TARGET</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_GET_SPORT_TARGET</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_GET_SPORT_TARGET</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_SET_SCHEDULE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_SET_SCHEDULE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_GET_SCHEDULE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_GET_SCHEDULE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_GET_SCHEDULE_INFO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_GET_SCHEDULE_INFO</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CONFIG_SGET_CONTACTS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CONFIG_SGET_CONTACTS</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_SET_BODY_PARAM</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_SET_BODY_PARAM</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_GET_BODY_PARAM</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_GET_BODY_PARAM</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_CLEAR_ALL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_CLEAR_ALL</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_START_GET_DAY_DATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_START_GET_DAY_DATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_STOP_GET_DAY_DATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_STOP_GET_DAY_DATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_SET_GNSS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_SET_GNSS</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_GET_GNSS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_GET_GNSS</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_GET_CUR_DAY_DATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_GET_CUR_DAY_DATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_GET_SPORTDATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_GET_SPORTDATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_GET_CUR_SPORTDATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_GET_CUR_SPORTDATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_GET_SLEEP_TEST</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_GET_SLEEP_TEST</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_DATALOG_GET_SMF_TEST</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_DATALOG_GET_SMF_TEST</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_MSG_UPLOAD</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_MSG_UPLOAD</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_MSG_SINGLE_DOWNLOAD</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_MSG_SINGLE_DOWNLOAD</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_MSG_MULTI_DOWNLOAD_START</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_MSG_MULTI_DOWNLOAD_START</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_MSG_MULTI_DOWNLOAD_CONTINUE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_MSG_MULTI_DOWNLOAD_CONTINUE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_MSG_MULTI_DOWNLOAD_END</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_MSG_MULTI_DOWNLOAD_END</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_MSG_SPECIAL_LIST_SET</TokenIdentifier>
+            <Abstract type="html">*DEPRECATED_ATTRIBUTE
+     CMDRESPONSEMSGMSGSWITCH_SET = 0x35 ,
+     CMDRESPONSEMSGMSGSWITCH_GET = 0x36 ,
+     </Abstract>
+            <Declaration>CMD_RESPONSE_MSG_SPECIAL_LIST_SET</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_MSG_SPECIAL_LIST_GET</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_MSG_SPECIAL_LIST_GET</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_MSG_SPECIAL_LIST_GET_INFO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_MSG_SPECIAL_LIST_GET_INFO</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CTRL_KEYNOTIFY</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CTRL_KEYNOTIFY</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CTRL_MOTOR</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CTRL_MOTOR</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CTRL_SENSOR</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CTRL_SENSOR</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CTRL_RECOGNITION</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CTRL_RECOGNITION</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CTRL_SET_CUSTOM_OPTION</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CTRL_SET_CUSTOM_OPTION</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CTRL_GET_CUSTOM_OPTION</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CTRL_GET_CUSTOM_OPTION</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_HEARTRATE_PARAM</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_HEARTRATE_PARAM</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_HEARTRATE_DATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_HEARTRATE_DATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_HEARTRATE_UPDATE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_HEARTRATE_UPDATE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_HEARTRATE_HOURS_DATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_HEARTRATE_HOURS_DATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_HEALTH_DAY_DATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_HEALTH_DAY_DATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_HEALTH_MINUTE_DATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_HEALTH_MINUTE_DATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_GNSS_MINUTE_DATA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_GNSS_MINUTE_DATA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_GNSS_MINUTE_DATA_TEST</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_GNSS_MINUTE_DATA_TEST</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_CLOCK_AND_SCHEDULE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_CLOCK_AND_SCHEDULE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CMD_RESPONSE_USERINFO_GET</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CMD_RESPONSE_USERINFO_GET</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="39"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

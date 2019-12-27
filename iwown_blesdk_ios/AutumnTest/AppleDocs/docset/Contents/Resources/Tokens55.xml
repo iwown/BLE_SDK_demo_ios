@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/ZRRollMsgType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/ZRRollMsgType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForQQ</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForQQ</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForWechat</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForWechat</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForSina</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForSina</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForFacebook</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForFacebook</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForLine</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForLine</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForInstagram</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForInstagram</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForKakaoTalk</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForKakaoTalk</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForGmail</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForGmail</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForTwitter</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForTwitter</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForLinkin</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForLinkin</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForWhatsapp</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForWhatsapp</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForSkype</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForSkype</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForMobileSMS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForMobileSMS</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ZRRollMsgForMoblieEmail</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ZRRollMsgForMoblieEmail</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="55"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

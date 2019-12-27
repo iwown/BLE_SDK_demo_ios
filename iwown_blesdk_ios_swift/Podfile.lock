@@ -1,0 +1,12 @@
+PODS:
+  - BLE3Framework (5.0.4)
+
+DEPENDENCIES:
+  - BLE3Framework (~> 5.0.4)
+
+SPEC CHECKSUMS:
+  BLE3Framework: 0ffec7ca3ca7c21b0d5c23a69d78b509f9636c66
+
+PODFILE CHECKSUM: afa95ff65f0b459e2bd177c0387582b1e7161dbd
+
+COCOAPODS: 1.4.0

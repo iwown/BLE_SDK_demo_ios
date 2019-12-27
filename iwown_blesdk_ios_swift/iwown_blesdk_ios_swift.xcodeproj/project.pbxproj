@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665EAF1292D5FF10AF582CA6 /* Pods_iwown_blesdk_ios_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF24609A4EC7F2387BFF72A /* Pods_iwown_blesdk_ios_swift.framework */; };
+		D649FE7520C5219700101AD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FE7420C5219700101AD7 /* AppDelegate.swift */; };
+		D649FE7720C5219700101AD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FE7620C5219700101AD7 /* ViewController.swift */; };
+		D649FE7A20C5219700101AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D649FE7820C5219700101AD7 /* Main.storyboard */; };
+		D649FE7C20C5219800101AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D649FE7B20C5219800101AD7 /* Assets.xcassets */; };
+		D649FE7F20C5219800101AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D649FE7D20C5219800101AD7 /* LaunchScreen.storyboard */; };
+		D649FEF120C5254A00101AD7 /* DeviceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FEEB20C5254A00101AD7 /* DeviceInfoView.swift */; };
+		D649FEF220C5254A00101AD7 /* BLEShareInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FEED20C5254A00101AD7 /* BLEShareInstance.swift */; };
+		D649FEF320C5254A00101AD7 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FEEE20C5254A00101AD7 /* GlobalConst.swift */; };
+		D649FEF420C5254A00101AD7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FEEF20C5254A00101AD7 /* Utils.swift */; };
+		D649FEF520C5254A00101AD7 /* DCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FEF020C5254A00101AD7 /* DCViewController.swift */; };
+		D649FF2320C660A700101AD7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF2220C660A700101AD7 /* BaseViewController.swift */; };
+		D649FF2520C6639800101AD7 /* DConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF2420C6639800101AD7 /* DConfigViewController.swift */; };
+		D649FF2720C66B0400101AD7 /* HWOptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF2620C66B0400101AD7 /* HWOptionController.swift */; };
+		D649FF2920C66B1100101AD7 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF2820C66B1100101AD7 /* ClockViewController.swift */; };
+		D649FF2B20C66B1D00101AD7 /* CHOptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF2A20C66B1D00101AD7 /* CHOptionController.swift */; };
+		D649FF2D20C66B2C00101AD7 /* SedentaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF2C20C66B2C00101AD7 /* SedentaryViewController.swift */; };
+		D649FF3420C66C9700101AD7 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF3320C66C9700101AD7 /* MoreViewController.swift */; };
+		D649FF3620C66CC100101AD7 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF3520C66CC100101AD7 /* DataViewController.swift */; };
+		D649FF3820C66CF800101AD7 /* BlackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF3720C66CF800101AD7 /* BlackListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B06005ACCD340530B89EAB7 /* Pods-iwown_blesdk_ios_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iwown_blesdk_ios_swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift.release.xcconfig"; sourceTree = "<group>"; };
+		AE09C8619581B76619717490 /* Pods-iwown_blesdk_ios_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iwown_blesdk_ios_swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift.debug.xcconfig"; sourceTree = "<group>"; };
+		D649FE7120C5219700101AD7 /* iwown_blesdk_ios_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iwown_blesdk_ios_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D649FE7420C5219700101AD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D649FE7620C5219700101AD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D649FE7920C5219700101AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D649FE7B20C5219800101AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D649FE7E20C5219800101AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D649FE8020C5219800101AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D649FEEB20C5254A00101AD7 /* DeviceInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoView.swift; sourceTree = "<group>"; };
+		D649FEED20C5254A00101AD7 /* BLEShareInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEShareInstance.swift; sourceTree = "<group>"; };
+		D649FEEE20C5254A00101AD7 /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		D649FEEF20C5254A00101AD7 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D649FEF020C5254A00101AD7 /* DCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCViewController.swift; sourceTree = "<group>"; };
+		D649FF2220C660A700101AD7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D649FF2420C6639800101AD7 /* DConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DConfigViewController.swift; sourceTree = "<group>"; };
+		D649FF2620C66B0400101AD7 /* HWOptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWOptionController.swift; sourceTree = "<group>"; };
+		D649FF2820C66B1100101AD7 /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
+		D649FF2A20C66B1D00101AD7 /* CHOptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHOptionController.swift; sourceTree = "<group>"; };
+		D649FF2C20C66B2C00101AD7 /* SedentaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedentaryViewController.swift; sourceTree = "<group>"; };
+		D649FF3320C66C9700101AD7 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		D649FF3520C66CC100101AD7 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		D649FF3720C66CF800101AD7 /* BlackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackListViewController.swift; sourceTree = "<group>"; };
+		FFF24609A4EC7F2387BFF72A /* Pods_iwown_blesdk_ios_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iwown_blesdk_ios_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D649FE6E20C5219700101AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665EAF1292D5FF10AF582CA6 /* Pods_iwown_blesdk_ios_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7899AD5A9106E73D30017638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE09C8619581B76619717490 /* Pods-iwown_blesdk_ios_swift.debug.xcconfig */,
+				8B06005ACCD340530B89EAB7 /* Pods-iwown_blesdk_ios_swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1BD20097D7F1BAF63D9060A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFF24609A4EC7F2387BFF72A /* Pods_iwown_blesdk_ios_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D649FE6820C5219700101AD7 = {
+			isa = PBXGroup;
+			children = (
+				D649FE7320C5219700101AD7 /* iwown_blesdk_ios_swift */,
+				D649FE7220C5219700101AD7 /* Products */,
+				7899AD5A9106E73D30017638 /* Pods */,
+				D1BD20097D7F1BAF63D9060A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D649FE7220C5219700101AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D649FE7120C5219700101AD7 /* iwown_blesdk_ios_swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D649FE7320C5219700101AD7 /* iwown_blesdk_ios_swift */ = {
+			isa = PBXGroup;
+			children = (
+				D649FE7420C5219700101AD7 /* AppDelegate.swift */,
+				D649FE7620C5219700101AD7 /* ViewController.swift */,
+				D649FEF620C5254D00101AD7 /* Classes */,
+				D649FEEC20C5254A00101AD7 /* BLELib */,
+				D649FE7820C5219700101AD7 /* Main.storyboard */,
+				D649FE7B20C5219800101AD7 /* Assets.xcassets */,
+				D649FE7D20C5219800101AD7 /* LaunchScreen.storyboard */,
+				D649FE8020C5219800101AD7 /* Info.plist */,
+			);
+			path = iwown_blesdk_ios_swift;
+			sourceTree = "<group>";
+		};
+		D649FEEC20C5254A00101AD7 /* BLELib */ = {
+			isa = PBXGroup;
+			children = (
+				D649FEED20C5254A00101AD7 /* BLEShareInstance.swift */,
+			);
+			path = BLELib;
+			sourceTree = "<group>";
+		};
+		D649FEF620C5254D00101AD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D649FEF020C5254A00101AD7 /* DCViewController.swift */,
+				D649FEEB20C5254A00101AD7 /* DeviceInfoView.swift */,
+				D649FEEE20C5254A00101AD7 /* GlobalConst.swift */,
+				D649FEEF20C5254A00101AD7 /* Utils.swift */,
+				D649FF1F20C65FFF00101AD7 /* SubVCs */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D649FF1F20C65FFF00101AD7 /* SubVCs */ = {
+			isa = PBXGroup;
+			children = (
+				D649FF2220C660A700101AD7 /* BaseViewController.swift */,
+				D649FF3220C66BB600101AD7 /* Message */,
+				D649FF3120C66BAF00101AD7 /* DateTime */,
+				D649FF3020C66B8D00101AD7 /* SyncData */,
+				D649FF2F20C66B7500101AD7 /* DeviceConfig */,
+				D649FF2E20C66B3D00101AD7 /* HWOption */,
+			);
+			path = SubVCs;
+			sourceTree = "<group>";
+		};
+		D649FF2E20C66B3D00101AD7 /* HWOption */ = {
+			isa = PBXGroup;
+			children = (
+				D649FF2820C66B1100101AD7 /* ClockViewController.swift */,
+				D649FF2A20C66B1D00101AD7 /* CHOptionController.swift */,
+				D649FF2620C66B0400101AD7 /* HWOptionController.swift */,
+				D649FF2C20C66B2C00101AD7 /* SedentaryViewController.swift */,
+			);
+			path = HWOption;
+			sourceTree = "<group>";
+		};
+		D649FF2F20C66B7500101AD7 /* DeviceConfig */ = {
+			isa = PBXGroup;
+			children = (
+				D649FF2420C6639800101AD7 /* DConfigViewController.swift */,
+			);
+			path = DeviceConfig;
+			sourceTree = "<group>";
+		};
+		D649FF3020C66B8D00101AD7 /* SyncData */ = {
+			isa = PBXGroup;
+			children = (
+				D649FF3520C66CC100101AD7 /* DataViewController.swift */,
+			);
+			path = SyncData;
+			sourceTree = "<group>";
+		};
+		D649FF3120C66BAF00101AD7 /* DateTime */ = {
+			isa = PBXGroup;
+			children = (
+				D649FF3320C66C9700101AD7 /* MoreViewController.swift */,
+			);
+			path = DateTime;
+			sourceTree = "<group>";
+		};
+		D649FF3220C66BB600101AD7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				D649FF3720C66CF800101AD7 /* BlackListViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D649FE7020C5219700101AD7 /* iwown_blesdk_ios_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D649FE8320C5219800101AD7 /* Build configuration list for PBXNativeTarget "iwown_blesdk_ios_swift" */;
+			buildPhases = (
+				72AC4D601F79688B9BB899F0 /* [CP] Check Pods Manifest.lock */,
+				D649FE6D20C5219700101AD7 /* Sources */,
+				D649FE6E20C5219700101AD7 /* Frameworks */,
+				D649FE6F20C5219700101AD7 /* Resources */,
+				51A92614A195CF094CC7BF51 /* [CP] Embed Pods Frameworks */,
+				6128661EF1BAF75EB8454605 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iwown_blesdk_ios_swift;
+			productName = iwown_blesdk_ios_swift;
+			productReference = D649FE7120C5219700101AD7 /* iwown_blesdk_ios_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D649FE6920C5219700101AD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = A$CE;
+				TargetAttributes = {
+					D649FE7020C5219700101AD7 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = D649FE6C20C5219700101AD7 /* Build configuration list for PBXProject "iwown_blesdk_ios_swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D649FE6820C5219700101AD7;
+			productRefGroup = D649FE7220C5219700101AD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D649FE7020C5219700101AD7 /* iwown_blesdk_ios_swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D649FE6F20C5219700101AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D649FE7F20C5219800101AD7 /* LaunchScreen.storyboard in Resources */,
+				D649FE7C20C5219800101AD7 /* Assets.xcassets in Resources */,
+				D649FE7A20C5219700101AD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51A92614A195CF094CC7BF51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6128661EF1BAF75EB8454605 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AC4D601F79688B9BB899F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iwown_blesdk_ios_swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D649FE6D20C5219700101AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D649FF3820C66CF800101AD7 /* BlackListViewController.swift in Sources */,
+				D649FEF320C5254A00101AD7 /* GlobalConst.swift in Sources */,
+				D649FEF220C5254A00101AD7 /* BLEShareInstance.swift in Sources */,
+				D649FF2D20C66B2C00101AD7 /* SedentaryViewController.swift in Sources */,
+				D649FF2520C6639800101AD7 /* DConfigViewController.swift in Sources */,
+				D649FF2B20C66B1D00101AD7 /* CHOptionController.swift in Sources */,
+				D649FEF520C5254A00101AD7 /* DCViewController.swift in Sources */,
+				D649FF2920C66B1100101AD7 /* ClockViewController.swift in Sources */,
+				D649FF3620C66CC100101AD7 /* DataViewController.swift in Sources */,
+				D649FF3420C66C9700101AD7 /* MoreViewController.swift in Sources */,
+				D649FE7720C5219700101AD7 /* ViewController.swift in Sources */,
+				D649FE7520C5219700101AD7 /* AppDelegate.swift in Sources */,
+				D649FF2320C660A700101AD7 /* BaseViewController.swift in Sources */,
+				D649FF2720C66B0400101AD7 /* HWOptionController.swift in Sources */,
+				D649FEF120C5254A00101AD7 /* DeviceInfoView.swift in Sources */,
+				D649FEF420C5254A00101AD7 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D649FE7820C5219700101AD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D649FE7920C5219700101AD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D649FE7D20C5219800101AD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D649FE7E20C5219800101AD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D649FE8120C5219800101AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D649FE8220C5219800101AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D649FE8420C5219800101AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE09C8619581B76619717490 /* Pods-iwown_blesdk_ios_swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4RUNBVTXN;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = iwown_blesdk_ios_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Iwown.iwown-blesdk-ios-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D649FE8520C5219800101AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B06005ACCD340530B89EAB7 /* Pods-iwown_blesdk_ios_swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4RUNBVTXN;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = iwown_blesdk_ios_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Iwown.iwown-blesdk-ios-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D649FE6C20C5219700101AD7 /* Build configuration list for PBXProject "iwown_blesdk_ios_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D649FE8120C5219800101AD7 /* Debug */,
+				D649FE8220C5219800101AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D649FE8320C5219800101AD7 /* Build configuration list for PBXNativeTarget "iwown_blesdk_ios_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D649FE8420C5219800101AD7 /* Debug */,
+				D649FE8520C5219800101AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D649FE6920C5219700101AD7 /* Project object */;
+}

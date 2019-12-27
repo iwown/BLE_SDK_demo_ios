@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZRSleepData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZRSleepData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSleepData/setActivity:</TokenIdentifier>
+			<Abstract type="html">! The same state duration ,unit is minutes</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int activity</Declaration>
+			
+			
+			<Anchor>//api/name/activity</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSleepData/activity</TokenIdentifier>
+			<Abstract type="html">! The same state duration ,unit is minutes</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int activity</Declaration>
+			
+			
+			<Anchor>//api/name/activity</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSleepData/activity</TokenIdentifier>
+			<Abstract type="html">! The same state duration ,unit is minutes</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int activity</Declaration>
+			
+			
+			<Anchor>//api/name/activity</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSleepData/setSleep_enter:</TokenIdentifier>
+			<Abstract type="html">Here for the introduction of the concept of sleep data, each group of data contains such content, the first data sleepType 1, followed by a fixed effective sleep data (sleepType == 3 | sleepType == 4), and finally A data sleepType is 2 (that means the end of the normal, this sleep data is valid) or 5 (that this is a place data, for example, put the bracelet on the table, may produce such data, the algorithm that this is not valid Sleep data, which is disturbing information), some bracelet will produce sleepType == 6 data that awake, you can also use the interval between the two groups that awake
+sleepenter : The start of the group is one minute, the date and starttime are the same
+sleepexit : Similar to sleepenter.
+mode : 2 or 5.</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int sleep_enter</Declaration>
+			
+			
+			<Anchor>//api/name/sleep_enter</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSleepData/sleep_enter</TokenIdentifier>
+			<Abstract type="html">Here for the introduction of the concept of sleep data, each group of data contains such content, the first data sleepType 1, followed by a fixed effective sleep data (sleepType == 3 | sleepType == 4), and finally A data sleepType is 2 (that means the end of the normal, this sleep data is valid) or 5 (that this is a place data, for example, put the bracelet on the table, may produce such data, the algorithm that this is not valid Sleep data, which is disturbing information), some bracelet will produce sleepType == 6 data that awake, you can also use the interval between the two groups that awake
+sleepenter : The start of the group is one minute, the date and starttime are the same
+sleepexit : Similar to sleepenter.
+mode : 2 or 5.</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int sleep_enter</Declaration>
+			
+			
+			<Anchor>//api/name/sleep_enter</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSleepData/sleep_enter</TokenIdentifier>
+			<Abstract type="html">Here for the introduction of the concept of sleep data, each group of data contains such content, the first data sleepType 1, followed by a fixed effective sleep data (sleepType == 3 | sleepType == 4), and finally A data sleepType is 2 (that means the end of the normal, this sleep data is valid) or 5 (that this is a place data, for example, put the bracelet on the table, may produce such data, the algorithm that this is not valid Sleep data, which is disturbing information), some bracelet will produce sleepType == 6 data that awake, you can also use the interval between the two groups that awake
+sleepenter : The start of the group is one minute, the date and starttime are the same
+sleepexit : Similar to sleepenter.
+mode : 2 or 5.</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int sleep_enter</Declaration>
+			
+			
+			<Anchor>//api/name/sleep_enter</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

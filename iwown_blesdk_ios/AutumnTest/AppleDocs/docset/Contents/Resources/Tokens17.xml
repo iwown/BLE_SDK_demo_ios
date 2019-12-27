@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZRHRateHoursData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZRHRateHoursData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHRateHoursData/setHours:</TokenIdentifier>
+			<Abstract type="html">Hour in one day ,ranger is 0-23. When it is 8, the value of detaildata belongs to 8: 00-9: 00</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int hours</Declaration>
+			
+			
+			<Anchor>//api/name/hours</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHRateHoursData/hours</TokenIdentifier>
+			<Abstract type="html">Hour in one day ,ranger is 0-23. When it is 8, the value of detaildata belongs to 8: 00-9: 00</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int hours</Declaration>
+			
+			
+			<Anchor>//api/name/hours</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHRateHoursData/hours</TokenIdentifier>
+			<Abstract type="html">Hour in one day ,ranger is 0-23. When it is 8, the value of detaildata belongs to 8: 00-9: 00</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int hours</Declaration>
+			
+			
+			<Anchor>//api/name/hours</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHRateHoursData/setDetailData:</TokenIdentifier>
+			<Abstract type="html">The 60 values in the array represent the average heart rate per minute.</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSArray *detailData</Declaration>
+			
+			
+			<Anchor>//api/name/detailData</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHRateHoursData/detailData</TokenIdentifier>
+			<Abstract type="html">The 60 values in the array represent the average heart rate per minute.</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSArray *detailData</Declaration>
+			
+			
+			<Anchor>//api/name/detailData</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHRateHoursData/detailData</TokenIdentifier>
+			<Abstract type="html">The 60 values in the array represent the average heart rate per minute.</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSArray *detailData</Declaration>
+			
+			
+			<Anchor>//api/name/detailData</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

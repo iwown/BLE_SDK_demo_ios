@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZREHRWP.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZREHRWP</TokenIdentifier>
+			<Abstract type="html">! Exercise Heart Rate Warning</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZREHRWP/setEnable:</TokenIdentifier>
+			<Abstract type="html">Switch of this feature ,default is YES</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL enable</Declaration>
+			
+			
+			<Anchor>//api/name/enable</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZREHRWP/enable</TokenIdentifier>
+			<Abstract type="html">Switch of this feature ,default is YES</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL enable</Declaration>
+			
+			
+			<Anchor>//api/name/enable</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZREHRWP/enable</TokenIdentifier>
+			<Abstract type="html">Switch of this feature ,default is YES</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL enable</Declaration>
+			
+			
+			<Anchor>//api/name/enable</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZREHRWP/setThreshold_high:</TokenIdentifier>
+			<Abstract type="html">Alarm upper limit of heart rate, higher than this value to trigger alarm, the range of 50 ~ 200, the default 160</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger threshold_high</Declaration>
+			
+			
+			<Anchor>//api/name/threshold_high</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZREHRWP/threshold_high</TokenIdentifier>
+			<Abstract type="html">Alarm upper limit of heart rate, higher than this value to trigger alarm, the range of 50 ~ 200, the default 160</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger threshold_high</Declaration>
+			
+			
+			<Anchor>//api/name/threshold_high</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZREHRWP/threshold_high</TokenIdentifier>
+			<Abstract type="html">Alarm upper limit of heart rate, higher than this value to trigger alarm, the range of 50 ~ 200, the default 160</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger threshold_high</Declaration>
+			
+			
+			<Anchor>//api/name/threshold_high</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZREHRWP/setThreshold_low:</TokenIdentifier>
+			<Abstract type="html">Alarm lower limit of heart rate, lower than the value of the trigger alarm, the range of 40 ~ 190, the default 50</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger threshold_low</Declaration>
+			
+			
+			<Anchor>//api/name/threshold_low</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZREHRWP/threshold_low</TokenIdentifier>
+			<Abstract type="html">Alarm lower limit of heart rate, lower than the value of the trigger alarm, the range of 40 ~ 190, the default 50</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger threshold_low</Declaration>
+			
+			
+			<Anchor>//api/name/threshold_low</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZREHRWP/threshold_low</TokenIdentifier>
+			<Abstract type="html">Alarm lower limit of heart rate, lower than the value of the trigger alarm, the range of 40 ~ 190, the default 50</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger threshold_low</Declaration>
+			
+			
+			<Anchor>//api/name/threshold_low</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZREHRWP/setTimerOut:</TokenIdentifier>
+			<Abstract type="html">Alarm detection time in seconds, the default 30</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger timerOut</Declaration>
+			
+			
+			<Anchor>//api/name/timerOut</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZREHRWP/timerOut</TokenIdentifier>
+			<Abstract type="html">Alarm detection time in seconds, the default 30</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger timerOut</Declaration>
+			
+			
+			<Anchor>//api/name/timerOut</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZREHRWP/timerOut</TokenIdentifier>
+			<Abstract type="html">Alarm detection time in seconds, the default 30</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger timerOut</Declaration>
+			
+			
+			<Anchor>//api/name/timerOut</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZREHRWP/setInterval:</TokenIdentifier>
+			<Abstract type="html">Alarm trigger interval, unit minutes, default 2</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger interval</Declaration>
+			
+			
+			<Anchor>//api/name/interval</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZREHRWP/interval</TokenIdentifier>
+			<Abstract type="html">Alarm trigger interval, unit minutes, default 2</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger interval</Declaration>
+			
+			
+			<Anchor>//api/name/interval</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZREHRWP/interval</TokenIdentifier>
+			<Abstract type="html">Alarm trigger interval, unit minutes, default 2</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger interval</Declaration>
+			
+			
+			<Anchor>//api/name/interval</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/leopard/Library/Developer/Shared/Documentation/DocSets/com.iwown.AutumnTest.docset
+Time: 2018-03-15 06:03:04 +0000

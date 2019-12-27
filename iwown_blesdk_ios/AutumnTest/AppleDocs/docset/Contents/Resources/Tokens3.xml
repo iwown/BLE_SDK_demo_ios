@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLEAutumn.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLEAutumn</TokenIdentifier>
+			<Abstract type="html">Core class, management search and connection, is also the entrance to the SDK.
+Sample @code{self.bleautumn = [BLEAutumn midAutumn:BLEProtocol_All];
+self.bleautumn.discoverDelegate = self;
+self.bleautumn.connectDelegate = self;}@endcode</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/readManagerPowerState</TokenIdentifier>
+			<Abstract type="html">Represents the current state of a CBManager. &lt;CBManagerState&gt; &lt;CBCentralManagerState&gt; used for below iOS10.</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)readManagerPowerState</Declaration>
+			
+			<ReturnValue><Abstract type="html">Return to the state of the central manager, you can determine the status of Bluetooth.</Abstract></ReturnValue>
+			<Anchor>//api/name/readManagerPowerState</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/getPeripheralState</TokenIdentifier>
+			<Abstract type="html">Get the peripheral state</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (CBPeripheralState)getPeripheralState</Declaration>
+			
+			
+			<Anchor>//api/name/getPeripheralState</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/getBleProtocolType</TokenIdentifier>
+			<Abstract type="html">Get current protocol type;</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (BLEProtocol)getBleProtocolType</Declaration>
+			
+			
+			<Anchor>//api/name/getBleProtocolType</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/startScanForTimeInternal:andServiceUuids:andOptions:</TokenIdentifier>
+			<Abstract type="html">Scan device. You will get the discovered devices in the callback method of discoverDelegate @see solsticeDidDiscoverDeviceWithMAC:</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (void)startScanForTimeInternal:(NSTimeInterval)seconds andServiceUuids:(NSArray&lt;NSString*&gt; *)uuids andOptions:(NSDictionary&lt;NSString*,id&gt; *)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>seconds</Name>
+					<Abstract type="html">Enter a number of seconds that you want to stop searching after later</Abstract>
+				</Parameter><Parameter>
+					<Name>uuids</Name>
+					<Abstract type="html">The uuids you want to specify when searching</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">Same with options in @method scanForPeripheralsWithServices:options:</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startScanForTimeInternal:andServiceUuids:andOptions:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/startScanForTimeInternal:andServiceUuids:</TokenIdentifier>
+			<Abstract type="html">startScanForTimeInternal:andServiceUuids:andOptions:
+Default options is nil.</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/startScanForTimeInternal:andServiceUuids:andOptions:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)startScanForTimeInternal:(NSTimeInterval)seconds andServiceUuids:(NSArray&lt;NSString*&gt; *)uuids</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>seconds</Name>
+					<Abstract type="html">The uuids you want to specify when searching</Abstract>
+				</Parameter><Parameter>
+					<Name>uuids</Name>
+					<Abstract type="html">Same with options in @method scanForPeripheralsWithServices:options:</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startScanForTimeInternal:andServiceUuids:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/startScan</TokenIdentifier>
+			<Abstract type="html">startScanForTimeInternal:andServiceUuids:
+Default seconds is 10, uuids is nil, The SDK will choose the correct uuids for the  BLEProtocol.</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/BLEProtocol</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)startScan</Declaration>
+			
+			
+			<Anchor>//api/name/startScan</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/stopScan</TokenIdentifier>
+			<Abstract type="html">Stop scan.
+The SDK calls the @see solsticeStopScan method if you have already implemented it.</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (void)stopScan</Declaration>
+			
+			
+			<Anchor>//api/name/stopScan</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/bindDevice:</TokenIdentifier>
+			<Abstract type="html">Bind and connect the device. What&apos;s the &apos;Band&apos; is SDK will help you remember the uuid of this device, and reconnect it when you call the reConnectDevice method.
+@method solsticeDidConnectDevice: in BleConnectDelegate</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (void)bindDevice:(ZRBlePeripheral *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The device you want to connected that had discovered</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/bindDevice:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/unbind</TokenIdentifier>
+			<Abstract type="html">Give up that bond</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (void)unbind</Declaration>
+			
+			
+			<Anchor>//api/name/unbind</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/isBound</TokenIdentifier>
+			<Abstract type="html">Whether it is bound</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isBound</Declaration>
+			
+			
+			<Anchor>//api/name/isBound</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/bindUuidStr</TokenIdentifier>
+			<Abstract type="html">That NSUuid.identifer that was remembered</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)bindUuidStr</Declaration>
+			
+			
+			<Anchor>//api/name/bindUuidStr</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/reConnectDevice</TokenIdentifier>
+			<Abstract type="html">Reconnect the bound device</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (NSError *)reConnectDevice</Declaration>
+			
+			<ReturnValue><Abstract type="html">In most cases it is nil, unless you have not bound the device, you will get a &quot;No binding device&quot; prompt</Abstract></ReturnValue>
+			<Anchor>//api/name/reConnectDevice</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/cancelConnect</TokenIdentifier>
+			<Abstract type="html">Cancel Connect</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (void)cancelConnect</Declaration>
+			
+			
+			<Anchor>//api/name/cancelConnect</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/solstice</TokenIdentifier>
+			<Abstract type="html">* If you need a BLESolstice object to communicate with device, after searching and connecting to the device with BLEAutumn, please using the this method initinal the object, or you have a peripheral device that has been connected without BLEAutumn, you can use the @see solsticeWithConnectedPeripheral: method.</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (id&lt;BLESolstice&gt;)solstice</Declaration>
+			
+			<ReturnValue><Abstract type="html">Follow the BLESolstice protocol for communication between the Operations Center and its surroundings</Abstract></ReturnValue>
+			<Anchor>//api/name/solstice</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/solsticeWithConnectedPeripheral:</TokenIdentifier>
+			<Abstract type="html">solstice</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/solstice</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id&lt;BLESolstice&gt;)solsticeWithConnectedPeripheral:(ZRBlePeripheral *)zrPeripheral</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>zrPeripheral</Name>
+					<Abstract type="html">the Device had connected</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Follow the BLESolstice agreement object</Abstract></ReturnValue>
+			<Anchor>//api/name/solsticeWithConnectedPeripheral:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEAutumn/registerSolsticeEquinox:</TokenIdentifier>
+			<Abstract type="html">Call this method after initinal BLESolstice object; or ,you can not got any data callback from SDK.</Abstract>
+			<DeclaredIn>BLEAutumn.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)registerSolsticeEquinox:(id&lt;BLEquinox&gt;)equinox</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>equinox</Name>
+					<Abstract type="html">The object that implements the BLEquinox protocol method, accepts data from sdk</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returning NO means there is something wrong with BLESolstice&apos;s object</Abstract></ReturnValue>
+			<Anchor>//api/name/registerSolsticeEquinox:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

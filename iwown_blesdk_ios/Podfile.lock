@@ -1,0 +1,46 @@
+PODS:
+  - DateTools (2.0.0)
+  - iOSDFULibrary (4.2.2):
+    - Zip (~> 1.0)
+  - Masonry (1.1.0)
+  - Protobuf (3.6.1)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SVProgressHUD (2.0.4)
+  - Zip (1.1.0)
+
+DEPENDENCIES:
+  - DateTools (~> 2.0.0)
+  - iOSDFULibrary
+  - Masonry
+  - Protobuf
+  - ReactiveCocoa (~> 2.5)
+  - SVProgressHUD (~> 2.0.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DateTools
+    - iOSDFULibrary
+    - Masonry
+    - Protobuf
+    - ReactiveCocoa
+    - SVProgressHUD
+    - Zip
+
+SPEC CHECKSUMS:
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  iOSDFULibrary: 65a30a36d33ef451ef2d6c2b6a002a26eed786af
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+  Zip: 8877eede3dda76bcac281225c20e71c25270774c
+
+PODFILE CHECKSUM: 3b0761132f3d80a688322ad77c24ea5419c7da62
+
+COCOAPODS: 1.5.3

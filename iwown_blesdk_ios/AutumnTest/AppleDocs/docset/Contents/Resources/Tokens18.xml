@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZRHWOption.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZRHWOption</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setLedSwitch:</TokenIdentifier>
+			<Abstract type="html">switch of led light ,default is NO ,brcelet i7 is not supported .
+LED灯开关，默认为NO，i7手环不支持。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL ledSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/ledSwitch</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/ledSwitch</TokenIdentifier>
+			<Abstract type="html">switch of led light ,default is NO ,brcelet i7 is not supported .
+LED灯开关，默认为NO，i7手环不支持。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL ledSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/ledSwitch</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/ledSwitch</TokenIdentifier>
+			<Abstract type="html">switch of led light ,default is NO ,brcelet i7 is not supported .
+LED灯开关，默认为NO，i7手环不支持。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL ledSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/ledSwitch</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setWristSwitch:</TokenIdentifier>
+			<Abstract type="html">switch of wrist ,default is YES.
+翻腕开关,默认为YES。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL wristSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/wristSwitch</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/wristSwitch</TokenIdentifier>
+			<Abstract type="html">switch of wrist ,default is YES.
+翻腕开关,默认为YES。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL wristSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/wristSwitch</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/wristSwitch</TokenIdentifier>
+			<Abstract type="html">switch of wrist ,default is YES.
+翻腕开关,默认为YES。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL wristSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/wristSwitch</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setUnitType:</TokenIdentifier>
+			<Abstract type="html">switch of unitType changed ,default is UnitTypeInternational.
+公英制单位切换开关 ，默认是国际单位制。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UnitType unitType</Declaration>
+			
+			
+			<Anchor>//api/name/unitType</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/unitType</TokenIdentifier>
+			<Abstract type="html">switch of unitType changed ,default is UnitTypeInternational.
+公英制单位切换开关 ，默认是国际单位制。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UnitType unitType</Declaration>
+			
+			
+			<Anchor>//api/name/unitType</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/unitType</TokenIdentifier>
+			<Abstract type="html">switch of unitType changed ,default is UnitTypeInternational.
+公英制单位切换开关 ，默认是国际单位制。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) UnitType unitType</Declaration>
+			
+			
+			<Anchor>//api/name/unitType</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setTimeFlag:</TokenIdentifier>
+			<Abstract type="html">switch of timeFlag changed ,default is TimeFlag24Hour.
+时间制式切换开关 ,默认是24小时制。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TimeFlag timeFlag</Declaration>
+			
+			
+			<Anchor>//api/name/timeFlag</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/timeFlag</TokenIdentifier>
+			<Abstract type="html">switch of timeFlag changed ,default is TimeFlag24Hour.
+时间制式切换开关 ,默认是24小时制。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TimeFlag timeFlag</Declaration>
+			
+			
+			<Anchor>//api/name/timeFlag</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/timeFlag</TokenIdentifier>
+			<Abstract type="html">switch of timeFlag changed ,default is TimeFlag24Hour.
+时间制式切换开关 ,默认是24小时制。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) TimeFlag timeFlag</Declaration>
+			
+			
+			<Anchor>//api/name/timeFlag</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setAutoSleep:</TokenIdentifier>
+			<Abstract type="html">switch of autoSleep  ,default is YES ,that means bracelet monitor sleep state automatically .
+自动睡眠开关, 默认为YES, 也就是手环自动识别睡眠状态。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autoSleep</Declaration>
+			
+			
+			<Anchor>//api/name/autoSleep</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/autoSleep</TokenIdentifier>
+			<Abstract type="html">switch of autoSleep  ,default is YES ,that means bracelet monitor sleep state automatically .
+自动睡眠开关, 默认为YES, 也就是手环自动识别睡眠状态。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autoSleep</Declaration>
+			
+			
+			<Anchor>//api/name/autoSleep</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/autoSleep</TokenIdentifier>
+			<Abstract type="html">switch of autoSleep  ,default is YES ,that means bracelet monitor sleep state automatically .
+自动睡眠开关, 默认为YES, 也就是手环自动识别睡眠状态。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autoSleep</Declaration>
+			
+			
+			<Anchor>//api/name/autoSleep</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setBackColor:</TokenIdentifier>
+			<Abstract type="html">backGroundColor for device, default is NO.  YES is white，NO is black
+屏幕背景颜色，默认为NO. YES为白色，NO为黑色.</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL backColor</Declaration>
+			
+			
+			<Anchor>//api/name/backColor</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/backColor</TokenIdentifier>
+			<Abstract type="html">backGroundColor for device, default is NO.  YES is white，NO is black
+屏幕背景颜色，默认为NO. YES为白色，NO为黑色.</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL backColor</Declaration>
+			
+			
+			<Anchor>//api/name/backColor</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/backColor</TokenIdentifier>
+			<Abstract type="html">backGroundColor for device, default is NO.  YES is white，NO is black
+屏幕背景颜色，默认为NO. YES为白色，NO为黑色.</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL backColor</Declaration>
+			
+			
+			<Anchor>//api/name/backColor</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setLanguage:</TokenIdentifier>
+			<Abstract type="html">switch of what&apos;s language bracelet is used ,default is followed by iOS or use braceletLanguageDefault ,to know more about language that bracelet supported. @see braceletLanguage .
+手环使用的语言设置开关，默认设置受系统语言影响，未作适配的系统语言情况下为braceletLanguageDefault。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) braceletLanguage language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/language</TokenIdentifier>
+			<Abstract type="html">switch of what&apos;s language bracelet is used ,default is followed by iOS or use braceletLanguageDefault ,to know more about language that bracelet supported. @see braceletLanguage .
+手环使用的语言设置开关，默认设置受系统语言影响，未作适配的系统语言情况下为braceletLanguageDefault。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) braceletLanguage language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/language</TokenIdentifier>
+			<Abstract type="html">switch of what&apos;s language bracelet is used ,default is followed by iOS or use braceletLanguageDefault ,to know more about language that bracelet supported. @see braceletLanguage .
+手环使用的语言设置开关，默认设置受系统语言影响，未作适配的系统语言情况下为braceletLanguageDefault。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) braceletLanguage language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setDisConnectTip:</TokenIdentifier>
+			<Abstract type="html">switch of disConnectTip, default is NO ,default is close the tips 0f disConnect.
+断连提醒，默认为NO,也就是关闭提醒。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL disConnectTip</Declaration>
+			
+			
+			<Anchor>//api/name/disConnectTip</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/disConnectTip</TokenIdentifier>
+			<Abstract type="html">switch of disConnectTip, default is NO ,default is close the tips 0f disConnect.
+断连提醒，默认为NO,也就是关闭提醒。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL disConnectTip</Declaration>
+			
+			
+			<Anchor>//api/name/disConnectTip</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/disConnectTip</TokenIdentifier>
+			<Abstract type="html">switch of disConnectTip, default is NO ,default is close the tips 0f disConnect.
+断连提醒，默认为NO,也就是关闭提醒。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL disConnectTip</Declaration>
+			
+			
+			<Anchor>//api/name/disConnectTip</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setDateFormatter:</TokenIdentifier>
+			<Abstract type="html">type formatter of date on smartband‘s screen ,0 means formatter is MM/dd ,type 1 means dd/MM .Default is 0
+手环显示的日期格式，0表示 月月／日日 ，1表示 日日／月月.默认是0</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger dateFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/dateFormatter</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/dateFormatter</TokenIdentifier>
+			<Abstract type="html">type formatter of date on smartband‘s screen ,0 means formatter is MM/dd ,type 1 means dd/MM .Default is 0
+手环显示的日期格式，0表示 月月／日日 ，1表示 日日／月月.默认是0</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger dateFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/dateFormatter</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/dateFormatter</TokenIdentifier>
+			<Abstract type="html">type formatter of date on smartband‘s screen ,0 means formatter is MM/dd ,type 1 means dd/MM .Default is 0
+手环显示的日期格式，0表示 月月／日日 ，1表示 日日／月月.默认是0</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger dateFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/dateFormatter</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setWristBlightStart:</TokenIdentifier>
+			<Abstract type="html">Valid only when @ \ wristSwitch is YES, turning on the wrist lit screen function is available at set intervals. The value range is 0-24, indicating the whole hour.
+仅在 @\wristSwitch 为YES的时候有效，在设置的时间间隔内，翻腕点亮屏幕功能可用。取值范围在0-24，表示每个整点。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger wristBlightStart</Declaration>
+			
+			
+			<Anchor>//api/name/wristBlightStart</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/wristBlightStart</TokenIdentifier>
+			<Abstract type="html">Valid only when @ \ wristSwitch is YES, turning on the wrist lit screen function is available at set intervals. The value range is 0-24, indicating the whole hour.
+仅在 @\wristSwitch 为YES的时候有效，在设置的时间间隔内，翻腕点亮屏幕功能可用。取值范围在0-24，表示每个整点。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger wristBlightStart</Declaration>
+			
+			
+			<Anchor>//api/name/wristBlightStart</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/wristBlightStart</TokenIdentifier>
+			<Abstract type="html">Valid only when @ \ wristSwitch is YES, turning on the wrist lit screen function is available at set intervals. The value range is 0-24, indicating the whole hour.
+仅在 @\wristSwitch 为YES的时候有效，在设置的时间间隔内，翻腕点亮屏幕功能可用。取值范围在0-24，表示每个整点。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger wristBlightStart</Declaration>
+			
+			
+			<Anchor>//api/name/wristBlightStart</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setAutoHeartRate:</TokenIdentifier>
+			<Abstract type="html">switch of monitor heart rate automatilly ,turn off smart band would not motinor heart rate unless in sport time. default is YES .
+自动监测心率开关 ,关闭自动心率后非运动状态时不检测心率，默认为YES,。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autoHeartRate</Declaration>
+			
+			
+			<Anchor>//api/name/autoHeartRate</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/autoHeartRate</TokenIdentifier>
+			<Abstract type="html">switch of monitor heart rate automatilly ,turn off smart band would not motinor heart rate unless in sport time. default is YES .
+自动监测心率开关 ,关闭自动心率后非运动状态时不检测心率，默认为YES,。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autoHeartRate</Declaration>
+			
+			
+			<Anchor>//api/name/autoHeartRate</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/autoHeartRate</TokenIdentifier>
+			<Abstract type="html">switch of monitor heart rate automatilly ,turn off smart band would not motinor heart rate unless in sport time. default is YES .
+自动监测心率开关 ,关闭自动心率后非运动状态时不检测心率，默认为YES,。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autoHeartRate</Declaration>
+			
+			
+			<Anchor>//api/name/autoHeartRate</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setAutoHeartRateStart:</TokenIdentifier>
+			<Abstract type="html">Valid only when @ \ autoHeartRate is YES, turning on the monitor heart rate automatilly function is available at set intervals. The value range is 0-23, indicating the whole hour.
+仅在 @\autoHeartRate 为YES的时候有效，在设置的时间间隔内，自动监测心率功能可用。取值范围在0-23，表示每个整点。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger autoHeartRateStart</Declaration>
+			
+			
+			<Anchor>//api/name/autoHeartRateStart</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/autoHeartRateStart</TokenIdentifier>
+			<Abstract type="html">Valid only when @ \ autoHeartRate is YES, turning on the monitor heart rate automatilly function is available at set intervals. The value range is 0-23, indicating the whole hour.
+仅在 @\autoHeartRate 为YES的时候有效，在设置的时间间隔内，自动监测心率功能可用。取值范围在0-23，表示每个整点。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger autoHeartRateStart</Declaration>
+			
+			
+			<Anchor>//api/name/autoHeartRateStart</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/autoHeartRateStart</TokenIdentifier>
+			<Abstract type="html">Valid only when @ \ autoHeartRate is YES, turning on the monitor heart rate automatilly function is available at set intervals. The value range is 0-23, indicating the whole hour.
+仅在 @\autoHeartRate 为YES的时候有效，在设置的时间间隔内，自动监测心率功能可用。取值范围在0-23，表示每个整点。</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger autoHeartRateStart</Declaration>
+			
+			
+			<Anchor>//api/name/autoHeartRateStart</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/setAutoSport:</TokenIdentifier>
+			<Abstract type="html">Switch used for control &quot;Automatic recognition motion&quot; feature
+自动运动识别</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autoSport</Declaration>
+			
+			
+			<Anchor>//api/name/autoSport</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRHWOption/autoSport</TokenIdentifier>
+			<Abstract type="html">Switch used for control &quot;Automatic recognition motion&quot; feature
+自动运动识别</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autoSport</Declaration>
+			
+			
+			<Anchor>//api/name/autoSport</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRHWOption/autoSport</TokenIdentifier>
+			<Abstract type="html">Switch used for control &quot;Automatic recognition motion&quot; feature
+自动运动识别</Abstract>
+			<DeclaredIn>ZRHWOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL autoSport</Declaration>
+			
+			
+			<Anchor>//api/name/autoSport</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZRSummaryData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZRSummaryData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSummaryData/setDistance:</TokenIdentifier>
+			<Abstract type="html">! Unit is meter</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSummaryData/distance</TokenIdentifier>
+			<Abstract type="html">! Unit is meter</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSummaryData/distance</TokenIdentifier>
+			<Abstract type="html">! Unit is meter</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSummaryData/setCalorie:</TokenIdentifier>
+			<Abstract type="html">! Calorie , unit is kcal</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float calorie</Declaration>
+			
+			
+			<Anchor>//api/name/calorie</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSummaryData/calorie</TokenIdentifier>
+			<Abstract type="html">! Calorie , unit is kcal</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float calorie</Declaration>
+			
+			
+			<Anchor>//api/name/calorie</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSummaryData/calorie</TokenIdentifier>
+			<Abstract type="html">! Calorie , unit is kcal</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float calorie</Declaration>
+			
+			
+			<Anchor>//api/name/calorie</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSummaryData/setExerciseMinutes:</TokenIdentifier>
+			<Abstract type="html">The training time for the day, Nil indicates that the current device does not have a training duration data for statistics. Please use updateNormalHealthData: to obtain the required data. different from 0</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *exerciseMinutes</Declaration>
+			
+			
+			<Anchor>//api/name/exerciseMinutes</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSummaryData/exerciseMinutes</TokenIdentifier>
+			<Abstract type="html">The training time for the day, Nil indicates that the current device does not have a training duration data for statistics. Please use updateNormalHealthData: to obtain the required data. different from 0</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *exerciseMinutes</Declaration>
+			
+			
+			<Anchor>//api/name/exerciseMinutes</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSummaryData/exerciseMinutes</TokenIdentifier>
+			<Abstract type="html">The training time for the day, Nil indicates that the current device does not have a training duration data for statistics. Please use updateNormalHealthData: to obtain the required data. different from 0</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *exerciseMinutes</Declaration>
+			
+			
+			<Anchor>//api/name/exerciseMinutes</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSummaryData/setSleepMinutes:</TokenIdentifier>
+			<Abstract type="html">Like exerciseMinutes, which means sleep time, Nil indicates that the current device does not have a statistical value for the duration of sleep data, use updateNormalHealthData: to obtain the required data</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sleepMinutes</Declaration>
+			
+			
+			<Anchor>//api/name/sleepMinutes</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSummaryData/sleepMinutes</TokenIdentifier>
+			<Abstract type="html">Like exerciseMinutes, which means sleep time, Nil indicates that the current device does not have a statistical value for the duration of sleep data, use updateNormalHealthData: to obtain the required data</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sleepMinutes</Declaration>
+			
+			
+			<Anchor>//api/name/sleepMinutes</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSummaryData/sleepMinutes</TokenIdentifier>
+			<Abstract type="html">Like exerciseMinutes, which means sleep time, Nil indicates that the current device does not have a statistical value for the duration of sleep data, use updateNormalHealthData: to obtain the required data</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *sleepMinutes</Declaration>
+			
+			
+			<Anchor>//api/name/sleepMinutes</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSummaryData/setHeartRate:</TokenIdentifier>
+			<Abstract type="html">The value of the last detection of heart rate, Nil indicates that the current device does not have a recent average heart rate data, use updateNormalHealthData: to obtain the required data</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *heartRate</Declaration>
+			
+			
+			<Anchor>//api/name/heartRate</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSummaryData/heartRate</TokenIdentifier>
+			<Abstract type="html">The value of the last detection of heart rate, Nil indicates that the current device does not have a recent average heart rate data, use updateNormalHealthData: to obtain the required data</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *heartRate</Declaration>
+			
+			
+			<Anchor>//api/name/heartRate</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSummaryData/heartRate</TokenIdentifier>
+			<Abstract type="html">The value of the last detection of heart rate, Nil indicates that the current device does not have a recent average heart rate data, use updateNormalHealthData: to obtain the required data</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *heartRate</Declaration>
+			
+			
+			<Anchor>//api/name/heartRate</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

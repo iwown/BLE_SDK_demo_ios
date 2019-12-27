@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/WeatherType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/WeatherType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherFine</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherFine</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherCloudy</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherCloudy</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherOvercast</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherOvercast</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherLightRain</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherLightRain</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherModerateRain</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherModerateRain</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherHeavyRain</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherHeavyRain</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherShower</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherShower</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherSnow</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherSnow</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherHaze</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherHaze</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherSandstorm</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherSandstorm</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/WeatherNotContain</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>WeatherNotContain</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="54"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

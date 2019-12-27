@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/sd_sportType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/sd_sportType</TokenIdentifier>
+			<Abstract type="html">Sport Type
+数据所属运动模式</Abstract>
+			<DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_SLEEP</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_SLEEP</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_WALKING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_WALKING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_SITE_UPS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_SITE_UPS</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_PUSH_UP</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_PUSH_UP</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_ROPE_SKIPPING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_ROPE_SKIPPING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_MOUNTAINEERING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_MOUNTAINEERING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_PULL_UP</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_PULL_UP</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_RUNNING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_RUNNING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_JIANMEICAO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_JIANMEICAO</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_CRUNCHES</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_CRUNCHES</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_DEEP_SQUAT</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_DEEP_SQUAT</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_AIR_PEDAL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_AIR_PEDAL</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_HIP_BRIDGE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_HIP_BRIDGE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_DUMB_BELL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_DUMB_BELL</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_KAIHETIAO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_KAIHETIAO</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_JIANBUDUN</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_JIANBUDUN</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_SLIMMING_EXERCISE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_SLIMMING_EXERCISE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_CLIMB_STAIRS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_CLIMB_STAIRS</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_BUYU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_BUYU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_SHOULIE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_SHOULIE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_JIAWU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_JIAWU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_JIATINGXIULI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_JIATINGXIULI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_ANJINGBUDONG</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_ANJINGBUDONG</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_XUEXI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_XUEXI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_CAOPINGTINGXUE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_CAOPINGTINGXUE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_JIAOTAN</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_JIAOTAN</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_YUEQIYANZOU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_YUEQIYANZOU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_ZHIYEHUODONG</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_ZHIYEHUODONG</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_ZILIHUODONG</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_ZILIHUODONG</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_XINGSHENGHUO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_XINGSHENGHUO</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_XIUXIAN</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_XIUXIAN</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_GONGLVZIXINGCHE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_GONGLVZIXINGCHE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_TABUJI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_TABUJI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_HUABAN</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_HUABAN</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_PULATI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_PULATI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_SHIPINYUNDONG</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_SHIPINYUNDONG</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_TAIQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_TAIQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_QUANJI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_QUANJI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_JIANLIAN</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_JIANLIAN</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_ZHIBIAO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_ZHIBIAO</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_TUOLABISAI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_TUOLABISAI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_JIANSHU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_JIANSHU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_GANLANQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_GANLANQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_FEIPAN</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_FEIPAN</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_GAOERFU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_GAOERFU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_TICAO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_TICAO</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_SHOUQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_SHOUQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_HUAXIANG</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_HUAXIANG</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_QUGUNQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_QUGUNQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_BINGQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_BINGQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_QIMA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_QIMA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_HUILIQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_HUILIQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_WUSHU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_WUSHU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_YUEYE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_YUEYE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_BANQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_BANQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_MANQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_MANQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_TIAOSAN</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_TIAOSAN</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_LEIQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_LEIQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_BIQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_BIQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_TAIJI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_TAIJI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_SHUAIJIAO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_SHUAIJIAO</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_JIAOSHI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_JIAOSHI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_SHEJIAN</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_SHEJIAN</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_BRISK_WALKING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_BRISK_WALKING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_JIACHUAN</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_JIACHUAN</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_PIHUATING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_PIHUATING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_FANCHUAN</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_FANCHUAN</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_HUASHUI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_HUASHUI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_QIANSHUI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_QIANSHUI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_CHONGLANG</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_CHONGLANG</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_SHUIQIU</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_SHUIQIU</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_TIAOXUE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_TIAOXUE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_XUEQIAO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_XUEQIAO</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_XUESHANGQICHE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_XUESHANGQICHE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_APP_TIAOSHUI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_APP_TIAOSHUI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_MASK</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_MASK</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_BADMINTON</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_BADMINTON</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_BASKETBALL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_BASKETBALL</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_FOOTBALL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_FOOTBALL</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_SWIM</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_SWIM</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_VOLLEYBALL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_VOLLEYBALL</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_TABLE_TENNIS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_TABLE_TENNIS</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_BOWLING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_BOWLING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_TENNIS</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_TENNIS</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_CYCLING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_CYCLING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_SKI</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_SKI</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_SKATE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_SKATE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_ROCK_CLIMBING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_ROCK_CLIMBING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_GYM</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_GYM</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_DANCE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_DANCE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_TABLET_SUPPORT</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_TABLET_SUPPORT</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_GYM_EXERCISE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_GYM_EXERCISE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_YOGA</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_YOGA</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_SHUTTLECOCK</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_SHUTTLECOCK</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_ALLBALL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_ALLBALL</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_POWALKING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_POWALKING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_GOLF</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_GOLF</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_CANOEING</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_CANOEING</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_HEART_RATE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_HEART_RATE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_SPORT_TYPE_WALKING_SAVE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_SPORT_TYPE_WALKING_SAVE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

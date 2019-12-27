@@ -1,0 +1,19 @@
+#默认镜像源地址
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+platform :ios, '8.0'
+
+workspace 'BLEMidAutumn.xcworkspace'
+
+target :AutumnTest do
+ project 'AutumnTest/AutumnTest.xcodeproj'
+ pod 'SVProgressHUD', '~> 2.0.3'
+ pod 'Masonry'
+ pod 'ReactiveCocoa', '~> 2.5'
+ pod 'DateTools', '~> 2.0.0'
+ pod 'Protobuf'
+ pod 'iOSDFULibrary'
+ #pod 'YYModel'
+end
+
+

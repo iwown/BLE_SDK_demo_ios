@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLESolstice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLESolstice</TokenIdentifier>
+			<Abstract type="html">Communication agent, holding peripheral connection object, make a protocol conversion between the app and the device, so that the API is easier to understand than the binary.
+All api are suitable for the scene, not all devices support all api, if your device does not support your api call, you will get an NSError or in the console to see the &quot;device does not support&quot; log</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/getConnectedPeriphral</TokenIdentifier>
+			<Abstract type="html">This method can help you to get that Device object you are connected to.</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (CBPeripheral *)getConnectedPeriphral</Declaration>
+			
+			<ReturnValue><Abstract type="html">Returns as a CBPeripheral object</Abstract></ReturnValue>
+			<Anchor>//api/name/getConnectedPeriphral</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readDeviceInfo</TokenIdentifier>
+			<Abstract type="html">! Read device Info. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readDeviceInfo</Declaration>
+			
+			
+			<Anchor>//api/name/readDeviceInfo</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readDeviceBattery</TokenIdentifier>
+			<Abstract type="html">! Read device battery. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readDeviceBattery</Declaration>
+			
+			
+			<Anchor>//api/name/readDeviceBattery</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/rebootDevice</TokenIdentifier>
+			<Abstract type="html">! Reboot device .Special device supported</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)rebootDevice</Declaration>
+			
+			
+			<Anchor>//api/name/rebootDevice</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/deviceUpgrade</TokenIdentifier>
+			<Abstract type="html">! Upgrade device for DFU ,device will enter DFU state while received this cmd</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)deviceUpgrade</Declaration>
+			
+			
+			<Anchor>//api/name/deviceUpgrade</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/debindFromSystem</TokenIdentifier>
+			<Abstract type="html">! Device debind from iPhone system</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)debindFromSystem</Declaration>
+			
+			
+			<Anchor>//api/name/debindFromSystem</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/exchangeANCsState:</TokenIdentifier>
+			<Abstract type="html">! Exchange ANCs information between Device and App
+isActive: Enter YES when app is active;</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)exchangeANCsState:(BOOL)isActive</Declaration>
+			
+			
+			<Anchor>//api/name/exchangeANCsState:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setDNDMode:</TokenIdentifier>
+			<Abstract type="html">! Set don&apos;t disurb model</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setDNDMode:(ZRDNDModel *)dndModel</Declaration>
+			
+			
+			<Anchor>//api/name/setDNDMode:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readDNDModeInfo</TokenIdentifier>
+			<Abstract type="html">! Read DND model. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readDNDModeInfo</Declaration>
+			
+			
+			<Anchor>//api/name/readDNDModeInfo</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setWeather:</TokenIdentifier>
+			<Abstract type="html">! Sent weather info to device for show in screen ,special devices support</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setWeather:(ZRWeather *)weather</Declaration>
+			
+			
+			<Anchor>//api/name/setWeather:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readManufactureDate</TokenIdentifier>
+			<Abstract type="html">!Appearance time of the device, Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readManufactureDate</Declaration>
+			
+			
+			<Anchor>//api/name/readManufactureDate</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readFactoryConfiguration</TokenIdentifier>
+			<Abstract type="html">! Factory configuration, Got the response in method readResponseFromDevice:&lt;##&gt;</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readFactoryConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/readFactoryConfiguration</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/syscTimeAtOnce</TokenIdentifier>
+			<Abstract type="html">syscTime:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/syscTime:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)syscTimeAtOnce</Declaration>
+			
+			
+			<Anchor>//api/name/syscTimeAtOnce</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/syscTime:</TokenIdentifier>
+			<Abstract type="html">Synchronization time</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)syscTime:(NSDate *)date</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>date</Name>
+					<Abstract type="html">The date your need sysc in device.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/syscTime:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readTime</TokenIdentifier>
+			<Abstract type="html">! Read device dateTime. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readTime</Declaration>
+			
+			
+			<Anchor>//api/name/readTime</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setBLESpeedMode:</TokenIdentifier>
+			<Abstract type="html">! Set app and watch sync speed</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setBLESpeedMode:(BLECommunicateMode)mode</Declaration>
+			
+			
+			<Anchor>//api/name/setBLESpeedMode:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readBLESpeedMode</TokenIdentifier>
+			<Abstract type="html">! Read ble speed mode. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readBLESpeedMode</Declaration>
+			
+			
+			<Anchor>//api/name/readBLESpeedMode</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setBLESign:</TokenIdentifier>
+			<Abstract type="html">! Set BLE sign</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setBLESign:(BLEParamSign)sign</Declaration>
+			
+			
+			<Anchor>//api/name/setBLESign:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readBLESign</TokenIdentifier>
+			<Abstract type="html">! Read ble sign type. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readBLESign</Declaration>
+			
+			
+			<Anchor>//api/name/readBLESign</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setAlarmClock:</TokenIdentifier>
+			<Abstract type="html">! The device reserves a fixed number of alarm settings (usually eight), this method allows you to set the alarm one by one, the id of the alarm is a continuous natural number, do not exceed the allowable range, if the device has an alarm id 0x07, This is you add an alarm id is still 0x07, which is the total number of alarm clock in the device is still 1, that 0x07 alarm content will be your last set.
+Special device support, device in &lt;BLEProtocol_Colorful&gt; did not support this method ,use method setAlarmClocks:andSchedules: instead.</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setAlarmClock:(ZRClock *)clockModel</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>clockModel</Name>
+					<Abstract type="html">alarm clock object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAlarmClock:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setAlarmClocks:andSchedules:</TokenIdentifier>
+			<Abstract type="html">Because of the protocol, all alarms and schedules are written in one time in the same command. With this method, you need to remember the alarms and schedules you have set. Each time this method is called, the new alarm is written And schedule settings, all previous settings will be cleared. Communication reasons, this method takes a long time, when used, please note that the operation of the time interval.
+This method is designed for BLEProtocolColorful&gt; devices, but is compatible with other devices and is not recommended for use if your device is not BLEProtocolColorful</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setAlarmClocks:(NSArray&lt;ZRClock*&gt; *)clockModels andSchedules:(NSArray&lt;ZRSchedule*&gt; *)schedules</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>clockModels</Name>
+					<Abstract type="html">All clocks method, you should been set less than 4 in BLEProtocol_Colorful, less than 8 in other protocol type device.</Abstract>
+				</Parameter><Parameter>
+					<Name>schedules</Name>
+					<Abstract type="html">You are advised to write no more than 4 calendars</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setAlarmClocks:andSchedules:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readAlarmClocks:</TokenIdentifier>
+			<Abstract type="html">Read alarm clocks from device. If you had sent nil to param racResponse,you will got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readAlarmClocks:(ReadAlarmClockResponse)racResponse</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>racResponse</Name>
+					<Abstract type="html">Block for read response .</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/readAlarmClocks:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/clearAllClocks</TokenIdentifier>
+			<Abstract type="html">! Clear all clocks in smartband</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)clearAllClocks</Declaration>
+			
+			
+			<Anchor>//api/name/clearAllClocks</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setSchedule:</TokenIdentifier>
+			<Abstract type="html">! Set single ZRSchedule ,special device support.</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setSchedule:(ZRSchedule *)sModel</Declaration>
+			
+			
+			<Anchor>//api/name/setSchedule:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/closeSchedule:</TokenIdentifier>
+			<Abstract type="html">! Close single ZRSchedule ,special device support.</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)closeSchedule:(ZRSchedule *)sModel</Declaration>
+			
+			
+			<Anchor>//api/name/closeSchedule:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readScheduleInfo:</TokenIdentifier>
+			<Abstract type="html">Read schedule info ,If you had sent nil to param rsResponse, you will got the response in method readResponseFromDevice:
+dict[@&quot;cur_num&quot;] 当前可配置日程数量
+remaining number of schedule could be set.
+dict[@&quot;all_num&quot;]:日程最大数量
+max number of schedule we can configure
+dict[@&quot;day_num&quot;]: 每天可配置日程数量
+max number of schedule could  be configured for one day.</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readScheduleInfo:(ReadSheduleResponse)rsResponse</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rsResponse</Name>
+					<Abstract type="html">Block for read schedule info.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/readScheduleInfo:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readSchedule:</TokenIdentifier>
+			<Abstract type="html">! Read special schedule model. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readSchedule:(ZRSchedule *)sModel</Declaration>
+			
+			
+			<Anchor>//api/name/readSchedule:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/clearAllSchedules</TokenIdentifier>
+			<Abstract type="html">! Clear all ,there is no way to delete one schedule model ,your should call this method if you need remove some invalid calendars for set more</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)clearAllSchedules</Declaration>
+			
+			
+			<Anchor>//api/name/clearAllSchedules</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setSedentary:</TokenIdentifier>
+			<Abstract type="html">! Set sedentary warning</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setSedentary:(ZRSedentary *)sedentaryModel</Declaration>
+			
+			
+			<Anchor>//api/name/setSedentary:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readSedentary</TokenIdentifier>
+			<Abstract type="html">! Read sendentary. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readSedentary</Declaration>
+			
+			
+			<Anchor>//api/name/readSedentary</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setDeviceOption:</TokenIdentifier>
+			<Abstract type="html">! Setting device option ,Some bracelets only support some settings</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setDeviceOption:(ZRHWOption *)deOption</Declaration>
+			
+			
+			<Anchor>//api/name/setDeviceOption:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readDeviceOption</TokenIdentifier>
+			<Abstract type="html">! Read device option. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readDeviceOption</Declaration>
+			
+			
+			<Anchor>//api/name/readDeviceOption</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readSupportSports</TokenIdentifier>
+			<Abstract type="html">! Get sport type list that device support. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readSupportSports</Declaration>
+			
+			
+			<Anchor>//api/name/readSupportSports</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setSportLists:</TokenIdentifier>
+			<Abstract type="html">! Add a moving target to the device, and then you can see the type of motion you added on the device&apos;s exercise screen</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setSportLists:(ZRSportLists *)st</Declaration>
+			
+			
+			<Anchor>//api/name/setSportLists:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readSportLists</TokenIdentifier>
+			<Abstract type="html">! Read Sport target in device. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readSportLists</Declaration>
+			
+			
+			<Anchor>//api/name/readSportLists</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/addContacts:</TokenIdentifier>
+			<Abstract type="html">Add contacts to the device ,special device support.</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)addContacts:(ZRContacts *)cModels</Declaration>
+			
+			
+			<Anchor>//api/name/addContacts:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readContacts</TokenIdentifier>
+			<Abstract type="html">! Read. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readContacts</Declaration>
+			
+			
+			<Anchor>//api/name/readContacts</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/removeContacts:</TokenIdentifier>
+			<Abstract type="html">! Remove</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)removeContacts:(NSArray&lt;ZRContacts*&gt; *)cModels</Declaration>
+			
+			
+			<Anchor>//api/name/removeContacts:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/clearAllContacts</TokenIdentifier>
+			<Abstract type="html">! Clear</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)clearAllContacts</Declaration>
+			
+			
+			<Anchor>//api/name/clearAllContacts</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setPersonalInfo:</TokenIdentifier>
+			<Abstract type="html">! Set personal info .The device requires you to pass in actual wearer information to help correct the gait algorithm</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setPersonalInfo:(ZRPersonal *)personalModel</Declaration>
+			
+			
+			<Anchor>//api/name/setPersonalInfo:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readPersonalInfo</TokenIdentifier>
+			<Abstract type="html">! Read personal info. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readPersonalInfo</Declaration>
+			
+			
+			<Anchor>//api/name/readPersonalInfo</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setEHRWParam:</TokenIdentifier>
+			<Abstract type="html">Heart rate alarm parameters ，Special device support</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setEHRWParam:(ZREHRWP *)ehrwp</Declaration>
+			
+			
+			<Anchor>//api/name/setEHRWParam:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readEHRWParam</TokenIdentifier>
+			<Abstract type="html">! Read. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readEHRWParam</Declaration>
+			
+			
+			<Anchor>//api/name/readEHRWParam</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setGNSSParameter:</TokenIdentifier>
+			<Abstract type="html">Set GNSS location information, this function is aided &lt;BLEProtocol_Watch&gt; positioning, other devices do not need to deal with it.</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setGNSSParameter:(ZRGnssParam *)gp</Declaration>
+			
+			
+			<Anchor>//api/name/setGNSSParameter:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readGNSSParameter</TokenIdentifier>
+			<Abstract type="html">! Read. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readGNSSParameter</Declaration>
+			
+			
+			<Anchor>//api/name/readGNSSParameter</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setTargetOnceDay:</TokenIdentifier>
+			<Abstract type="html">Set the target number of days and target calories on the day, a ring indicating the progress will be displayed on the home page of the device. If the device supports this method</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setTargetOnceDay:(ZRTargetOnceDay *)target</Declaration>
+			
+			
+			<Anchor>//api/name/setTargetOnceDay:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readTargetOnceDay</TokenIdentifier>
+			<Abstract type="html">! Read. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readTargetOnceDay</Declaration>
+			
+			
+			<Anchor>//api/name/readTargetOnceDay</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setMessagePush:</TokenIdentifier>
+			<Abstract type="html">Set incoming call reminder and message reminder</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setMessagePush:(ZRMesgPush *)messagePush</Declaration>
+			
+			
+			<Anchor>//api/name/setMessagePush:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readMessagePush</TokenIdentifier>
+			<Abstract type="html">! Read. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readMessagePush</Declaration>
+			
+			
+			<Anchor>//api/name/readMessagePush</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/pushStr:</TokenIdentifier>
+			<Abstract type="html">Push string, Example: [ZRBLE pushStr:@&quot;This is a test string&quot;];</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)pushStr:(NSString *)str</Declaration>
+			
+			
+			<Anchor>//api/name/pushStr:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/addSpecialList:</TokenIdentifier>
+			<Abstract type="html">Add a message blacklists .
+The contents of the blacklist agreement are as follows:
+The app writes the corresponding application package name (such as WeChat) to the hand ring through a specific protocol. The wristband performs blacklist filtering by using the package name from the data information received by the ANCS, and the application message that adds the blacklist is no longer displayed on the handband interface on.
+Notes:
+1. Due to limited bracelet space, only four blacklist applications are currently supported
+2. The factory does not set a blacklist
+3. Some custom firmware should be set to white list client requirements, iwown common version is set to blacklist
+Set the blacklist protocol as follows:
+Add
+             &quot;com.tencent.xin &quot;- WeChat
+             &quot;com.tencent.mqq&quot; - QQ
+             &quot;com.apple.mobilephone&quot; - Incoming call
+             &quot;com.apple.MobileSMS&quot; - message
+For more build identify for third part apps. use 【ios-deploy --id [udid] --listbundleid 】in Ternimal got them. Links:https://segmentfault.com/a/1190000010205616
+`
+            NSArray * arr = @ [@ &quot;com.apple.mobilephone&quot;,
+                               @ &quot;com.apple.MobileSMS&quot;
+                               @ &quot;com.tencent.mqq&quot;,
+                               @ &quot;com.tencent.xin&quot;];
+            NSMutableArray * mArr = [NSMutableArray arrayWithCapacity: 0];
+            for (int i = 0; i &lt;arr.count; i ++) {
+                ZeronerRoll * zRoll = [[ZeronerRoll alloc] init];
+                zRoll.rId = 100 + i;
+                zRoll.rollName = arr [i];
+                [mArr addObject: zRoll];
+            }
+            [[BLELib3 shareInstance] addSpecialList: mArr];
+`
+2. Read the blacklist application information
+    @code    [[BLELib3 shareInstance] readAllList];@endcode
+3. Clear blacklist
+   @code    [[BLELib3 shareInstance] clearAllLists];@endcode
+4 read the contents of the blacklist
+    @code    NSMutableArray * mArr = [NSMutableArray arrayWithCapacity: 0];
+            for (int i = 0; i &lt;3; i + = 2) {
+                ZeronerRoll * zRoll = [[ZeronerRoll alloc] init];
+                zRoll.rId = 101 + i;
+                [mArr addObject: zRoll];
+            }
+            [[BLELib3 shareInstance] removeSpecialList: mArr]; @endcode</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)addSpecialList:(NSArray&lt;ZRRoll*&gt; *)sLists</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sLists</Name>
+					<Abstract type="html">The blaklists</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addSpecialList:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setKeyNotify:</TokenIdentifier>
+			<Abstract type="html">setKeyNotify 进入智拍模式设置1. 退出智拍模式设置0   // 通知拍照从 - (void)notifyToTakePicture; 获得
+call this method to become smart photo or exits. set value 1 to active and set 0 to exit; get photoes @see - (void)notifyToTakePicture;</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setKeyNotify:(BKeyNotify)keyNotify</Declaration>
+			
+			
+			<Anchor>//api/name/setKeyNotify:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setMotors:</TokenIdentifier>
+			<Abstract type="html">Set the vibration mode</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setMotors:(NSArray&lt;ZRMotor*&gt; *)motors</Declaration>
+			
+			
+			<Anchor>//api/name/setMotors:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readSupportMotorCount</TokenIdentifier>
+			<Abstract type="html">! Read count of motor type. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readSupportMotorCount</Declaration>
+			
+			
+			<Anchor>//api/name/readSupportMotorCount</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/feelMotor:</TokenIdentifier>
+			<Abstract type="html">! Experience the vibration&lt;##&gt;</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)feelMotor:(ZRMotor *)motor</Declaration>
+			
+			
+			<Anchor>//api/name/feelMotor:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setRecognitionParams:</TokenIdentifier>
+			<Abstract type="html">! Set motion recognition parameters, transparent protocols, special equipment support</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setRecognitionParams:(ZRAction *)action</Declaration>
+			
+			
+			<Anchor>//api/name/setRecognitionParams:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setCustomOptions:</TokenIdentifier>
+			<Abstract type="html">! Custom device function protocol, special device support</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setCustomOptions:(ZRCOption *)cOption</Declaration>
+			
+			
+			<Anchor>//api/name/setCustomOptions:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/readCustomOptions</TokenIdentifier>
+			<Abstract type="html">! Read. Got the response in method readResponseFromDevice:</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)readCustomOptions</Declaration>
+			
+			
+			<Anchor>//api/name/readCustomOptions</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/startEpoUpgrade</TokenIdentifier>
+			<Abstract type="html">&lt;BLEProtocol_Watch&gt; The device&apos;s EPO (Assisted Positioning Protocol) upgrade is used to assist the device in positioning. When the device receives this command, it will trigger BTNotify communication and implement the BTNotify protocol protocol to upgrade the EPO file</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)startEpoUpgrade</Declaration>
+			
+			
+			<Anchor>//api/name/startEpoUpgrade</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/setBleConnectStatus</TokenIdentifier>
+			<Abstract type="html">! Devices that implement &lt;BLEProtocol_Colorful&gt; need to set the state of the communication over the lBLE connection in three states, direct, iOS, Android; only the fact that the state is iOS is communicable in our case, and the rest are invalid . Calling the setBleConnectStatus method attempts to set the connection state parameter, and the getConnectionStatus party can read the connection parameter. The return value is available in the responseOfConnectStatus: method.</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)setBleConnectStatus</Declaration>
+			
+			
+			<Anchor>//api/name/setBleConnectStatus</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/getConnectionStatus</TokenIdentifier>
+			<Abstract type="html">! responseOfConnectStatus:&lt;##&gt;</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)getConnectionStatus</Declaration>
+			
+			
+			<Anchor>//api/name/getConnectionStatus</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/getDataStoreDate</TokenIdentifier>
+			<Abstract type="html">This method will read the device&apos;s data, you can get the returned data info in the updateNormalHealthDataInfo: method, you can sync the data you want to get based on the data</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)getDataStoreDate</Declaration>
+			
+			
+			<Anchor>//api/name/getDataStoreDate</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/startSpecialData:</TokenIdentifier>
+			<Abstract type="html">! Mehtod to sysc data .</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/startSpecialData:withDate:startSeq:endSeq:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)startSpecialData:(SD_TYPE)sdType</Declaration>
+			
+			
+			<Anchor>//api/name/startSpecialData:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/startSpecialData:withDate:</TokenIdentifier>
+			<Abstract type="html">! Mehtod to sysc data .</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/startSpecialData:withDate:startSeq:endSeq:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)startSpecialData:(SD_TYPE)sdType withDate:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/startSpecialData:withDate:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/startSpecialData:withDate:startSeq:endSeq:</TokenIdentifier>
+			<Abstract type="html">Synchronize the data method, incoming data from the updateNormalHealthDataInfo: method to get your specified time or type of data, the data is packaged in a fixed manner, based on the amount of data, some of the data we are packaged together, But there are some data as a separate data package</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/startSpecialData:withDate:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)startSpecialData:(SD_TYPE)sdType withDate:(NSDate *)date startSeq:(NSInteger)startSeq endSeq:(NSInteger)endSeq</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sdType</Name>
+					<Abstract type="html">Type</Abstract>
+				</Parameter><Parameter>
+					<Name>date</Name>
+					<Abstract type="html">Special date .This version of the SDK which we put the time of the data as an important dimension, many data are packaged based on the date. However, some bracelets do not support this. If you do not get a valid date, you can pass in nil when syncing data or we consider this case, which is also valid on certain devices. Or you can use method without this parameter like startSpecialData:</Abstract>
+				</Parameter><Parameter>
+					<Name>startSeq</Name>
+					<Abstract type="html">Some devices rely on Seq for their data continuity and require that they be passed in when they are synchronized. If you get startSeq &amp;amp; endSeq in your device info is 0, this means your device does not need this seq, Please also 0 value as a parameter to synchronize data, which is ok, or you can use the method does not need to pass in this parameter</Abstract>
+				</Parameter><Parameter>
+					<Name>endSeq</Name>
+					<Abstract type="html">Similar to startSeq.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startSpecialData:withDate:startSeq:endSeq:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLESolstice/stopSpecialData:</TokenIdentifier>
+			<Abstract type="html">! SDK internal use, do not need to use it</Abstract>
+			<DeclaredIn>BLESolstice.h</DeclaredIn>
+			
+			<Declaration>- (void)stopSpecialData:(SD_TYPE)sdType</Declaration>
+			
+			
+			<Anchor>//api/name/stopSpecialData:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

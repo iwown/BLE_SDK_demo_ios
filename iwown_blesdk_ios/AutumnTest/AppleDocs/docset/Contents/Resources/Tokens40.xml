@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/BKeyNotify.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/BKeyNotify</TokenIdentifier>
+			<Abstract type="html">Device operation s events</Abstract>
+			<DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BKN_SET_Normal</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>BKN_SET_Normal</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="40"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BKN_SET_SmartPhoto</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>BKN_SET_SmartPhoto</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="40"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BKN_GET_SmartPhoto</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>BKN_GET_SmartPhoto</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="40"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BKN_GET_SearchPhone</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>BKN_GET_SearchPhone</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="40"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

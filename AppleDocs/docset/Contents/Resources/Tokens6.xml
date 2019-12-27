@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MTKDataHandle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MTKDataHandle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MTKDataHandle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MTKDataHandle/handleIndexTableData:Type:</TokenIdentifier>
+			<Abstract type="html">NSDictionary,  type Table6XRawDataType</Abstract>
+			<DeclaredIn>MTKDataHandle.h</DeclaredIn>
+			
+			<Declaration>+ (void)handleIndexTableData:(NSDictionary *)dict Type:(Table6XRawDataType)type</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">NSDictionary,  type Table6XRawDataType</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleIndexTableData:Type:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MTKDataHandle/handleTable6xRawDataWithArray:</TokenIdentifier>
+			<Abstract type="html">//按天归类
+//    {
+//        data =     (
+//                    &quot;&lt;Table6XRawData: 0x1c1060cc0&gt;&quot;,
+//                    &quot;&lt;Table6XRawData: 0x1c066a5c0&gt;&quot;
+//                    );
+//        date = &quot;2017-09-29&quot;;
+//    },</Abstract>
+			<DeclaredIn>MTKDataHandle.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)handleTable6xRawDataWithArray:(NSArray *)dataArr</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataArr</Name>
+					<Abstract type="html">&lt;#dataArr description#&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">&lt;#return value description#&gt;</Abstract></ReturnValue>
+			<Anchor>//api/name/handleTable6xRawDataWithArray:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

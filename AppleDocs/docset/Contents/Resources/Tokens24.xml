@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZRSportData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZRSportData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportData/setActivity:</TokenIdentifier>
+			<Abstract type="html">! Sport activity ,unit is minutes</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int activity</Declaration>
+			
+			
+			<Anchor>//api/name/activity</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportData/activity</TokenIdentifier>
+			<Abstract type="html">! Sport activity ,unit is minutes</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int activity</Declaration>
+			
+			
+			<Anchor>//api/name/activity</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSportData/activity</TokenIdentifier>
+			<Abstract type="html">! Sport activity ,unit is minutes</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int activity</Declaration>
+			
+			
+			<Anchor>//api/name/activity</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportData/setCalorie:</TokenIdentifier>
+			<Abstract type="html">! Calorie , unit is kcal</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float calorie</Declaration>
+			
+			
+			<Anchor>//api/name/calorie</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportData/calorie</TokenIdentifier>
+			<Abstract type="html">! Calorie , unit is kcal</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float calorie</Declaration>
+			
+			
+			<Anchor>//api/name/calorie</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSportData/calorie</TokenIdentifier>
+			<Abstract type="html">! Calorie , unit is kcal</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float calorie</Declaration>
+			
+			
+			<Anchor>//api/name/calorie</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportData/setDistance:</TokenIdentifier>
+			<Abstract type="html">! Unit is meter</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportData/distance</TokenIdentifier>
+			<Abstract type="html">! Unit is meter</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSportData/distance</TokenIdentifier>
+			<Abstract type="html">! Unit is meter</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float distance</Declaration>
+			
+			
+			<Anchor>//api/name/distance</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportData/setHeartBeats:</TokenIdentifier>
+			<Abstract type="html">! Mean heart rate per minute in segmented movement&lt;##&gt;</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *heartBeats</Declaration>
+			
+			
+			<Anchor>//api/name/heartBeats</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportData/heartBeats</TokenIdentifier>
+			<Abstract type="html">! Mean heart rate per minute in segmented movement&lt;##&gt;</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *heartBeats</Declaration>
+			
+			
+			<Anchor>//api/name/heartBeats</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSportData/heartBeats</TokenIdentifier>
+			<Abstract type="html">! Mean heart rate per minute in segmented movement&lt;##&gt;</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *heartBeats</Declaration>
+			
+			
+			<Anchor>//api/name/heartBeats</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportData/setMaxSpm:</TokenIdentifier>
+			<Abstract type="html">maxSpm,avgSpm: 0 means not support
+maxHeart,avgHeart: 0 means do not got</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int maxSpm</Declaration>
+			
+			
+			<Anchor>//api/name/maxSpm</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportData/maxSpm</TokenIdentifier>
+			<Abstract type="html">maxSpm,avgSpm: 0 means not support
+maxHeart,avgHeart: 0 means do not got</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int maxSpm</Declaration>
+			
+			
+			<Anchor>//api/name/maxSpm</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSportData/maxSpm</TokenIdentifier>
+			<Abstract type="html">maxSpm,avgSpm: 0 means not support
+maxHeart,avgHeart: 0 means do not got</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int maxSpm</Declaration>
+			
+			
+			<Anchor>//api/name/maxSpm</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

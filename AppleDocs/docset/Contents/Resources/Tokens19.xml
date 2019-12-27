@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZRPersonal.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZRPersonal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRPersonal/setHeight:</TokenIdentifier>
+			<Abstract type="html">height of personal setting , unit is cm .default is 170.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRPersonal/height</TokenIdentifier>
+			<Abstract type="html">height of personal setting , unit is cm .default is 170.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRPersonal/height</TokenIdentifier>
+			<Abstract type="html">height of personal setting , unit is cm .default is 170.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRPersonal/setWeight:</TokenIdentifier>
+			<Abstract type="html">weight of personal setting , unit is kg .default is 170.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger weight</Declaration>
+			
+			
+			<Anchor>//api/name/weight</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRPersonal/weight</TokenIdentifier>
+			<Abstract type="html">weight of personal setting , unit is kg .default is 170.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger weight</Declaration>
+			
+			
+			<Anchor>//api/name/weight</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRPersonal/weight</TokenIdentifier>
+			<Abstract type="html">weight of personal setting , unit is kg .default is 170.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger weight</Declaration>
+			
+			
+			<Anchor>//api/name/weight</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRPersonal/setGender:</TokenIdentifier>
+			<Abstract type="html">gender of personal setting ,0 represent male ,1 represent female .default is 0 .</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger gender</Declaration>
+			
+			
+			<Anchor>//api/name/gender</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRPersonal/gender</TokenIdentifier>
+			<Abstract type="html">gender of personal setting ,0 represent male ,1 represent female .default is 0 .</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger gender</Declaration>
+			
+			
+			<Anchor>//api/name/gender</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRPersonal/gender</TokenIdentifier>
+			<Abstract type="html">gender of personal setting ,0 represent male ,1 represent female .default is 0 .</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger gender</Declaration>
+			
+			
+			<Anchor>//api/name/gender</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRPersonal/setAge:</TokenIdentifier>
+			<Abstract type="html">age of personal setting .default is 20.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger age</Declaration>
+			
+			
+			<Anchor>//api/name/age</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRPersonal/age</TokenIdentifier>
+			<Abstract type="html">age of personal setting .default is 20.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger age</Declaration>
+			
+			
+			<Anchor>//api/name/age</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRPersonal/age</TokenIdentifier>
+			<Abstract type="html">age of personal setting .default is 20.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger age</Declaration>
+			
+			
+			<Anchor>//api/name/age</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

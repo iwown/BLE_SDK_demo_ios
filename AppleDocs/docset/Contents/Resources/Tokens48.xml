@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/ShakeType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/ShakeType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ShakeTypeClock</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ShakeTypeClock</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="48"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ShakeTypeCall</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ShakeTypeCall</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="48"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ShakeTypeMsg</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ShakeTypeMsg</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="48"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ShakeTypeSedentary</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ShakeTypeSedentary</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="48"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ShakeTypeCharging</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ShakeTypeCharging</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="48"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ShakeTypeSchedule</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ShakeTypeSchedule</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="48"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ShakeTypeCommon</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ShakeTypeCommon</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="48"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ShakeTypeHRWarning</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>ShakeTypeHRWarning</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="48"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

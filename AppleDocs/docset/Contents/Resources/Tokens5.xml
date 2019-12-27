@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/FBKVOController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/FBKVOController</TokenIdentifier>
+			<Abstract type="html">FBKVOController makes Key-Value Observing simpler and safer.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/FBKVOController/controllerWithObserver:</TokenIdentifier>
+			<Abstract type="html">Creates and returns an initialized KVO controller instance.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)controllerWithObserver:(id)observer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>observer</Name>
+					<Abstract type="html">The object notified on key-value change.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The initialized KVO controller instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/controllerWithObserver:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/initWithObserver:retainObserved:</TokenIdentifier>
+			<Abstract type="html">The designated initializer.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithObserver:(id)observer retainObserved:(BOOL)retainObserved</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>observer</Name>
+					<Abstract type="html">The object notified on key-value change. The specified observer must support weak references.</Abstract>
+				</Parameter><Parameter>
+					<Name>retainObserved</Name>
+					<Abstract type="html">Flag indicating whether observed objects should be retained.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The initialized KVO controller instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithObserver:retainObserved:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/initWithObserver:</TokenIdentifier>
+			<Abstract type="html">Convenience initializer.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithObserver:(id)observer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>observer</Name>
+					<Abstract type="html">The object notified on key-value change. The specified observer must support weak references.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The initialized KVO controller instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithObserver:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/setObserver:</TokenIdentifier>
+			<Abstract type="html">The observer notified on key-value change. Specified on initialization.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, weak, readonly) id observer</Declaration>
+			
+			
+			<Anchor>//api/name/observer</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/observer</TokenIdentifier>
+			<Abstract type="html">The observer notified on key-value change. Specified on initialization.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, weak, readonly) id observer</Declaration>
+			
+			
+			<Anchor>//api/name/observer</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FBKVOController/observer</TokenIdentifier>
+			<Abstract type="html">The observer notified on key-value change. Specified on initialization.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>@property (atomic, weak, readonly) id observer</Declaration>
+			
+			
+			<Anchor>//api/name/observer</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/observe:keyPath:options:block:</TokenIdentifier>
+			<Abstract type="html">Registers observer for key-value change notification.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (void)observe:(id)object keyPath:(NSString *)keyPath options:(NSKeyValueObservingOptions)options block:(FBKVONotificationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>keyPath</Name>
+					<Abstract type="html">The key path to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The NSKeyValueObservingOptions to use for observation.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block to execute on notification.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/observe:keyPath:options:block:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/observe:keyPath:options:action:</TokenIdentifier>
+			<Abstract type="html">Registers observer for key-value change notification.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (void)observe:(id)object keyPath:(NSString *)keyPath options:(NSKeyValueObservingOptions)options action:(SEL)action</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>keyPath</Name>
+					<Abstract type="html">The key path to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The NSKeyValueObservingOptions to use for observation.</Abstract>
+				</Parameter><Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The observer selector called on key-value change.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/observe:keyPath:options:action:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/observe:keyPath:options:context:</TokenIdentifier>
+			<Abstract type="html">Registers observer for key-value change notification.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (void)observe:(id)object keyPath:(NSString *)keyPath options:(NSKeyValueObservingOptions)options context:(void *)context</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>keyPath</Name>
+					<Abstract type="html">The key path to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The NSKeyValueObservingOptions to use for observation.</Abstract>
+				</Parameter><Parameter>
+					<Name>context</Name>
+					<Abstract type="html">The context specified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/observe:keyPath:options:context:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/observe:keyPaths:options:block:</TokenIdentifier>
+			<Abstract type="html">Registers observer for key-value change notification.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (void)observe:(id)object keyPaths:(NSArray *)keyPaths options:(NSKeyValueObservingOptions)options block:(FBKVONotificationBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>keyPaths</Name>
+					<Abstract type="html">The key paths to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The NSKeyValueObservingOptions to use for observation.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block to execute on notification.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/observe:keyPaths:options:block:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/observe:keyPaths:options:action:</TokenIdentifier>
+			<Abstract type="html">Registers observer for key-value change notification.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (void)observe:(id)object keyPaths:(NSArray *)keyPaths options:(NSKeyValueObservingOptions)options action:(SEL)action</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>keyPaths</Name>
+					<Abstract type="html">The key paths to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The NSKeyValueObservingOptions to use for observation.</Abstract>
+				</Parameter><Parameter>
+					<Name>action</Name>
+					<Abstract type="html">The observer selector called on key-value change.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/observe:keyPaths:options:action:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/observe:keyPaths:options:context:</TokenIdentifier>
+			<Abstract type="html">Registers observer for key-value change notification.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (void)observe:(id)object keyPaths:(NSArray *)keyPaths options:(NSKeyValueObservingOptions)options context:(void *)context</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>keyPaths</Name>
+					<Abstract type="html">The key paths to observe.</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">The NSKeyValueObservingOptions to use for observation.</Abstract>
+				</Parameter><Parameter>
+					<Name>context</Name>
+					<Abstract type="html">The context specified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/observe:keyPaths:options:context:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/unobserve:keyPath:</TokenIdentifier>
+			<Abstract type="html">Unobserve object key path.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (void)unobserve:(id)object keyPath:(NSString *)keyPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object to unobserve.</Abstract>
+				</Parameter><Parameter>
+					<Name>keyPath</Name>
+					<Abstract type="html">The key path to observe.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unobserve:keyPath:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/unobserve:</TokenIdentifier>
+			<Abstract type="html">Unobserve all object key paths.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (void)unobserve:(id)object</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>object</Name>
+					<Abstract type="html">The object to unobserve.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unobserve:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FBKVOController/unobserveAll</TokenIdentifier>
+			<Abstract type="html">Unobserve all objects.</Abstract>
+			<DeclaredIn>FBKVOController.h</DeclaredIn>
+			
+			<Declaration>- (void)unobserveAll</Declaration>
+			
+			
+			<Anchor>//api/name/unobserveAll</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

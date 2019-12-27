@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/bleLogType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/bleLogType</TokenIdentifier>
+			<Abstract type="html">! SDK used ,Do not pay attention&lt;##&gt;</Abstract>
+			<DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLE_LOG_RECEIVE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>BLE_LOG_RECEIVE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLE_LOG_SEND</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>BLE_LOG_SEND</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLE_LOG_NORMAL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>BLE_LOG_NORMAL</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLE_LOG_DEVELOPER</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>BLE_LOG_DEVELOPER</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="56"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

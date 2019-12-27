@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BKUtils.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BKUtils</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BKUtils.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BKUtils/isFileExist:</TokenIdentifier>
+			<Abstract type="html">检查文件是否存在</Abstract>
+			<DeclaredIn>BKUtils+File.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isFileExist:(NSString *)fileName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fileName</Name>
+					<Abstract type="html">文件名称</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">如果存在则返回yes</Abstract></ReturnValue>
+			<Anchor>//api/name/isFileExist:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

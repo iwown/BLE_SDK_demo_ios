@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSObject+JsonData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSObject(JsonData)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSObject+JsonData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/JSONData</TokenIdentifier>
+			<Abstract type="html">描述：将NSArray或者NSDictionary转化为NSData
+参数：
+返回值：转化后的NSData</Abstract>
+			<DeclaredIn>NSObject+JsonData.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)JSONData</Declaration>
+			
+			
+			<Anchor>//api/name/JSONData</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSObject/JSONString</TokenIdentifier>
+			<Abstract type="html">描述：将NSArray或者NSDictionary转化为NSString
+参数：
+返回值：转化后的NSString</Abstract>
+			<DeclaredIn>NSObject+JsonData.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)JSONString</Declaration>
+			
+			
+			<Anchor>//api/name/JSONString</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZRData62Model.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZRData62Model</TokenIdentifier>
+			<Abstract type="html">Freeze GNSS data in minutes</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRData62Model/setNum:</TokenIdentifier>
+			<Abstract type="html">! Total number for location point that sign in Latitude and longitude</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger num</Declaration>
+			
+			
+			<Anchor>//api/name/num</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRData62Model/num</TokenIdentifier>
+			<Abstract type="html">! Total number for location point that sign in Latitude and longitude</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger num</Declaration>
+			
+			
+			<Anchor>//api/name/num</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRData62Model/num</TokenIdentifier>
+			<Abstract type="html">! Total number for location point that sign in Latitude and longitude</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger num</Declaration>
+			
+			
+			<Anchor>//api/name/num</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRData62Model/setJsonData:</TokenIdentifier>
+			<Abstract type="html">! Latitude and longitude, Json strings</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *jsonData</Declaration>
+			
+			
+			<Anchor>//api/name/jsonData</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRData62Model/jsonData</TokenIdentifier>
+			<Abstract type="html">! Latitude and longitude, Json strings</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *jsonData</Declaration>
+			
+			
+			<Anchor>//api/name/jsonData</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRData62Model/jsonData</TokenIdentifier>
+			<Abstract type="html">! Latitude and longitude, Json strings</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *jsonData</Declaration>
+			
+			
+			<Anchor>//api/name/jsonData</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRData62Model/setDataArray:</TokenIdentifier>
+			<Abstract type="html">! Latitude and longitude array. Parsed by jsonData</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *dataArray</Declaration>
+			
+			
+			<Anchor>//api/name/dataArray</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRData62Model/dataArray</TokenIdentifier>
+			<Abstract type="html">! Latitude and longitude array. Parsed by jsonData</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *dataArray</Declaration>
+			
+			
+			<Anchor>//api/name/dataArray</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRData62Model/dataArray</TokenIdentifier>
+			<Abstract type="html">! Latitude and longitude array. Parsed by jsonData</Abstract>
+			<DeclaredIn>ZRHealthData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *dataArray</Declaration>
+			
+			
+			<Anchor>//api/name/dataArray</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

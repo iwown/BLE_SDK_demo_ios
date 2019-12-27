@@ -1,0 +1,2 @@
+
+The BLEMidAutumn SDK relies on the *protobuf* SDK. Please use ` pod 'Protobuf'` or download it yourself at [Github] (https://github.com/google/protobuf.git)

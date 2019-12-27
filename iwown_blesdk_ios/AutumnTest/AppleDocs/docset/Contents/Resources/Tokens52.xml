@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SleepType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SleepType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SleepTypeStart</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SleepTypeStart</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SleepTypeEnd</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SleepTypeEnd</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SleepTypeDeep</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SleepTypeDeep</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SleepTypeLight</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SleepTypeLight</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SleepTypePlaced</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SleepTypePlaced</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SleepTypeWake</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SleepTypeWake</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="52"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

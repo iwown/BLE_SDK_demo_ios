@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDate+Calendar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDate(Calendar)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+Calendar.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateDay</TokenIdentifier>
+			<Abstract type="html">获得当前 NSDate 对象对应的日子</Abstract>
+			<DeclaredIn>NSDate+Calendar.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)dateDay</Declaration>
+			
+			
+			<Anchor>//api/name/dateDay</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateMonth</TokenIdentifier>
+			<Abstract type="html">获得当前 NSDate 对象对应的月份</Abstract>
+			<DeclaredIn>NSDate+Calendar.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)dateMonth</Declaration>
+			
+			
+			<Anchor>//api/name/dateMonth</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateYear</TokenIdentifier>
+			<Abstract type="html">获得当前 NSDate 对象对应的年份</Abstract>
+			<DeclaredIn>NSDate+Calendar.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)dateYear</Declaration>
+			
+			
+			<Anchor>//api/name/dateYear</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/previousMonthDate</TokenIdentifier>
+			<Abstract type="html">获得当前 NSDate 对象的上个月的某一天（此处定为15号）的 NSDate 对象</Abstract>
+			<DeclaredIn>NSDate+Calendar.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)previousMonthDate</Declaration>
+			
+			
+			<Anchor>//api/name/previousMonthDate</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/nextMonthDate</TokenIdentifier>
+			<Abstract type="html">获得当前 NSDate 对象的下个月的某一天（此处定为15号）的 NSDate 对象</Abstract>
+			<DeclaredIn>NSDate+Calendar.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)nextMonthDate</Declaration>
+			
+			
+			<Anchor>//api/name/nextMonthDate</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/totalDaysInMonth</TokenIdentifier>
+			<Abstract type="html">获得当前 NSDate 对象对应的月份的总天数</Abstract>
+			<DeclaredIn>NSDate+Calendar.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)totalDaysInMonth</Declaration>
+			
+			
+			<Anchor>//api/name/totalDaysInMonth</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/firstWeekDayInMonth</TokenIdentifier>
+			<Abstract type="html">获得当前 NSDate 对象对应月份当月第一天的所属星期</Abstract>
+			<DeclaredIn>NSDate+Calendar.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)firstWeekDayInMonth</Declaration>
+			
+			
+			<Anchor>//api/name/firstWeekDayInMonth</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

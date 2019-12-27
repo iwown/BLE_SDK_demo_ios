@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZRSportTarget.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZRSportTarget</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportTarget/setSportArr:</TokenIdentifier>
+			<Abstract type="html">Add the first movement is set to walk (bracelet will be the default as a walk)</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray&lt;SportModel*&gt; *sportArr</Declaration>
+			
+			
+			<Anchor>//api/name/sportArr</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRSportTarget/sportArr</TokenIdentifier>
+			<Abstract type="html">Add the first movement is set to walk (bracelet will be the default as a walk)</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray&lt;SportModel*&gt; *sportArr</Declaration>
+			
+			
+			<Anchor>//api/name/sportArr</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRSportTarget/sportArr</TokenIdentifier>
+			<Abstract type="html">Add the first movement is set to walk (bracelet will be the default as a walk)</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray&lt;SportModel*&gt; *sportArr</Declaration>
+			
+			
+			<Anchor>//api/name/sportArr</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

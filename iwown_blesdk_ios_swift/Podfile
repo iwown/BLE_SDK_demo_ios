@@ -1,0 +1,9 @@
+# platform :ios, '10.0'
+#source 'https://git.coding.net/hging/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'iwown_blesdk_ios_swift' do
+  use_frameworks!
+  pod 'BLE3Framework', '~> 5.5.8'
+end
+

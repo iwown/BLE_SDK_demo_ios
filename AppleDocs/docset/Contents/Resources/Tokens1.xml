@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AppInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AppInfo</TokenIdentifier>
+			<Abstract type="html">这个类用来获取跟app相关的一些信息</Abstract>
+			<DeclaredIn>AppInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZRRoll.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZRRoll</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRRoll/setRId:</TokenIdentifier>
+			<Abstract type="html">! rollId (hash_id): Please use an integer, the size should not exceed 0xFFFFFFFF</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger rId</Declaration>
+			
+			
+			<Anchor>//api/name/rId</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRRoll/rId</TokenIdentifier>
+			<Abstract type="html">! rollId (hash_id): Please use an integer, the size should not exceed 0xFFFFFFFF</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger rId</Declaration>
+			
+			
+			<Anchor>//api/name/rId</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRRoll/rId</TokenIdentifier>
+			<Abstract type="html">! rollId (hash_id): Please use an integer, the size should not exceed 0xFFFFFFFF</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger rId</Declaration>
+			
+			
+			<Anchor>//api/name/rId</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZRMesgPush.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZRMesgPush</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRMesgPush/setComingCallEnable:</TokenIdentifier>
+			<Abstract type="html">Call reminder switch, turn off the call reminder switch without bracelet does not receive calls reminder, the default is YES.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL comingCallEnable</Declaration>
+			
+			
+			<Anchor>//api/name/comingCallEnable</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRMesgPush/comingCallEnable</TokenIdentifier>
+			<Abstract type="html">Call reminder switch, turn off the call reminder switch without bracelet does not receive calls reminder, the default is YES.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL comingCallEnable</Declaration>
+			
+			
+			<Anchor>//api/name/comingCallEnable</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRMesgPush/comingCallEnable</TokenIdentifier>
+			<Abstract type="html">Call reminder switch, turn off the call reminder switch without bracelet does not receive calls reminder, the default is YES.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL comingCallEnable</Declaration>
+			
+			
+			<Anchor>//api/name/comingCallEnable</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRMesgPush/setComingCallStart:</TokenIdentifier>
+			<Abstract type="html">* Valid only when @ \ comingCallEnable is YES, alerting at a set interval. The value range is 0-23, which means every whole hour.
+* 仅在 @\comingCallEnable 为YES的时候有效，在设置的时间间隔内，来电提醒。取值范围在0-23，表示每个整点。</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger comingCallStart</Declaration>
+			
+			
+			<Anchor>//api/name/comingCallStart</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRMesgPush/comingCallStart</TokenIdentifier>
+			<Abstract type="html">* Valid only when @ \ comingCallEnable is YES, alerting at a set interval. The value range is 0-23, which means every whole hour.
+* 仅在 @\comingCallEnable 为YES的时候有效，在设置的时间间隔内，来电提醒。取值范围在0-23，表示每个整点。</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger comingCallStart</Declaration>
+			
+			
+			<Anchor>//api/name/comingCallStart</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRMesgPush/comingCallStart</TokenIdentifier>
+			<Abstract type="html">* Valid only when @ \ comingCallEnable is YES, alerting at a set interval. The value range is 0-23, which means every whole hour.
+* 仅在 @\comingCallEnable 为YES的时候有效，在设置的时间间隔内，来电提醒。取值范围在0-23，表示每个整点。</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger comingCallStart</Declaration>
+			
+			
+			<Anchor>//api/name/comingCallStart</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRMesgPush/setMessageEnable:</TokenIdentifier>
+			<Abstract type="html">Message reminder switch, do not receive the message after closing, the default is YES.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL messageEnable</Declaration>
+			
+			
+			<Anchor>//api/name/messageEnable</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRMesgPush/messageEnable</TokenIdentifier>
+			<Abstract type="html">Message reminder switch, do not receive the message after closing, the default is YES.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL messageEnable</Declaration>
+			
+			
+			<Anchor>//api/name/messageEnable</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRMesgPush/messageEnable</TokenIdentifier>
+			<Abstract type="html">Message reminder switch, do not receive the message after closing, the default is YES.</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL messageEnable</Declaration>
+			
+			
+			<Anchor>//api/name/messageEnable</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRMesgPush/setMessageStart:</TokenIdentifier>
+			<Abstract type="html">Valid only if @ \ messageEnable is YES, a message reminded at the set time interval. The value range is 0-23, which means every whole hour.
+仅在 @\messageEnable 为YES的时候有效，在设置的时间间隔内，消息提醒。取值范围在0-23，表示每个整点。</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger messageStart</Declaration>
+			
+			
+			<Anchor>//api/name/messageStart</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRMesgPush/messageStart</TokenIdentifier>
+			<Abstract type="html">Valid only if @ \ messageEnable is YES, a message reminded at the set time interval. The value range is 0-23, which means every whole hour.
+仅在 @\messageEnable 为YES的时候有效，在设置的时间间隔内，消息提醒。取值范围在0-23，表示每个整点。</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger messageStart</Declaration>
+			
+			
+			<Anchor>//api/name/messageStart</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRMesgPush/messageStart</TokenIdentifier>
+			<Abstract type="html">Valid only if @ \ messageEnable is YES, a message reminded at the set time interval. The value range is 0-23, which means every whole hour.
+仅在 @\messageEnable 为YES的时候有效，在设置的时间间隔内，消息提醒。取值范围在0-23，表示每个整点。</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger messageStart</Declaration>
+			
+			
+			<Anchor>//api/name/messageStart</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRMesgPush/setRollMsgList:</TokenIdentifier>
+			<Abstract type="html">Valid only if @ \ messageEnable is YES, and at the set time interval. List of supported blacklist apps, ZRRollMsgType cannot be repeated;
+仅在 @\messageEnable 为YES, 并且在设置的时间间隔内有效。支持的黑名单的APP列表，ZRRollMsgType不能重复;</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *rollMsgList</Declaration>
+			
+			
+			<Anchor>//api/name/rollMsgList</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZRMesgPush/rollMsgList</TokenIdentifier>
+			<Abstract type="html">Valid only if @ \ messageEnable is YES, and at the set time interval. List of supported blacklist apps, ZRRollMsgType cannot be repeated;
+仅在 @\messageEnable 为YES, 并且在设置的时间间隔内有效。支持的黑名单的APP列表，ZRRollMsgType不能重复;</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *rollMsgList</Declaration>
+			
+			
+			<Anchor>//api/name/rollMsgList</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZRMesgPush/rollMsgList</TokenIdentifier>
+			<Abstract type="html">Valid only if @ \ messageEnable is YES, and at the set time interval. List of supported blacklist apps, ZRRollMsgType cannot be repeated;
+仅在 @\messageEnable 为YES, 并且在设置的时间间隔内有效。支持的黑名单的APP列表，ZRRollMsgType不能重复;</Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *rollMsgList</Declaration>
+			
+			
+			<Anchor>//api/name/rollMsgList</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

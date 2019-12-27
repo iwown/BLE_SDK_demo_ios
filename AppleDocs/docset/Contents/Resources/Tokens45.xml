@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/Heartbeats.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/Heartbeats</TokenIdentifier>
+			<Abstract type="html">Apply protocol heartbeat to inform the device status</Abstract>
+			<DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HeartbeatsOn</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>HeartbeatsOn</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="45"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HeartbeatsOff</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>HeartbeatsOff</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="45"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

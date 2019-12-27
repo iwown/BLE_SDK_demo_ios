@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/SD_TYPE.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/SD_TYPE</TokenIdentifier>
+			<Abstract type="html">Data types for different protocol communications</Abstract>
+			<DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="49"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_Invalid</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_Invalid</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_FIRST</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_FIRST</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_SPORT</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_SPORT</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_SLEEP</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_SLEEP</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_HEART_RATE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_HEART_RATE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_ECG</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_ECG</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_BLOOD_PRESSURE</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_BLOOD_PRESSURE</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_STEP</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_STEP</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_DATA_INFO</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_DATA_INFO</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_GNSS_SEGMENT</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_GNSS_SEGMENT</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_GNSS_REAL_TIME</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_GNSS_REAL_TIME</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_DATA_NORMAL</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_DATA_NORMAL</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_DATA_SUMMARY</TokenIdentifier>
+            <Abstract type="html">SDTYPESPORT&amp;amp;&amp;amp;
+                              SDTYPESLEEP(IF Support)&amp;amp;&amp;amp;
+                              SDTYPEHEART_RATE(IF Support)</Abstract>
+            <Declaration>SD_TYPE_DATA_SUMMARY</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/SD_TYPE_LAST</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>SD_TYPE_LAST</Declaration>
+            
+            <DeclaredIn>AutumnHeader.h</DeclaredIn>
+            
+            <NodeRef refid="49"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

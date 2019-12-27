@@ -1,0 +1,3096 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>BLESolstice Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">AutumnTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">iwown</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addContacts:">- addContacts:</option>
+		
+		<option value="//api/name/addSpecialList:">- addSpecialList:</option>
+		
+		<option value="//api/name/clearAllClocks">- clearAllClocks</option>
+		
+		<option value="//api/name/clearAllContacts">- clearAllContacts</option>
+		
+		<option value="//api/name/clearAllSchedules">- clearAllSchedules</option>
+		
+		<option value="//api/name/closeSchedule:">- closeSchedule:</option>
+		
+		<option value="//api/name/debindFromSystem">- debindFromSystem</option>
+		
+		<option value="//api/name/deviceUpgrade">- deviceUpgrade</option>
+		
+		<option value="//api/name/exchangeANCsState:">- exchangeANCsState:</option>
+		
+		<option value="//api/name/feelMotor:">- feelMotor:</option>
+		
+		<option value="//api/name/getConnectedPeriphral">- getConnectedPeriphral</option>
+		
+		<option value="//api/name/getConnectionStatus">- getConnectionStatus</option>
+		
+		<option value="//api/name/getDataStoreDate">- getDataStoreDate</option>
+		
+		<option value="//api/name/pushStr:">- pushStr:</option>
+		
+		<option value="//api/name/readAlarmClocks:">- readAlarmClocks:</option>
+		
+		<option value="//api/name/readBLESign">- readBLESign</option>
+		
+		<option value="//api/name/readBLESpeedMode">- readBLESpeedMode</option>
+		
+		<option value="//api/name/readContacts">- readContacts</option>
+		
+		<option value="//api/name/readCustomOptions">- readCustomOptions</option>
+		
+		<option value="//api/name/readDNDModeInfo">- readDNDModeInfo</option>
+		
+		<option value="//api/name/readDeviceBattery">- readDeviceBattery</option>
+		
+		<option value="//api/name/readDeviceInfo">- readDeviceInfo</option>
+		
+		<option value="//api/name/readDeviceOption">- readDeviceOption</option>
+		
+		<option value="//api/name/readEHRWParam">- readEHRWParam</option>
+		
+		<option value="//api/name/readGNSSParameter">- readGNSSParameter</option>
+		
+		<option value="//api/name/readMessagePush">- readMessagePush</option>
+		
+		<option value="//api/name/readPersonalInfo">- readPersonalInfo</option>
+		
+		<option value="//api/name/readSchedule:">- readSchedule:</option>
+		
+		<option value="//api/name/readScheduleInfo:">- readScheduleInfo:</option>
+		
+		<option value="//api/name/readSedentary">- readSedentary</option>
+		
+		<option value="//api/name/readSportTargets">- readSportTargets</option>
+		
+		<option value="//api/name/readSupportMotorCount">- readSupportMotorCount</option>
+		
+		<option value="//api/name/readSupportSports">- readSupportSports</option>
+		
+		<option value="//api/name/readTargetOnceDay">- readTargetOnceDay</option>
+		
+		<option value="//api/name/readTime">- readTime</option>
+		
+		<option value="//api/name/rebootDevice">- rebootDevice</option>
+		
+		<option value="//api/name/removeContacts:">- removeContacts:</option>
+		
+		<option value="//api/name/setAlarmClock:">- setAlarmClock:</option>
+		
+		<option value="//api/name/setAlarmClocks:andSchedules:">- setAlarmClocks:andSchedules:</option>
+		
+		<option value="//api/name/setBLESign:">- setBLESign:</option>
+		
+		<option value="//api/name/setBLESpeedMode:">- setBLESpeedMode:</option>
+		
+		<option value="//api/name/setBleConnectStatus">- setBleConnectStatus</option>
+		
+		<option value="//api/name/setCustomOptions:">- setCustomOptions:</option>
+		
+		<option value="//api/name/setDNDMode:">- setDNDMode:</option>
+		
+		<option value="//api/name/setDeviceOption:">- setDeviceOption:</option>
+		
+		<option value="//api/name/setEHRWParam:">- setEHRWParam:</option>
+		
+		<option value="//api/name/setGNSSParameter:">- setGNSSParameter:</option>
+		
+		<option value="//api/name/setKeyNotify:">- setKeyNotify:</option>
+		
+		<option value="//api/name/setMessagePush:">- setMessagePush:</option>
+		
+		<option value="//api/name/setMotors:">- setMotors:</option>
+		
+		<option value="//api/name/setPersonalInfo:">- setPersonalInfo:</option>
+		
+		<option value="//api/name/setRecognitionParams:">- setRecognitionParams:</option>
+		
+		<option value="//api/name/setSchedule:">- setSchedule:</option>
+		
+		<option value="//api/name/setSedentary:">- setSedentary:</option>
+		
+		<option value="//api/name/setSportTarget:">- setSportTarget:</option>
+		
+		<option value="//api/name/setTargetOnceDay:">- setTargetOnceDay:</option>
+		
+		<option value="//api/name/setWeather:">- setWeather:</option>
+		
+		<option value="//api/name/startEpoUpgrade">- startEpoUpgrade</option>
+		
+		<option value="//api/name/startSpecialData:">- startSpecialData:</option>
+		
+		<option value="//api/name/startSpecialData:withDate:">- startSpecialData:withDate:</option>
+		
+		<option value="//api/name/startSpecialData:withDate:startSeq:endSeq:">- startSpecialData:withDate:startSeq:endSeq:</option>
+		
+		<option value="//api/name/stopSpecialData:">- stopSpecialData:</option>
+		
+		<option value="//api/name/syscTime:">- syscTime:</option>
+		
+		<option value="//api/name/syscTimeAtOnce">- syscTimeAtOnce</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">BLESolstice Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Conforms to</th>
+	<td>CBPeripheralDelegate<br />NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>BLESolstice.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Communication agent, holding peripheral connection object, make a protocol conversion between the app and the device, so that the API is easier to understand than the binary.
+All api are suitable for the scene, not all devices support all api, if your device does not support your api call, you will get an NSError or in the console to see the &ldquo;device does not support&rdquo; log</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/getConnectedPeriphral" title="getConnectedPeriphral"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getConnectedPeriphral">&ndash;&nbsp;getConnectedPeriphral</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method can help you to get that Device object you are connected to.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (CBPeripheral *)getConnectedPeriphral</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Returns as a CBPeripheral object</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readDeviceInfo" title="readDeviceInfo"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readDeviceInfo">&ndash;&nbsp;readDeviceInfo</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read device Info. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readDeviceInfo</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readDeviceBattery" title="readDeviceBattery"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readDeviceBattery">&ndash;&nbsp;readDeviceBattery</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read device battery. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readDeviceBattery</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/rebootDevice" title="rebootDevice"></a>
+	<h3 class="method-title"><code><a href="#//api/name/rebootDevice">&ndash;&nbsp;rebootDevice</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Reboot device .Special device supported</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)rebootDevice</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deviceUpgrade" title="deviceUpgrade"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deviceUpgrade">&ndash;&nbsp;deviceUpgrade</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Upgrade device for DFU ,device will enter DFU state while received this cmd</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deviceUpgrade</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/debindFromSystem" title="debindFromSystem"></a>
+	<h3 class="method-title"><code><a href="#//api/name/debindFromSystem">&ndash;&nbsp;debindFromSystem</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Device debind from iPhone system</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)debindFromSystem</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/exchangeANCsState:" title="exchangeANCsState:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/exchangeANCsState:">&ndash;&nbsp;exchangeANCsState:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Exchange ANCs information between Device and App
+isActive: Enter YES when app is active;</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)exchangeANCsState:(BOOL)<em>isActive</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setDNDMode:" title="setDNDMode:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setDNDMode:">&ndash;&nbsp;setDNDMode:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Set don&rsquo;t disurb model</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setDNDMode:(ZRDNDModel *)<em>dndModel</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readDNDModeInfo" title="readDNDModeInfo"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readDNDModeInfo">&ndash;&nbsp;readDNDModeInfo</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read DND model. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readDNDModeInfo</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setWeather:" title="setWeather:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setWeather:">&ndash;&nbsp;setWeather:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Sent weather info to device for show in screen ,special devices support</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setWeather:(ZRWeather *)<em>weather</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/syscTimeAtOnce" title="syscTimeAtOnce"></a>
+	<h3 class="method-title"><code><a href="#//api/name/syscTimeAtOnce">&ndash;&nbsp;syscTimeAtOnce</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="#//api/name/syscTime:">syscTime:</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)syscTimeAtOnce</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/syscTime:">- syscTime:</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/syscTime:" title="syscTime:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/syscTime:">&ndash;&nbsp;syscTime:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Synchronization time</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)syscTime:(NSDate *)<em>date</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>date</code></th>
+						<td><p>The date your need sysc in device.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readTime" title="readTime"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readTime">&ndash;&nbsp;readTime</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read device dateTime. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readTime</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBLESpeedMode:" title="setBLESpeedMode:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBLESpeedMode:">&ndash;&nbsp;setBLESpeedMode:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Set app and watch sync speed</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setBLESpeedMode:(BLECommunicateMode)<em>mode</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readBLESpeedMode" title="readBLESpeedMode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readBLESpeedMode">&ndash;&nbsp;readBLESpeedMode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read ble speed mode. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readBLESpeedMode</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBLESign:" title="setBLESign:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBLESign:">&ndash;&nbsp;setBLESign:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Set BLE sign</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setBLESign:(BLEParamSign)<em>sign</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readBLESign" title="readBLESign"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readBLESign">&ndash;&nbsp;readBLESign</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read ble sign type. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readBLESign</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAlarmClock:" title="setAlarmClock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAlarmClock:">&ndash;&nbsp;setAlarmClock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! The device reserves a fixed number of alarm settings (usually eight), this method allows you to set the alarm one by one, the id of the alarm is a continuous natural number, do not exceed the allowable range, if the device has an alarm id 0x07, This is you add an alarm id is still 0x07, which is the total number of alarm clock in the device is still 1, that 0x07 alarm content will be your last set.
+Special device support, device in &lt;BLEProtocol_Colorful> did not support this method ,use method <a href="#//api/name/setAlarmClocks:andSchedules:">setAlarmClocks:andSchedules:</a> instead.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setAlarmClock:(ZRClock *)<em>clockModel</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>clockModel</code></th>
+						<td><p>alarm clock object.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAlarmClocks:andSchedules:" title="setAlarmClocks:andSchedules:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAlarmClocks:andSchedules:">&ndash;&nbsp;setAlarmClocks:andSchedules:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Because of the protocol, all alarms and schedules are written in one time in the same command. With this method, you need to remember the alarms and schedules you have set. Each time this method is called, the new alarm is written And schedule settings, all previous settings will be cleared. Communication reasons, this method takes a long time, when used, please note that the operation of the time interval.</li>
+<li>This method is designed for <a href="../Constants/BLEProtocol.html">BLEProtocol</a><em>Colorful> devices, but is compatible with other devices and is not recommended for use if your device is not <a href="../Constants/BLEProtocol.html">BLEProtocol</a></em>Colorful</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setAlarmClocks:(NSArray&lt;ZRClock*&gt; *)<em>clockModels</em> andSchedules:(NSArray&lt;ZRSchedule*&gt; *)<em>schedules</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>clockModels</code></th>
+						<td><p>All clocks method, you should been set less than 4 in BLEProtocol_Colorful, less than 8 in other protocol type device.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>schedules</code></th>
+						<td><p>You are advised to write no more than 4 calendars</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readAlarmClocks:" title="readAlarmClocks:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readAlarmClocks:">&ndash;&nbsp;readAlarmClocks:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Read alarm clocks from device. If you had sent nil to param racResponse,you will got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readAlarmClocks:(ReadAlarmClockResponse)<em>racResponse</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>racResponse</code></th>
+						<td><p>Block for read response .</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearAllClocks" title="clearAllClocks"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearAllClocks">&ndash;&nbsp;clearAllClocks</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Clear all clocks in smartband</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)clearAllClocks</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setSchedule:" title="setSchedule:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setSchedule:">&ndash;&nbsp;setSchedule:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Set single <a href="../Classes/ZRSchedule.html">ZRSchedule</a> ,special device support.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setSchedule:(ZRSchedule *)<em>sModel</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/closeSchedule:" title="closeSchedule:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/closeSchedule:">&ndash;&nbsp;closeSchedule:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Close single <a href="../Classes/ZRSchedule.html">ZRSchedule</a> ,special device support.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)closeSchedule:(ZRSchedule *)<em>sModel</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readScheduleInfo:" title="readScheduleInfo:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readScheduleInfo:">&ndash;&nbsp;readScheduleInfo:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Read schedule info ,If you had sent nil to param rsResponse, you will got the response in method readResponseFromDevice:</li>
+<li>dict[@&ldquo;cur_num&rdquo;] 当前可配置日程数量
+remaining number of schedule could be set.</li>
+<li>dict[@&ldquo;all_num&rdquo;]:日程最大数量
+max number of schedule we can configure</li>
+<li>dict[@&ldquo;day_num&rdquo;]: 每天可配置日程数量
+max number of schedule could  be configured for one day.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readScheduleInfo:(ReadSheduleResponse)<em>rsResponse</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rsResponse</code></th>
+						<td><p>Block for read schedule info.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readSchedule:" title="readSchedule:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readSchedule:">&ndash;&nbsp;readSchedule:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read special schedule model. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readSchedule:(ZRSchedule *)<em>sModel</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearAllSchedules" title="clearAllSchedules"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearAllSchedules">&ndash;&nbsp;clearAllSchedules</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Clear all ,there is no way to delete one schedule model ,your should call this method if you need remove some invalid calendars for set more</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)clearAllSchedules</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setSedentary:" title="setSedentary:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setSedentary:">&ndash;&nbsp;setSedentary:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Set sedentary warning</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setSedentary:(ZRSedentary *)<em>sedentaryModel</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readSedentary" title="readSedentary"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readSedentary">&ndash;&nbsp;readSedentary</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read sendentary. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readSedentary</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setDeviceOption:" title="setDeviceOption:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setDeviceOption:">&ndash;&nbsp;setDeviceOption:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Setting device option ,Some bracelets only support some settings</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setDeviceOption:(ZRHWOption *)<em>deOption</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readDeviceOption" title="readDeviceOption"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readDeviceOption">&ndash;&nbsp;readDeviceOption</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read device option. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readDeviceOption</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readSupportSports" title="readSupportSports"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readSupportSports">&ndash;&nbsp;readSupportSports</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Get sport type list that device support. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readSupportSports</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setSportTarget:" title="setSportTarget:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setSportTarget:">&ndash;&nbsp;setSportTarget:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Add a moving target to the device, and then you can see the type of motion you added on the device&rsquo;s exercise screen</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setSportTarget:(ZRSportTarget *)<em>st</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readSportTargets" title="readSportTargets"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readSportTargets">&ndash;&nbsp;readSportTargets</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read Sport target in device. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readSportTargets</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addContacts:" title="addContacts:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addContacts:">&ndash;&nbsp;addContacts:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Add contacts to the device ,special device support.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addContacts:(ZRContacts *)<em>cModels</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readContacts" title="readContacts"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readContacts">&ndash;&nbsp;readContacts</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readContacts</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeContacts:" title="removeContacts:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeContacts:">&ndash;&nbsp;removeContacts:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Remove</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeContacts:(NSArray&lt;ZRContacts*&gt; *)<em>cModels</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearAllContacts" title="clearAllContacts"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearAllContacts">&ndash;&nbsp;clearAllContacts</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Clear</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)clearAllContacts</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setPersonalInfo:" title="setPersonalInfo:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setPersonalInfo:">&ndash;&nbsp;setPersonalInfo:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Set personal info .The device requires you to pass in actual wearer information to help correct the gait algorithm</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setPersonalInfo:(ZRPersonal *)<em>personalModel</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readPersonalInfo" title="readPersonalInfo"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readPersonalInfo">&ndash;&nbsp;readPersonalInfo</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read personal info. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readPersonalInfo</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setEHRWParam:" title="setEHRWParam:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setEHRWParam:">&ndash;&nbsp;setEHRWParam:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Heart rate alarm parameters ，Special device support</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setEHRWParam:(ZREHRWP *)<em>ehrwp</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readEHRWParam" title="readEHRWParam"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readEHRWParam">&ndash;&nbsp;readEHRWParam</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readEHRWParam</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setGNSSParameter:" title="setGNSSParameter:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setGNSSParameter:">&ndash;&nbsp;setGNSSParameter:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set GNSS location information, this function is aided &lt;BLEProtocol_Watch> positioning, other devices do not need to deal with it.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setGNSSParameter:(ZRGnssParam *)<em>gp</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readGNSSParameter" title="readGNSSParameter"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readGNSSParameter">&ndash;&nbsp;readGNSSParameter</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readGNSSParameter</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setTargetOnceDay:" title="setTargetOnceDay:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setTargetOnceDay:">&ndash;&nbsp;setTargetOnceDay:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set the target number of days and target calories on the day, a ring indicating the progress will be displayed on the home page of the device. If the device supports this method</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setTargetOnceDay:(ZRTargetOnceDay *)<em>target</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readTargetOnceDay" title="readTargetOnceDay"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readTargetOnceDay">&ndash;&nbsp;readTargetOnceDay</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readTargetOnceDay</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setMessagePush:" title="setMessagePush:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setMessagePush:">&ndash;&nbsp;setMessagePush:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set incoming call reminder and message reminder</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setMessagePush:(ZRMesgPush *)<em>messagePush</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readMessagePush" title="readMessagePush"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readMessagePush">&ndash;&nbsp;readMessagePush</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readMessagePush</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pushStr:" title="pushStr:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pushStr:">&ndash;&nbsp;pushStr:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Push string, Example: [ZRBLE pushStr:@&ldquo;This is a test string&rdquo;];</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)pushStr:(NSString *)<em>str</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addSpecialList:" title="addSpecialList:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addSpecialList:">&ndash;&nbsp;addSpecialList:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Add a message blacklists .</li>
+<li>The contents of the blacklist agreement are as follows:</li>
+<li>The app writes the corresponding application package name (such as WeChat) to the hand ring through a specific protocol. The wristband performs blacklist filtering by using the package name from the data information received by the ANCS, and the application message that adds the blacklist is no longer displayed on the handband interface on.</li>
+<li>Notes:</li>
+<li>. Due to limited bracelet space, only four blacklist applications are currently supported</li>
+<li>. The factory does not set a blacklist</li>
+<li>. Some custom firmware should be set to white list client requirements, iwown common version is set to blacklist</li>
+<li>Set the blacklist protocol as follows:</li>
+<li>Add
+ <em>           &ldquo;com.tencent.xin &rdquo;- WeChat
+ </em>           "com.tencent.mqq" - QQ
+ <em>           "com.apple.mobilephone" - Incoming call
+ </em>           "com.apple.MobileSMS" - message</li>
+<li>For more build identify for third part apps. use 【ios-deploy &ndash;id [udid] &ndash;list_bundle_id 】in Ternimal got them. Links:<a href="http://www.bijishequ.com/detail/430052">http://www.bijishequ.com/detail/430052</a></li>
+<li><pre><code>NSArray * arr = @ [@ &ldquo;com.apple.mobilephone&rdquo;,
+                               @ &ldquo;com.apple.MobileSMS&rdquo;
+                               @ &ldquo;com.tencent.mqq&rdquo;,
+                               @ &ldquo;com.tencent.xin&rdquo;];
+            NS
+            for (int i = 0; i &lt;arr.count; i ++) {
+                ZeronerRoll * zRoll = [[ZeronerRoll alloc] init];
+                zRoll.rId = 100 + i;
+                zRoll.rollName = arr [i];
+                [mArr addObject: zRoll];
+            }
+            [[BLELib3 shareInstance] addSpecialList: mArr];</li>
+<li></code></pre></li>
+<li>. Read the blacklist application information</li>
+<li><pre><code>[[BLELib3 shareInstance] readAllList];</code></pre></li>
+<li>. Clear blacklist</li>
+<li><pre><code>[[BLELib3 shareInstance] clearAllLists];</code></pre></li>
+<li>. Read the contents of the blacklist</li>
+<li><pre><code>NSMutableArray * mArr = [NSMutableArray arrayWithCapacity:0];
+for (int i = 0; i &lt;3; i + = 2) {
+ZeronerRoll * zRoll = [[ZeronerRoll alloc] init];
+zRoll.rId = 101 + i;
+    [mArr addObject: zRoll];
+}
+[[BLEShareInstance bleSolstice] <a href="#//api/name/removeSpecialList:">removeSpecialList:</a> mArr];</li>
+<li></code></pre></li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addSpecialList:(NSArray&lt;ZRRoll*&gt; *)<em>sLists</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sLists</code></th>
+						<td><p>The blaklists</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setKeyNotify:" title="setKeyNotify:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setKeyNotify:">&ndash;&nbsp;setKeyNotify:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>setKeyNotify 进入智拍模式设置1. 退出智拍模式设置0   // 通知拍照从 - (void)notifyToTakePicture; 获得
+call this method to become smart photo or exits. set value 1 to active and set 0 to exit; get photoes @see - (void)notifyToTakePicture;</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setKeyNotify:(BKeyNotify)<em>keyNotify</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setMotors:" title="setMotors:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setMotors:">&ndash;&nbsp;setMotors:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set the vibration mode</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setMotors:(NSArray&lt;ZRMotor*&gt; *)<em>motors</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readSupportMotorCount" title="readSupportMotorCount"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readSupportMotorCount">&ndash;&nbsp;readSupportMotorCount</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read count of motor type. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readSupportMotorCount</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/feelMotor:" title="feelMotor:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/feelMotor:">&ndash;&nbsp;feelMotor:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Experience the vibration&lt;##></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)feelMotor:(ZRMotor *)<em>motor</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setRecognitionParams:" title="setRecognitionParams:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setRecognitionParams:">&ndash;&nbsp;setRecognitionParams:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Set motion recognition parameters, transparent protocols, special equipment support</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setRecognitionParams:(ZRAction *)<em>action</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCustomOptions:" title="setCustomOptions:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCustomOptions:">&ndash;&nbsp;setCustomOptions:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Custom device function protocol, special device support</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setCustomOptions:(ZRCOption *)<em>cOption</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/readCustomOptions" title="readCustomOptions"></a>
+	<h3 class="method-title"><code><a href="#//api/name/readCustomOptions">&ndash;&nbsp;readCustomOptions</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Read. Got the response in method readResponseFromDevice:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)readCustomOptions</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startEpoUpgrade" title="startEpoUpgrade"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startEpoUpgrade">&ndash;&nbsp;startEpoUpgrade</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>&lt;BLEProtocol_Watch> The device&rsquo;s EPO (Assisted Positioning Protocol) upgrade is used to assist the device in positioning. When the device receives this command, it will trigger BTNotify communication and implement the BTNotify protocol protocol to upgrade the EPO file</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)startEpoUpgrade</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBleConnectStatus" title="setBleConnectStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBleConnectStatus">&ndash;&nbsp;setBleConnectStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Devices that implement &lt;BLEProtocol_Colorful> need to set the state of the communication over the lBLE connection in three states, direct, iOS, Android; only the fact that the state is iOS is communicable in our case, and the rest are invalid . Calling the setBleConnectStatus method attempts to set the connection state parameter, and the <a href="#//api/name/getConnectionStatus">getConnectionStatus</a> party can read the connection parameter. The return value is available in the responseOfConnectStatus: method.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setBleConnectStatus</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getConnectionStatus" title="getConnectionStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getConnectionStatus">&ndash;&nbsp;getConnectionStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! responseOfConnectStatus:&lt;##></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getConnectionStatus</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getDataStoreDate" title="getDataStoreDate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getDataStoreDate">&ndash;&nbsp;getDataStoreDate</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method will read the device&rsquo;s data, you can get the returned data info in the updateNormalHealthDataInfo: method, you can sync the data you want to get based on the data</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getDataStoreDate</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startSpecialData:" title="startSpecialData:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startSpecialData:">&ndash;&nbsp;startSpecialData:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Mehtod to sysc data .</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)startSpecialData:(SD_TYPE)<em>sdType</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/startSpecialData:withDate:startSeq:endSeq:">- startSpecialData:withDate:startSeq:endSeq:</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startSpecialData:withDate:" title="startSpecialData:withDate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startSpecialData:withDate:">&ndash;&nbsp;startSpecialData:withDate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! Mehtod to sysc data .</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)startSpecialData:(SD_TYPE)<em>sdType</em> withDate:(NSDate *)<em>date</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/startSpecialData:withDate:startSeq:endSeq:">- startSpecialData:withDate:startSeq:endSeq:</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startSpecialData:withDate:startSeq:endSeq:" title="startSpecialData:withDate:startSeq:endSeq:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startSpecialData:withDate:startSeq:endSeq:">&ndash;&nbsp;startSpecialData:withDate:startSeq:endSeq:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Synchronize the data method, incoming data from the updateNormalHealthDataInfo: method to get your specified time or type of data, the data is packaged in a fixed manner, based on the amount of data, some of the data we are packaged together, But there are some data as a separate data package</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)startSpecialData:(SD_TYPE)<em>sdType</em> withDate:(NSDate *)<em>date</em> startSeq:(NSInteger)<em>startSeq</em> endSeq:(NSInteger)<em>endSeq</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sdType</code></th>
+						<td><p>Type</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>date</code></th>
+						<td><p>Special date .This version of the SDK which we put the time of the data as an important dimension, many data are packaged based on the date. However, some bracelets do not support this. If you do not get a valid date, you can pass in nil when syncing data or we consider this case, which is also valid on certain devices. Or you can use method without this parameter like <a href="#//api/name/startSpecialData:">startSpecialData:</a></p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>startSeq</code></th>
+						<td><p>Some devices rely on Seq for their data continuity and require that they be passed in when they are synchronized. If you get startSeq &amp; endSeq in your device info is 0, this means your device does not need this seq, Please also 0 value as a parameter to synchronize data, which is ok, or you can use the method does not need to pass in this parameter</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>endSeq</code></th>
+						<td><p>Similar to startSeq.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/startSpecialData:withDate:">- startSpecialData:withDate:</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stopSpecialData:" title="stopSpecialData:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stopSpecialData:">&ndash;&nbsp;stopSpecialData:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>! SDK internal use, do not need to use it</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)stopSpecialData:(SD_TYPE)<em>sdType</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">BLESolstice.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 iwown. All rights reserved. Updated: 2018-03-15</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

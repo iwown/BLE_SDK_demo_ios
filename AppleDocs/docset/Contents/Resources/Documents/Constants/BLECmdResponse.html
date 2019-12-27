@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>BLECmdResponse Constants Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">AutumnTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">iwown</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">BLECmdResponse Constants Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>AutumnHeader.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+
+                    
+                    <h3 class="subsubtitle method-title">BLECmdResponse</h3>
+                    
+					
+					<div class="section section-overview">
+                        <p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+					</div>
+					
+					
+                    <div class="section">
+                        <!-- display enum values -->
+                        
+                        <h4 class="method-subtitle">Definition</h4>
+                        <code>typedef NS_ENUM(NSInteger, BLECmdResponse ) {<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_GET_INFORMATION</a> = 0 x00,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_GET_BATTERY</a> = 0 x01,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_RESET</a> = 0 x02,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_UPDATE</a> = 0 x03,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_REQ_REBOND</a> = 0 x04,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_DO_REBOND</a> = 0 x05,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_DND_MODE</a> = 0 x06,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_WEATHER</a> = 0 x07,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_SYNCDATA</a> = 0 x08,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_HEARTBEAT_SIGNAL</a> = 0 x09,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DEVICE_HW_OPTION_SUPPERT</a> = 0 x0a,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_SET_TIME</a> = 0 x10,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_GET_TIME</a> = 0 x11,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_SET_BLE</a> = 0 x12,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_GET_BLE</a> = 0 x13,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_SET_AC</a> = 0 x14,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_GET_AC</a> = 0 x15,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_SET_NMA</a> = 0 x16,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_GET_NMA</a> = 0 x17,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_SET_HW_OPTION</a> = 0 x18,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_GET_HW_OPTION</a> = 0 x19,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_GET_SPORT_LIST</a> = 0 x1a,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_SET_SPORT_TARGET</a> = 0 x1b,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_GET_SPORT_TARGET</a> = 0 x1c,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_SET_SCHEDULE</a> = 0 x1d,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_GET_SCHEDULE</a> = 0 x1e,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_GET_SCHEDULE_INFO</a> = 0 x1e0,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CONFIG_SGET_CONTACTS</a> = 0 x1f,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_SET_BODY_PARAM</a> = 0 x20,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_GET_BODY_PARAM</a> = 0 x21,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_CLEAR_ALL</a> = 0 x22,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_START_GET_DAY_DATA</a> = 0 x23,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_STOP_GET_DAY_DATA</a> = 0 x24,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_SET_GNSS</a> = 0 x25,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_GET_GNSS</a> = 0 x26,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_GET_CUR_DAY_DATA</a> = 0 x27,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_GET_SPORTDATA</a> = 0 x28,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_GET_CUR_SPORTDATA</a> = 0 x29,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_GET_SLEEP_TEST</a> = 0 x2a,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_DATALOG_GET_SMF_TEST</a> = 0 x2b,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_MSG_UPLOAD</a> = 0 x30,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_MSG_SINGLE_DOWNLOAD</a> = 0 x31,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_MSG_MULTI_DOWNLOAD_START</a> = 0 x32,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_MSG_MULTI_DOWNLOAD_CONTINUE</a> = 0 x33,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_MSG_MULTI_DOWNLOAD_END</a> = 0 x34,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_MSG_SPECIAL_LIST_SET</a> = 0 x37,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_MSG_SPECIAL_LIST_GET</a> = 0 x38,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_MSG_SPECIAL_LIST_GET_INFO</a> = 0 x380,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CTRL_KEYNOTIFY</a> = 0 x40,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CTRL_MOTOR</a> = 0 x41,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CTRL_SENSOR</a> = 0 x42,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CTRL_RECOGNITION</a> = 0 x43,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CTRL_SET_CUSTOM_OPTION</a> = 0 x4e,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CTRL_GET_CUSTOM_OPTION</a> = 0 x4f,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_HEARTRATE_PARAM</a> = 0 x50,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_HEARTRATE_DATA</a> = 0 x51,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_HEARTRATE_UPDATE</a> = 0 x52,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_HEARTRATE_HOURS_DATA</a> = 0 x53,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_HEALTH_DAY_DATA</a> = 0 x60,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_HEALTH_MINUTE_DATA</a> = 0 x61,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_GNSS_MINUTE_DATA</a> = 0 x62,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_GNSS_MINUTE_DATA_TEST</a> = 0 x63,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_CLOCK_AND_SCHEDULE</a> = 0 x84,<br>
+                            
+                            &nbsp;&nbsp; <a href="">CMD_RESPONSE_USERINFO_GET</a> = 0 x85,<br>
+                            
+                            };</code>
+                    
+                    </div>
+                    
+                    <div class="section section-methods">
+                        <h4 class="method-subtitle">Constants</h4>
+                        <dl class="termdef">
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_GET_INFORMATION"></a><code>CMD_RESPONSE_DEVICE_GET_INFORMATION</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_GET_BATTERY"></a><code>CMD_RESPONSE_DEVICE_GET_BATTERY</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_RESET"></a><code>CMD_RESPONSE_DEVICE_RESET</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_UPDATE"></a><code>CMD_RESPONSE_DEVICE_UPDATE</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_REQ_REBOND"></a><code>CMD_RESPONSE_DEVICE_REQ_REBOND</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_DO_REBOND"></a><code>CMD_RESPONSE_DEVICE_DO_REBOND</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_DND_MODE"></a><code>CMD_RESPONSE_DEVICE_DND_MODE</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_WEATHER"></a><code>CMD_RESPONSE_DEVICE_WEATHER</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_SYNCDATA"></a><code>CMD_RESPONSE_DEVICE_SYNCDATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_HEARTBEAT_SIGNAL"></a><code>CMD_RESPONSE_DEVICE_HEARTBEAT_SIGNAL</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DEVICE_HW_OPTION_SUPPERT"></a><code>CMD_RESPONSE_DEVICE_HW_OPTION_SUPPERT</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_SET_TIME"></a><code>CMD_RESPONSE_CONFIG_SET_TIME</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_GET_TIME"></a><code>CMD_RESPONSE_CONFIG_GET_TIME</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_SET_BLE"></a><code>CMD_RESPONSE_CONFIG_SET_BLE</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_GET_BLE"></a><code>CMD_RESPONSE_CONFIG_GET_BLE</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_SET_AC"></a><code>CMD_RESPONSE_CONFIG_SET_AC</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_GET_AC"></a><code>CMD_RESPONSE_CONFIG_GET_AC</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_SET_NMA"></a><code>CMD_RESPONSE_CONFIG_SET_NMA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_GET_NMA"></a><code>CMD_RESPONSE_CONFIG_GET_NMA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_SET_HW_OPTION"></a><code>CMD_RESPONSE_CONFIG_SET_HW_OPTION</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_GET_HW_OPTION"></a><code>CMD_RESPONSE_CONFIG_GET_HW_OPTION</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_GET_SPORT_LIST"></a><code>CMD_RESPONSE_CONFIG_GET_SPORT_LIST</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_SET_SPORT_TARGET"></a><code>CMD_RESPONSE_CONFIG_SET_SPORT_TARGET</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_GET_SPORT_TARGET"></a><code>CMD_RESPONSE_CONFIG_GET_SPORT_TARGET</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_SET_SCHEDULE"></a><code>CMD_RESPONSE_CONFIG_SET_SCHEDULE</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_GET_SCHEDULE"></a><code>CMD_RESPONSE_CONFIG_GET_SCHEDULE</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_GET_SCHEDULE_INFO"></a><code>CMD_RESPONSE_CONFIG_GET_SCHEDULE_INFO</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CONFIG_SGET_CONTACTS"></a><code>CMD_RESPONSE_CONFIG_SGET_CONTACTS</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_SET_BODY_PARAM"></a><code>CMD_RESPONSE_DATALOG_SET_BODY_PARAM</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_GET_BODY_PARAM"></a><code>CMD_RESPONSE_DATALOG_GET_BODY_PARAM</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_CLEAR_ALL"></a><code>CMD_RESPONSE_DATALOG_CLEAR_ALL</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_START_GET_DAY_DATA"></a><code>CMD_RESPONSE_DATALOG_START_GET_DAY_DATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_STOP_GET_DAY_DATA"></a><code>CMD_RESPONSE_DATALOG_STOP_GET_DAY_DATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_SET_GNSS"></a><code>CMD_RESPONSE_DATALOG_SET_GNSS</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_GET_GNSS"></a><code>CMD_RESPONSE_DATALOG_GET_GNSS</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_GET_CUR_DAY_DATA"></a><code>CMD_RESPONSE_DATALOG_GET_CUR_DAY_DATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_GET_SPORTDATA"></a><code>CMD_RESPONSE_DATALOG_GET_SPORTDATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_GET_CUR_SPORTDATA"></a><code>CMD_RESPONSE_DATALOG_GET_CUR_SPORTDATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_GET_SLEEP_TEST"></a><code>CMD_RESPONSE_DATALOG_GET_SLEEP_TEST</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_DATALOG_GET_SMF_TEST"></a><code>CMD_RESPONSE_DATALOG_GET_SMF_TEST</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_MSG_UPLOAD"></a><code>CMD_RESPONSE_MSG_UPLOAD</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_MSG_SINGLE_DOWNLOAD"></a><code>CMD_RESPONSE_MSG_SINGLE_DOWNLOAD</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_MSG_MULTI_DOWNLOAD_START"></a><code>CMD_RESPONSE_MSG_MULTI_DOWNLOAD_START</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_MSG_MULTI_DOWNLOAD_CONTINUE"></a><code>CMD_RESPONSE_MSG_MULTI_DOWNLOAD_CONTINUE</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_MSG_MULTI_DOWNLOAD_END"></a><code>CMD_RESPONSE_MSG_MULTI_DOWNLOAD_END</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_MSG_SPECIAL_LIST_SET"></a><code>CMD_RESPONSE_MSG_SPECIAL_LIST_SET</code></dt>
+<dd>
+
+
+<p>*DEPRECATED_ATTRIBUTE
+     CMD_RESPONSE_MSG_MSG_SWITCH_SET = 0x35 ,
+     CMD_RESPONSE_MSG_MSG_SWITCH_GET = 0x36 ,</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_MSG_SPECIAL_LIST_GET"></a><code>CMD_RESPONSE_MSG_SPECIAL_LIST_GET</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_MSG_SPECIAL_LIST_GET_INFO"></a><code>CMD_RESPONSE_MSG_SPECIAL_LIST_GET_INFO</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CTRL_KEYNOTIFY"></a><code>CMD_RESPONSE_CTRL_KEYNOTIFY</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CTRL_MOTOR"></a><code>CMD_RESPONSE_CTRL_MOTOR</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CTRL_SENSOR"></a><code>CMD_RESPONSE_CTRL_SENSOR</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CTRL_RECOGNITION"></a><code>CMD_RESPONSE_CTRL_RECOGNITION</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CTRL_SET_CUSTOM_OPTION"></a><code>CMD_RESPONSE_CTRL_SET_CUSTOM_OPTION</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CTRL_GET_CUSTOM_OPTION"></a><code>CMD_RESPONSE_CTRL_GET_CUSTOM_OPTION</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_HEARTRATE_PARAM"></a><code>CMD_RESPONSE_HEARTRATE_PARAM</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_HEARTRATE_DATA"></a><code>CMD_RESPONSE_HEARTRATE_DATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_HEARTRATE_UPDATE"></a><code>CMD_RESPONSE_HEARTRATE_UPDATE</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_HEARTRATE_HOURS_DATA"></a><code>CMD_RESPONSE_HEARTRATE_HOURS_DATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_HEALTH_DAY_DATA"></a><code>CMD_RESPONSE_HEALTH_DAY_DATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_HEALTH_MINUTE_DATA"></a><code>CMD_RESPONSE_HEALTH_MINUTE_DATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_GNSS_MINUTE_DATA"></a><code>CMD_RESPONSE_GNSS_MINUTE_DATA</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_GNSS_MINUTE_DATA_TEST"></a><code>CMD_RESPONSE_GNSS_MINUTE_DATA_TEST</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_CLOCK_AND_SCHEDULE"></a><code>CMD_RESPONSE_CLOCK_AND_SCHEDULE</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="CMD_RESPONSE_USERINFO_GET"></a><code>CMD_RESPONSE_USERINFO_GET</code></dt>
+<dd>
+
+
+<p>BLECmdResponse
+pare with braceletCmd_Command_t。</p>
+
+
+
+
+
+    
+	<p>
+		Declared In <code class="declared-in-ref">AutumnHeader.h</code>.
+	</p>
+	
+</dd>
+                            
+                        </dl>
+                    </div>
+                    
+
+                    
+                    
+
+                    
+
+                    
+                    <div class="method-subsection declared-in-section">
+                        <h4 class="method-subtitle">Declared In</h4>
+                        <p><code class="declared-in-ref">AutumnHeader.h</code></p>
+                    </div>
+                    
+                    
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2018 iwown. All rights reserved. Updated: 2018-03-15</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/TempUnit.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/TempUnit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZRModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/Centigrade</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>Centigrade</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="51"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/Fahrenheit</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>Fahrenheit</Declaration>
+            
+            <DeclaredIn>ZRModel.h</DeclaredIn>
+            
+            <NodeRef refid="51"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>
