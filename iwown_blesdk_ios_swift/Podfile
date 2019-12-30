@@ -3,6 +3,6 @@ source 'https://github.com/cocoapods/specs.git'
 
 target 'iwown_blesdk_ios_swift' do
   use_frameworks!
-  pod 'BLE3Framework' 
+#  pod 'BLEMidAutumn'
 end
 

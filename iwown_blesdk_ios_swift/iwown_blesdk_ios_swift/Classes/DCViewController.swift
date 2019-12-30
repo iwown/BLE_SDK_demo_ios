@@ -38,18 +38,18 @@ class DCViewController: UIViewController {
     func initUI() {
         
         let rect:CGRect = CGRect(x:0, y:0, width:SCREEN_WIDTH, height:SCREEN_HEIGHT)
-        tableView = UITableView.init(frame: rect, style: UITableViewStyle.plain)
+        tableView = UITableView.init(frame: rect, style: UITableView.Style.plain)
         tableView?.dataSource = self
         tableView?.delegate = self
         self.view.addSubview(tableView!)
         
         let headerRect:CGRect = CGRect(x:0, y:0, width:SCREEN_WIDTH, height:50)
-        scanBtn = UIButton.init(type: UIButtonType.custom)
+        scanBtn = UIButton.init(type: UIButton.ButtonType.custom)
         scanBtn?.frame = headerRect
-        scanBtn?.setTitle("Start", for: UIControlState.normal)
-        scanBtn?.setTitleColor(UIColor.blue, for: UIControlState.normal)
-        scanBtn?.setTitleColor(UIColor.lightGray, for: UIControlState.highlighted)
-        scanBtn?.addTarget(self, action: #selector(DCViewController.scanDevice), for: UIControlEvents.touchUpInside)
+        scanBtn?.setTitle("Start", for: UIControl.State.normal)
+        scanBtn?.setTitleColor(UIColor.blue, for: UIControl.State.normal)
+        scanBtn?.setTitleColor(UIColor.lightGray, for: UIControl.State.highlighted)
+        scanBtn?.addTarget(self, action: #selector(DCViewController.scanDevice), for: UIControl.Event.touchUpInside)
         tableView?.tableHeaderView = scanBtn
     }
     
@@ -62,7 +62,9 @@ class DCViewController: UIViewController {
 
 extension DCViewController: BleDiscoverDelegate,BleConnectDelegate {
     func solsticeStopScan() {
-        self.tableView?.reloadData()
+        DispatchQueue.main.async {
+            self.tableView?.reloadData()
+        }
     }
     
     func solsticeDidDiscoverDevice(withMAC iwDevice: ZRBlePeripheral!) {
@@ -96,7 +98,7 @@ extension DCViewController: UITableViewDataSource,UITableViewDelegate {
         var cell: UITableViewCell? = nil
         cell = tableView.dequeueReusableCell(withIdentifier: reuseID)
         if(cell == nil){
-            cell = UITableViewCell.init(style: UITableViewCellStyle.value1, reuseIdentifier: reuseID)
+            cell = UITableViewCell.init(style: UITableViewCell.CellStyle.value1, reuseIdentifier: reuseID)
         }
         cell?.textLabel?.text=self.dataSource[indexPath.row].deviceName
         return cell!

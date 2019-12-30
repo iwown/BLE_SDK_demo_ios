@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,6 +27,31 @@
 		D649FF3420C66C9700101AD7 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF3320C66C9700101AD7 /* MoreViewController.swift */; };
 		D649FF3620C66CC100101AD7 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF3520C66CC100101AD7 /* DataViewController.swift */; };
 		D649FF3820C66CF800101AD7 /* BlackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649FF3720C66CF800101AD7 /* BlackListViewController.swift */; };
+		D6FC021223B7536E0086C64E /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01D423B7536E0086C64E /* GPBExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021323B7536E0086C64E /* GPBRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01D523B7536E0086C64E /* GPBRootObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021423B7536E0086C64E /* GPBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01D623B7536E0086C64E /* GPBDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021523B7536E0086C64E /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01D723B7536E0086C64E /* GPBMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021623B7536E0086C64E /* GPBWireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01D923B7536E0086C64E /* GPBWireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021723B7536E0086C64E /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01DA23B7536E0086C64E /* GPBUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021823B7536E0086C64E /* GPBExtensionInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01DB23B7536E0086C64E /* GPBExtensionInternals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021923B7536E0086C64E /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01DC23B7536E0086C64E /* GPBUnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021A23B7536E0086C64E /* Type.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01E223B7536E0086C64E /* Type.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021B23B7536E0086C64E /* Timestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01E323B7536E0086C64E /* Timestamp.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021C23B7536E0086C64E /* Any.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01E723B7536E0086C64E /* Any.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021D23B7536E0086C64E /* SourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01EC23B7536E0086C64E /* SourceContext.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021E23B7536E0086C64E /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01ED23B7536E0086C64E /* Api.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC021F23B7536E0086C64E /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01F023B7536E0086C64E /* Duration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022023B7536E0086C64E /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01F123B7536E0086C64E /* Wrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022123B7536E0086C64E /* Empty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01F223B7536E0086C64E /* Empty.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022223B7536E0086C64E /* FieldMask.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01F423B7536E0086C64E /* FieldMask.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022323B7536E0086C64E /* Struct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01F523B7536E0086C64E /* Struct.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022423B7536E0086C64E /* GPBCodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01F723B7536E0086C64E /* GPBCodedInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022523B7536E0086C64E /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01F823B7536E0086C64E /* GPBWellKnownTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022623B7536E0086C64E /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01F923B7536E0086C64E /* GPBUnknownField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022723B7536E0086C64E /* GPBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC01FF23B7536E0086C64E /* GPBArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022823B7536E0086C64E /* GPBCodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC020923B7536E0086C64E /* GPBCodedOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022923B7536E0086C64E /* GPBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC020A23B7536E0086C64E /* GPBDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6FC022B23B75A4B0086C64E /* BLEMidAutumn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FC022A23B75A4B0086C64E /* BLEMidAutumn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +78,69 @@
 		D649FF3320C66C9700101AD7 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		D649FF3520C66CC100101AD7 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		D649FF3720C66CF800101AD7 /* BlackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackListViewController.swift; sourceTree = "<group>"; };
+		D6FC01D223B7536E0086C64E /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		D6FC01D323B7536E0086C64E /* GPBArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBArray.h; sourceTree = "<group>"; };
+		D6FC01D423B7536E0086C64E /* GPBExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBExtensionRegistry.m; sourceTree = "<group>"; };
+		D6FC01D523B7536E0086C64E /* GPBRootObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBRootObject.m; sourceTree = "<group>"; };
+		D6FC01D623B7536E0086C64E /* GPBDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBDescriptor.m; sourceTree = "<group>"; };
+		D6FC01D723B7536E0086C64E /* GPBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBMessage.m; sourceTree = "<group>"; };
+		D6FC01D823B7536E0086C64E /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBProtocolBuffers.h; sourceTree = "<group>"; };
+		D6FC01D923B7536E0086C64E /* GPBWireFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBWireFormat.m; sourceTree = "<group>"; };
+		D6FC01DA23B7536E0086C64E /* GPBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBUtilities.m; sourceTree = "<group>"; };
+		D6FC01DB23B7536E0086C64E /* GPBExtensionInternals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBExtensionInternals.m; sourceTree = "<group>"; };
+		D6FC01DC23B7536E0086C64E /* GPBUnknownFieldSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBUnknownFieldSet.m; sourceTree = "<group>"; };
+		D6FC01DD23B7536E0086C64E /* GPBDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDictionary.h; sourceTree = "<group>"; };
+		D6FC01DE23B7536E0086C64E /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBCodedOutputStream.h; sourceTree = "<group>"; };
+		D6FC01DF23B7536E0086C64E /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
+		D6FC01E223B7536E0086C64E /* Type.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.pbobjc.m; sourceTree = "<group>"; };
+		D6FC01E323B7536E0086C64E /* Timestamp.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timestamp.pbobjc.m; sourceTree = "<group>"; };
+		D6FC01E423B7536E0086C64E /* Api.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
+		D6FC01E523B7536E0086C64E /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceContext.pbobjc.h; sourceTree = "<group>"; };
+		D6FC01E623B7536E0086C64E /* Duration.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duration.pbobjc.h; sourceTree = "<group>"; };
+		D6FC01E723B7536E0086C64E /* Any.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Any.pbobjc.m; sourceTree = "<group>"; };
+		D6FC01E823B7536E0086C64E /* Empty.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empty.pbobjc.h; sourceTree = "<group>"; };
+		D6FC01E923B7536E0086C64E /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrappers.pbobjc.h; sourceTree = "<group>"; };
+		D6FC01EA23B7536E0086C64E /* Struct.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Struct.pbobjc.h; sourceTree = "<group>"; };
+		D6FC01EB23B7536E0086C64E /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldMask.pbobjc.h; sourceTree = "<group>"; };
+		D6FC01EC23B7536E0086C64E /* SourceContext.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceContext.pbobjc.m; sourceTree = "<group>"; };
+		D6FC01ED23B7536E0086C64E /* Api.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Api.pbobjc.m; sourceTree = "<group>"; };
+		D6FC01EE23B7536E0086C64E /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timestamp.pbobjc.h; sourceTree = "<group>"; };
+		D6FC01EF23B7536E0086C64E /* Type.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.pbobjc.h; sourceTree = "<group>"; };
+		D6FC01F023B7536E0086C64E /* Duration.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duration.pbobjc.m; sourceTree = "<group>"; };
+		D6FC01F123B7536E0086C64E /* Wrappers.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wrappers.pbobjc.m; sourceTree = "<group>"; };
+		D6FC01F223B7536E0086C64E /* Empty.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empty.pbobjc.m; sourceTree = "<group>"; };
+		D6FC01F323B7536E0086C64E /* Any.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Any.pbobjc.h; sourceTree = "<group>"; };
+		D6FC01F423B7536E0086C64E /* FieldMask.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldMask.pbobjc.m; sourceTree = "<group>"; };
+		D6FC01F523B7536E0086C64E /* Struct.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Struct.pbobjc.m; sourceTree = "<group>"; };
+		D6FC01F623B7536E0086C64E /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
+		D6FC01F723B7536E0086C64E /* GPBCodedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBCodedInputStream.m; sourceTree = "<group>"; };
+		D6FC01F823B7536E0086C64E /* GPBWellKnownTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBWellKnownTypes.m; sourceTree = "<group>"; };
+		D6FC01F923B7536E0086C64E /* GPBUnknownField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBUnknownField.m; sourceTree = "<group>"; };
+		D6FC01FA23B7536E0086C64E /* GPBDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDescriptor.h; sourceTree = "<group>"; };
+		D6FC01FB23B7536E0086C64E /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		D6FC01FC23B7536E0086C64E /* GPBRootObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRootObject.h; sourceTree = "<group>"; };
+		D6FC01FD23B7536E0086C64E /* GPBBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBBootstrap.h; sourceTree = "<group>"; };
+		D6FC01FE23B7536E0086C64E /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBExtensionRegistry.h; sourceTree = "<group>"; };
+		D6FC01FF23B7536E0086C64E /* GPBArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBArray.m; sourceTree = "<group>"; };
+		D6FC020023B7536E0086C64E /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRuntimeTypes.h; sourceTree = "<group>"; };
+		D6FC020123B7536E0086C64E /* GPBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUtilities.h; sourceTree = "<group>"; };
+		D6FC020223B7536E0086C64E /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
+		D6FC020323B7536E0086C64E /* GPBWireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBWireFormat.h; sourceTree = "<group>"; };
+		D6FC020423B7536E0086C64E /* GPBArray_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBArray_PackagePrivate.h; sourceTree = "<group>"; };
+		D6FC020523B7536E0086C64E /* GPBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBMessage.h; sourceTree = "<group>"; };
+		D6FC020623B7536E0086C64E /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
+		D6FC020723B7536E0086C64E /* GPBCodedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBCodedInputStream.h; sourceTree = "<group>"; };
+		D6FC020823B7536E0086C64E /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
+		D6FC020923B7536E0086C64E /* GPBCodedOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBCodedOutputStream.m; sourceTree = "<group>"; };
+		D6FC020A23B7536E0086C64E /* GPBDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBDictionary.m; sourceTree = "<group>"; };
+		D6FC020B23B7536E0086C64E /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUnknownFieldSet.h; sourceTree = "<group>"; };
+		D6FC020C23B7536E0086C64E /* GPBExtensionInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBExtensionInternals.h; sourceTree = "<group>"; };
+		D6FC020D23B7536E0086C64E /* GPBUnknownField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUnknownField.h; sourceTree = "<group>"; };
+		D6FC020E23B7536E0086C64E /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
+		D6FC020F23B7536E0086C64E /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBWellKnownTypes.h; sourceTree = "<group>"; };
+		D6FC021023B7536E0086C64E /* GPBUnknownField_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUnknownField_PackagePrivate.h; sourceTree = "<group>"; };
+		D6FC021123B7536E0086C64E /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDictionary_PackagePrivate.h; sourceTree = "<group>"; };
+		D6FC022A23B75A4B0086C64E /* BLEMidAutumn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BLEMidAutumn.framework; sourceTree = "<group>"; };
 		FFF24609A4EC7F2387BFF72A /* Pods_iwown_blesdk_ios_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iwown_blesdk_ios_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				665EAF1292D5FF10AF582CA6 /* Pods_iwown_blesdk_ios_swift.framework in Frameworks */,
+				D6FC022B23B75A4B0086C64E /* BLEMidAutumn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +210,8 @@
 		D649FEEC20C5254A00101AD7 /* BLELib */ = {
 			isa = PBXGroup;
 			children = (
+				D6FC022A23B75A4B0086C64E /* BLEMidAutumn.framework */,
+				D6FC01D123B7536E0086C64E /* Protobuf */,
 				D649FEED20C5254A00101AD7 /* BLEShareInstance.swift */,
 			);
 			path = BLELib;
@@ -194,6 +285,92 @@
 			path = Message;
 			sourceTree = "<group>";
 		};
+		D6FC01D123B7536E0086C64E /* Protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				D6FC01D223B7536E0086C64E /* GPBCodedOutputStream_PackagePrivate.h */,
+				D6FC01D323B7536E0086C64E /* GPBArray.h */,
+				D6FC01D423B7536E0086C64E /* GPBExtensionRegistry.m */,
+				D6FC01D523B7536E0086C64E /* GPBRootObject.m */,
+				D6FC01D623B7536E0086C64E /* GPBDescriptor.m */,
+				D6FC01D723B7536E0086C64E /* GPBMessage.m */,
+				D6FC01D823B7536E0086C64E /* GPBProtocolBuffers.h */,
+				D6FC01D923B7536E0086C64E /* GPBWireFormat.m */,
+				D6FC01DA23B7536E0086C64E /* GPBUtilities.m */,
+				D6FC01DB23B7536E0086C64E /* GPBExtensionInternals.m */,
+				D6FC01DC23B7536E0086C64E /* GPBUnknownFieldSet.m */,
+				D6FC01DD23B7536E0086C64E /* GPBDictionary.h */,
+				D6FC01DE23B7536E0086C64E /* GPBCodedOutputStream.h */,
+				D6FC01DF23B7536E0086C64E /* GPBRootObject_PackagePrivate.h */,
+				D6FC01E023B7536E0086C64E /* google */,
+				D6FC01F623B7536E0086C64E /* GPBUtilities_PackagePrivate.h */,
+				D6FC01F723B7536E0086C64E /* GPBCodedInputStream.m */,
+				D6FC01F823B7536E0086C64E /* GPBWellKnownTypes.m */,
+				D6FC01F923B7536E0086C64E /* GPBUnknownField.m */,
+				D6FC01FA23B7536E0086C64E /* GPBDescriptor.h */,
+				D6FC01FB23B7536E0086C64E /* GPBCodedInputStream_PackagePrivate.h */,
+				D6FC01FC23B7536E0086C64E /* GPBRootObject.h */,
+				D6FC01FD23B7536E0086C64E /* GPBBootstrap.h */,
+				D6FC01FE23B7536E0086C64E /* GPBExtensionRegistry.h */,
+				D6FC01FF23B7536E0086C64E /* GPBArray.m */,
+				D6FC020023B7536E0086C64E /* GPBRuntimeTypes.h */,
+				D6FC020123B7536E0086C64E /* GPBUtilities.h */,
+				D6FC020223B7536E0086C64E /* GPBMessage_PackagePrivate.h */,
+				D6FC020323B7536E0086C64E /* GPBWireFormat.h */,
+				D6FC020423B7536E0086C64E /* GPBArray_PackagePrivate.h */,
+				D6FC020523B7536E0086C64E /* GPBMessage.h */,
+				D6FC020623B7536E0086C64E /* GPBProtocolBuffers_RuntimeSupport.h */,
+				D6FC020723B7536E0086C64E /* GPBCodedInputStream.h */,
+				D6FC020823B7536E0086C64E /* GPBDescriptor_PackagePrivate.h */,
+				D6FC020923B7536E0086C64E /* GPBCodedOutputStream.m */,
+				D6FC020A23B7536E0086C64E /* GPBDictionary.m */,
+				D6FC020B23B7536E0086C64E /* GPBUnknownFieldSet.h */,
+				D6FC020C23B7536E0086C64E /* GPBExtensionInternals.h */,
+				D6FC020D23B7536E0086C64E /* GPBUnknownField.h */,
+				D6FC020E23B7536E0086C64E /* GPBUnknownFieldSet_PackagePrivate.h */,
+				D6FC020F23B7536E0086C64E /* GPBWellKnownTypes.h */,
+				D6FC021023B7536E0086C64E /* GPBUnknownField_PackagePrivate.h */,
+				D6FC021123B7536E0086C64E /* GPBDictionary_PackagePrivate.h */,
+			);
+			name = Protobuf;
+			path = ../../../Protobuf;
+			sourceTree = "<group>";
+		};
+		D6FC01E023B7536E0086C64E /* google */ = {
+			isa = PBXGroup;
+			children = (
+				D6FC01E123B7536E0086C64E /* protobuf */,
+			);
+			path = google;
+			sourceTree = "<group>";
+		};
+		D6FC01E123B7536E0086C64E /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				D6FC01E223B7536E0086C64E /* Type.pbobjc.m */,
+				D6FC01E323B7536E0086C64E /* Timestamp.pbobjc.m */,
+				D6FC01E423B7536E0086C64E /* Api.pbobjc.h */,
+				D6FC01E523B7536E0086C64E /* SourceContext.pbobjc.h */,
+				D6FC01E623B7536E0086C64E /* Duration.pbobjc.h */,
+				D6FC01E723B7536E0086C64E /* Any.pbobjc.m */,
+				D6FC01E823B7536E0086C64E /* Empty.pbobjc.h */,
+				D6FC01E923B7536E0086C64E /* Wrappers.pbobjc.h */,
+				D6FC01EA23B7536E0086C64E /* Struct.pbobjc.h */,
+				D6FC01EB23B7536E0086C64E /* FieldMask.pbobjc.h */,
+				D6FC01EC23B7536E0086C64E /* SourceContext.pbobjc.m */,
+				D6FC01ED23B7536E0086C64E /* Api.pbobjc.m */,
+				D6FC01EE23B7536E0086C64E /* Timestamp.pbobjc.h */,
+				D6FC01EF23B7536E0086C64E /* Type.pbobjc.h */,
+				D6FC01F023B7536E0086C64E /* Duration.pbobjc.m */,
+				D6FC01F123B7536E0086C64E /* Wrappers.pbobjc.m */,
+				D6FC01F223B7536E0086C64E /* Empty.pbobjc.m */,
+				D6FC01F323B7536E0086C64E /* Any.pbobjc.h */,
+				D6FC01F423B7536E0086C64E /* FieldMask.pbobjc.m */,
+				D6FC01F523B7536E0086C64E /* Struct.pbobjc.m */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +382,6 @@
 				D649FE6D20C5219700101AD7 /* Sources */,
 				D649FE6E20C5219700101AD7 /* Frameworks */,
 				D649FE6F20C5219700101AD7 /* Resources */,
-				51A92614A195CF094CC7BF51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,23 +439,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		51A92614A195CF094CC7BF51 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		72AC4D601F79688B9BB899F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,21 +465,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				D649FF3820C66CF800101AD7 /* BlackListViewController.swift in Sources */,
+				D6FC021A23B7536E0086C64E /* Type.pbobjc.m in Sources */,
+				D6FC022223B7536E0086C64E /* FieldMask.pbobjc.m in Sources */,
 				D649FEF320C5254A00101AD7 /* GlobalConst.swift in Sources */,
 				D649FEF220C5254A00101AD7 /* BLEShareInstance.swift in Sources */,
+				D6FC022723B7536E0086C64E /* GPBArray.m in Sources */,
 				D649FF2D20C66B2C00101AD7 /* SedentaryViewController.swift in Sources */,
+				D6FC022023B7536E0086C64E /* Wrappers.pbobjc.m in Sources */,
 				D649FF2520C6639800101AD7 /* DConfigViewController.swift in Sources */,
+				D6FC021823B7536E0086C64E /* GPBExtensionInternals.m in Sources */,
 				D649FF2B20C66B1D00101AD7 /* CHOptionController.swift in Sources */,
+				D6FC021423B7536E0086C64E /* GPBDescriptor.m in Sources */,
 				D649FEF520C5254A00101AD7 /* DCViewController.swift in Sources */,
 				D649FF2920C66B1100101AD7 /* ClockViewController.swift in Sources */,
+				D6FC021323B7536E0086C64E /* GPBRootObject.m in Sources */,
 				D649FF3620C66CC100101AD7 /* DataViewController.swift in Sources */,
 				D649FF3420C66C9700101AD7 /* MoreViewController.swift in Sources */,
+				D6FC021223B7536E0086C64E /* GPBExtensionRegistry.m in Sources */,
+				D6FC021523B7536E0086C64E /* GPBMessage.m in Sources */,
+				D6FC021623B7536E0086C64E /* GPBWireFormat.m in Sources */,
+				D6FC021923B7536E0086C64E /* GPBUnknownFieldSet.m in Sources */,
 				D649FE7720C5219700101AD7 /* ViewController.swift in Sources */,
 				D649FE7520C5219700101AD7 /* AppDelegate.swift in Sources */,
+				D6FC021C23B7536E0086C64E /* Any.pbobjc.m in Sources */,
+				D6FC022423B7536E0086C64E /* GPBCodedInputStream.m in Sources */,
+				D6FC022923B7536E0086C64E /* GPBDictionary.m in Sources */,
+				D6FC022323B7536E0086C64E /* Struct.pbobjc.m in Sources */,
+				D6FC022523B7536E0086C64E /* GPBWellKnownTypes.m in Sources */,
+				D6FC022623B7536E0086C64E /* GPBUnknownField.m in Sources */,
+				D6FC022123B7536E0086C64E /* Empty.pbobjc.m in Sources */,
 				D649FF2320C660A700101AD7 /* BaseViewController.swift in Sources */,
+				D6FC021F23B7536E0086C64E /* Duration.pbobjc.m in Sources */,
 				D649FF2720C66B0400101AD7 /* HWOptionController.swift in Sources */,
 				D649FEF120C5254A00101AD7 /* DeviceInfoView.swift in Sources */,
+				D6FC022823B7536E0086C64E /* GPBCodedOutputStream.m in Sources */,
+				D6FC021B23B7536E0086C64E /* Timestamp.pbobjc.m in Sources */,
+				D6FC021D23B7536E0086C64E /* SourceContext.pbobjc.m in Sources */,
+				D6FC021723B7536E0086C64E /* GPBUtilities.m in Sources */,
 				D649FEF420C5254A00101AD7 /* Utils.swift in Sources */,
+				D6FC021E23B7536E0086C64E /* Api.pbobjc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +651,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L855ZMKEYR;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iwown_blesdk_ios_swift/BLELib",
+				);
 				INFOPLIST_FILE = iwown_blesdk_ios_swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +663,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Iwown.iwown-blesdk-ios-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -489,6 +676,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L855ZMKEYR;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iwown_blesdk_ios_swift/BLELib",
+				);
 				INFOPLIST_FILE = iwown_blesdk_ios_swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,7 +688,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Iwown.iwown-blesdk-ios-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

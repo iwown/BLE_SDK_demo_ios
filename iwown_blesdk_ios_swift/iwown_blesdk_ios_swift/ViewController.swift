@@ -41,11 +41,11 @@ class ViewController: UIViewController {
     }
     
     func initUI() {
-        let itemLeft:UIBarButtonItem = UIBarButtonItem.init(title: "BIND", style: UIBarButtonItemStyle.plain, target: self, action: #selector(ViewController.scanDevices))
+        let itemLeft:UIBarButtonItem = UIBarButtonItem.init(title: "BIND", style: UIBarButtonItem.Style.plain, target: self, action: #selector(ViewController.scanDevices))
         self.navigationItem.leftBarButtonItem = itemLeft
         
         let rect:CGRect = CGRect(x:0, y:0, width:SCREEN_WIDTH, height:SCREEN_HEIGHT)
-        tableView = UITableView.init(frame: rect, style: UITableViewStyle.plain)
+        tableView = UITableView.init(frame: rect, style: UITableView.Style.plain)
         tableView?.dataSource = self
         tableView?.delegate = self
         self.view.addSubview(tableView!)
@@ -79,7 +79,7 @@ extension ViewController: UITableViewDelegate ,UITableViewDataSource {
         var cell: UITableViewCell? = nil
         cell = tableView.dequeueReusableCell(withIdentifier: reuseID)
         if(cell == nil){
-            cell = UITableViewCell.init(style: UITableViewCellStyle.value1, reuseIdentifier: reuseID)
+            cell = UITableViewCell.init(style: UITableViewCell.CellStyle.value1, reuseIdentifier: reuseID)
         }
         cell?.textLabel?.text=arr[indexPath.section][indexPath.row]
         return cell!
@@ -170,7 +170,7 @@ extension ViewController: UITableViewDelegate ,UITableViewDataSource {
     func selectCellAtTwo(indexRow : Int) {
         switch (indexRow) {
         case 0:
-            BLEShareInstance.bleSolstice().syscTimeAtOnce()
+            BLEShareInstance.bleSolstice().syscTime(Date())
             break;
         case 1:
             let vc = MoreViewController.init()

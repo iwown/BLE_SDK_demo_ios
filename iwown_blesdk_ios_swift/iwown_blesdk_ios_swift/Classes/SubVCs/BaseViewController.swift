@@ -27,7 +27,7 @@ class BaseViewController: UIViewController {
     func initUI() -> Void {
         
         let rect:CGRect = CGRect(x:0, y:0, width:SCREEN_WIDTH, height:SCREEN_HEIGHT)
-        _tableView = UITableView.init(frame: rect, style: UITableViewStyle.plain)
+        _tableView = UITableView.init(frame: rect, style: UITableView.Style.plain)
         _tableView?.dataSource = self
         _tableView?.delegate = self
         self.view.addSubview(_tableView!)
@@ -47,7 +47,7 @@ extension BaseViewController: UITableViewDelegate ,UITableViewDataSource {
         var cell: UITableViewCell? = nil
         cell = tableView.dequeueReusableCell(withIdentifier: reuseID)
         if(cell == nil){
-            cell = UITableViewCell.init(style: UITableViewCellStyle.value1, reuseIdentifier: reuseID)
+            cell = UITableViewCell.init(style: UITableViewCell.CellStyle.value1, reuseIdentifier: reuseID)
         }
         return cell!
     }
