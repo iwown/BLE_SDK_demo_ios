@@ -30,8 +30,7 @@ typedef enum {
     ZRDITypeECGHealth = 0x64,// ECG data in Watch
     ZRDITypePPGHealth = 0x65,// PPG data in Watch
     ZRDITypeRRIHealth = 0x66,// RRI data in Watch
-    ZRDITypeEarPhoneData = 0x68,
-    ZRDITypeSpo2 = 0x69,  //血氧数据
+    ZRDITypeEarPhoneData = 0x68
 } ZRDIType;
 
 @interface DDInfo : NSObject
@@ -82,8 +81,6 @@ typedef enum {
     HDTypePPG = 0x65,  //PPG数据
     HDTypeRRI = 0x66,  //房颤数据
     HDTypeEarPhoneHealth = 0x68, //耳机运动数据
-    
-    HDTypeSpo2 = 0x69,  //血氧数据
     
     HDTypeZGStep = 0x8901,
     HDTypeZGExercise = 0x8B,
