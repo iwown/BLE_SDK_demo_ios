@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		571FD978240FA7870097D9DA /* BLDurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571FD973240FA7870097D9DA /* BLDurationViewController.m */; };
+		571FD979240FA7870097D9DA /* RealTimeDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571FD976240FA7870097D9DA /* RealTimeDataViewController.m */; };
 		C168F8F0AB7BEC7CB7C8D667 /* Pods_AutumnTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD030540D42FED5C5D8AD77 /* Pods_AutumnTest.framework */; };
 		D638C7932254AADB000AD2C9 /* SportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D638C7922254AADB000AD2C9 /* SportsViewController.m */; };
 		D638C7962254AB7B000AD2C9 /* SportDetailAc.m in Sources */ = {isa = PBXBuildFile; fileRef = D638C7952254AB7B000AD2C9 /* SportDetailAc.m */; };
@@ -74,11 +76,14 @@
 		D64E93241F961A160054A7F0 /* BLEShareInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = D64E93091F960CA30054A7F0 /* BLEShareInstance.m */; };
 		D64E93261F961A160054A7F0 /* DeviceStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = D64E930C1F960CA30054A7F0 /* DeviceStateView.m */; };
 		D685E2DB202ACC650060F8F8 /* BLEShareInstance+ResponseFromSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = D685E2DA202ACC640060F8F8 /* BLEShareInstance+ResponseFromSDK.m */; };
-		D685E2E0202ACDD10060F8F8 /* IVBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D685E2DF202ACDD10060F8F8 /* IVBaseKit.framework */; };
 		D69B5159228BE6DF004E70BF /* SysnDataStorger.m in Sources */ = {isa = PBXBuildFile; fileRef = D69B5158228BE6DF004E70BF /* SysnDataStorger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		571FD973240FA7870097D9DA /* BLDurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDurationViewController.m; sourceTree = "<group>"; };
+		571FD974240FA7870097D9DA /* BLDurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDurationViewController.h; sourceTree = "<group>"; };
+		571FD976240FA7870097D9DA /* RealTimeDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeDataViewController.m; sourceTree = "<group>"; };
+		571FD977240FA7870097D9DA /* RealTimeDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeDataViewController.h; sourceTree = "<group>"; };
 		618EF0E61F9612FE00C14071 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		63B79090BA49CFE0FA321C66 /* Pods-AutumnTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutumnTest.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-AutumnTest/Pods-AutumnTest.debug.xcconfig"; sourceTree = "<group>"; };
 		6FD030540D42FED5C5D8AD77 /* Pods_AutumnTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutumnTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,7 +183,6 @@
 		D64E930C1F960CA30054A7F0 /* DeviceStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceStateView.m; sourceTree = "<group>"; };
 		D685E2D9202ACC640060F8F8 /* BLEShareInstance+ResponseFromSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLEShareInstance+ResponseFromSDK.h"; sourceTree = "<group>"; };
 		D685E2DA202ACC640060F8F8 /* BLEShareInstance+ResponseFromSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLEShareInstance+ResponseFromSDK.m"; sourceTree = "<group>"; };
-		D685E2DF202ACDD10060F8F8 /* IVBaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IVBaseKit.framework; sourceTree = "<group>"; };
 		D69B5157228BE6DF004E70BF /* SysnDataStorger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SysnDataStorger.h; sourceTree = "<group>"; };
 		D69B5158228BE6DF004E70BF /* SysnDataStorger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SysnDataStorger.m; sourceTree = "<group>"; };
 		F29826D1B9B37ED69CD96103 /* Pods-AutumnTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutumnTest.release.xcconfig"; path = "../Pods/Target Support Files/Pods-AutumnTest/Pods-AutumnTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -191,7 +195,6 @@
 			files = (
 				D6437604223657740020473C /* libc++.tbd in Frameworks */,
 				D64375EE223656240020473C /* IVSleep.a in Frameworks */,
-				D685E2E0202ACDD10060F8F8 /* IVBaseKit.framework in Frameworks */,
 				D646D52A205A263100B7C3AC /* BLEMidAutumn.framework in Frameworks */,
 				C168F8F0AB7BEC7CB7C8D667 /* Pods_AutumnTest.framework in Frameworks */,
 			);
@@ -207,6 +210,24 @@
 				F29826D1B9B37ED69CD96103 /* Pods-AutumnTest.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		571FD972240FA7870097D9DA /* BackLightDuration */ = {
+			isa = PBXGroup;
+			children = (
+				571FD973240FA7870097D9DA /* BLDurationViewController.m */,
+				571FD974240FA7870097D9DA /* BLDurationViewController.h */,
+			);
+			path = BackLightDuration;
+			sourceTree = "<group>";
+		};
+		571FD975240FA7870097D9DA /* RealTimeData */ = {
+			isa = PBXGroup;
+			children = (
+				571FD976240FA7870097D9DA /* RealTimeDataViewController.m */,
+				571FD977240FA7870097D9DA /* RealTimeDataViewController.h */,
+			);
+			path = RealTimeData;
 			sourceTree = "<group>";
 		};
 		D638C7902254AABF000AD2C9 /* Sports */ = {
@@ -234,6 +255,8 @@
 		D64375AA223656240020473C /* SubVCs */ = {
 			isa = PBXGroup;
 			children = (
+				571FD972240FA7870097D9DA /* BackLightDuration */,
+				571FD975240FA7870097D9DA /* RealTimeData */,
 				D64375AB223656240020473C /* SyncData */,
 				D64375B6223656240020473C /* HWoption */,
 				D64375C3223656240020473C /* ECG */,
@@ -558,7 +581,6 @@
 			children = (
 				D6437603223657740020473C /* libc++.tbd */,
 				D646D529205A263100B7C3AC /* BLEMidAutumn.framework */,
-				D685E2DF202ACDD10060F8F8 /* IVBaseKit.framework */,
 				6FD030540D42FED5C5D8AD77 /* Pods_AutumnTest.framework */,
 			);
 			name = Frameworks;
@@ -688,8 +710,9 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../Pods/Target Support Files/Pods-AutumnTest/Pods-AutumnTest-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AutumnTest/Pods-AutumnTest-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DateTools/DateTools.framework",
+				"${BUILT_PRODUCTS_DIR}/IVBaseKit/IVBaseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
@@ -700,6 +723,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IVBaseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
@@ -709,7 +733,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-AutumnTest/Pods-AutumnTest-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutumnTest/Pods-AutumnTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		57216404207F3EF900006F36 /* ShellScript */ = {
@@ -778,6 +802,7 @@
 				D64375862236555F0020473C /* HomeViewController.m in Sources */,
 				D64E93261F961A160054A7F0 /* DeviceStateView.m in Sources */,
 				D6437600223656240020473C /* StartSetViewController.m in Sources */,
+				571FD978240FA7870097D9DA /* BLDurationViewController.m in Sources */,
 				D64375FB223656240020473C /* DeviceConectController.m in Sources */,
 				D646D526205A08C900B7C3AC /* BLEShareInstance+MTK.m in Sources */,
 				D64375EB223656240020473C /* SleepViewController.m in Sources */,
@@ -786,6 +811,7 @@
 				D64E928B1F95F80D0054A7F0 /* AppDelegate.m in Sources */,
 				D638C7962254AB7B000AD2C9 /* SportDetailAc.m in Sources */,
 				D643764A22366E390020473C /* FileManager.m in Sources */,
+				571FD979240FA7870097D9DA /* RealTimeDataViewController.m in Sources */,
 				D64375F9223656240020473C /* MoreViewController.m in Sources */,
 				D64375F0223656240020473C /* HWOptionController.m in Sources */,
 				D643765322366E390020473C /* DTTimePeriodCollection.m in Sources */,
@@ -973,6 +999,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Iwown.AutumnTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1012,6 +1039,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Iwown.AutumnTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

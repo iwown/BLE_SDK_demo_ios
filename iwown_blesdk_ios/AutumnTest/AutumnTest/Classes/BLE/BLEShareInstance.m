@@ -216,7 +216,13 @@ static BLEShareInstance *shareBLEInstance = nil;
 }
 
 
-
+#pragma mark -
+- (NSMutableArray *)ecgArr {
+    if (!_ecgArr) {
+        _ecgArr = [[NSMutableArray alloc] initWithCapacity:0];
+    }
+    return _ecgArr;
+}
 
 
 @end

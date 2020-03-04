@@ -1,6 +1,0 @@
-framework module IVBaseKit {
-  umbrella header "IVBaseKit.h"
-
-  export *
-  module * { export * }
-}

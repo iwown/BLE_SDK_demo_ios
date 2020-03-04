@@ -11,6 +11,23 @@
 
 #define BLE_SYSCDATA_GETDATASCORE @"BLE_SYSCDATA_GETDATASCORE"
 
+@protocol BLEShareInstanceDelegate <NSObject>
+
+@optional
+- (void)updateColorGPSData:(ZRGPSModel *)data;
+
+- (void)updateColorGPSDataEnd;
+
+- (void)updateDeviceOption:(ZRHWOption *)option;
+
+- (void)receiveRealtimeData:(NSInteger)type Data:(NSArray *)data;
+
+- (void)receiveNormalHealthDataInfo:(NSArray *)indexTable;
+
+- (void)receiveNormalHealthDataDetail:(NSArray *)data Seq:(NSInteger)seq;
+
+@end
+
 @protocol BKDataDeleagte <NSObject>
 
 - (void)updateBleSyscData:(id)data;
@@ -26,6 +43,10 @@
 @property (nonatomic ,strong) NSArray *dInfo64Arr;
 
 @property (nonatomic ,weak) id<BKDataDeleagte> dataDelegate;
+
+@property (nonatomic ,strong) NSMutableArray *ecgArr;
+
+@property (nonatomic ,weak) id<BLEShareInstanceDelegate> bkDataDeleagte;
 
 + (BLEShareInstance *)shareInstance;
 + (id<BLESolstice>)bleSolstice;

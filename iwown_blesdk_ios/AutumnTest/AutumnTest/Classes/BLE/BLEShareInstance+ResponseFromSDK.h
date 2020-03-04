@@ -9,4 +9,7 @@
 #import "BLEShareInstance.h"
 
 @interface BLEShareInstance (ResponseFromSDK)
+
+- (void)filterECGData;
+
 @end

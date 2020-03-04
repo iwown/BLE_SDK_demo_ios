@@ -200,7 +200,11 @@
             break;
         case CMD_RESPONSE_CONFIG_GET_HW_OPTION:
         {
-            
+            ZRHWOption *opt = response.data;
+            NSLog(@"readResponseFromDevice======%@", opt);
+            if (self.bkDataDeleagte && [self.bkDataDeleagte respondsToSelector:@selector(updateDeviceOption:)]) {
+                [self.bkDataDeleagte updateDeviceOption:opt];
+            }
         }
             break;
         case CMD_RESPONSE_CONFIG_GET_SPORT_LIST:
@@ -271,5 +275,55 @@
     NSLog(@"==============responseOfBloodPressureData================%@", data);
 }
 
+#pragma mark - realtime sensor data response
+- (void)responseOfRealTimeSensorData:(ZRSensorDataModel *)sData {
+    if (self.bkDataDeleagte && [self.bkDataDeleagte respondsToSelector:@selector(receiveRealtimeData:Data:)]) {
+        [self.bkDataDeleagte receiveRealtimeData:sData.sType Data:sData.detailData];
+        return;
+    }
+    switch (sData.sType) {
+        case RealTime_ECG:
+        {
+            for (int i = 0; i < sData.detailData.count; i++) {
+                int tmp = [[sData.detailData objectAtIndex:i] intValue];
+                int ecg = tmp*2000/5700;
+                [self.ecgArr addObject:@(ecg)];
+            }
+        }
+            break;
+        case RealTime_PPG:
+        {
+            
+        }
+            break;
+       
+        default:
+            break;
+    }
+}
+
+- (void)filterECGData {
+    if (self.ecgArr.count > 300) {
+        [self.ecgArr removeObjectsInRange:NSMakeRange(0, 300)];
+    }
+    
+    if (self.ecgArr.count > 300) {
+        [self.ecgArr removeObjectsInRange:NSMakeRange(self.ecgArr.count - 300, 300)];
+    }
+    
+    NSError *error;
+    NSData *muData = [NSJSONSerialization dataWithJSONObject:self.ecgArr options:0 error:&error];
+    if (!error) {
+        NSString *jsonString = [[NSString alloc] initWithData:muData encoding:NSUTF8StringEncoding];
+        NSLog(@"=====muArr===jsonString:%@", jsonString);
+    }
+    
+    NSArray *reArr = [BLEAutumn filterEcgData:self.ecgArr];
+    NSData *data = [NSJSONSerialization dataWithJSONObject:reArr options:0 error:&error];
+    if (!error) {
+        NSString *jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        NSLog(@"=====reArr===jsonString:%@", jsonString);
+    }
+}
 
 @end
