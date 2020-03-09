@@ -1,7 +1,5 @@
 #bin/bash
 
-./cpFramework.sh
-
 ./4zip.sh
 
 #upload to api6 server

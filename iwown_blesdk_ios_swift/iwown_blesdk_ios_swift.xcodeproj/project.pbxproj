@@ -382,6 +382,7 @@
 				D649FE6D20C5219700101AD7 /* Sources */,
 				D649FE6E20C5219700101AD7 /* Frameworks */,
 				D649FE6F20C5219700101AD7 /* Resources */,
+				3A0EABA30249E04A533ACF1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -400,7 +401,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = A$CE;
+				ORGANIZATIONNAME = "A$CE";
 				TargetAttributes = {
 					D649FE7020C5219700101AD7 = {
 						CreatedOnToolsVersion = 9.4;
@@ -439,6 +440,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3A0EABA30249E04A533ACF1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iwown_blesdk_ios_swift/Pods-iwown_blesdk_ios_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		72AC4D601F79688B9BB899F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
