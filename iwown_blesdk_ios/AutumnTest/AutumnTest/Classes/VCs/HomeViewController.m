@@ -364,7 +364,7 @@ typedef enum {
             NSLog(@"=====muArr===jsonString:%@", jsonString);
         }
         
-        NSArray *reArr = [BLEAutumn filterEcgData:muArr];
+        NSArray *reArr = [ECGFilter filterEcgData:muArr];
         NSData *data = [NSJSONSerialization dataWithJSONObject:reArr options:0 error:&error];
         if (!error) {
             NSString *jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
