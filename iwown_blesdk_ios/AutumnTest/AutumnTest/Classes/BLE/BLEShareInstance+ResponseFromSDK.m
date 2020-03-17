@@ -88,10 +88,12 @@
 }
 
 - (void)updateNormalHealthData:(ZRHealthData *)zrhData {
-  
     HealthDataInfo hdInfo = zrhData.hdInfo;
-    
     switch (hdInfo.hdType) {
+        case HDTypeECG:
+        {
+        }
+            break;
         case HDTypeSummary:
         {
             ZRSummaryData *data = (ZRSummaryData *)zrhData;
@@ -141,11 +143,6 @@
         }
             break;
         case HDTypeGNSSNow:
-        {
-            
-        }
-            break;
-        case HDTypeECG:
         {
             
         }

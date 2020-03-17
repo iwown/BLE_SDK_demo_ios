@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 1f5eb5dd4aaf5b5050c57d075f7ae28881a4fe85
+PODS:
+  - BLEMidAutumn (6.6.1):
+    - Protobuf
+  - Protobuf (3.11.4)
+
+DEPENDENCIES:
+  - BLEMidAutumn
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BLEMidAutumn
+    - Protobuf
+
+SPEC CHECKSUMS:
+  BLEMidAutumn: 55f713ffa145f80236a26005c124cd82db169965
+  Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
+
+PODFILE CHECKSUM: 8efa7947a17f9ea48b851a703758907ef6f210e0
 
 COCOAPODS: 1.8.4

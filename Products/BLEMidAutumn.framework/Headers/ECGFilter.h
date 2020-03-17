@@ -19,9 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 */
 - (void)resetECGFilter;
 
-//参数传单个的值
+
 /**
-ecg滤波
+ecg滤波 参数传单个的值
 @param ecg : ecg value data (int)
 @return result value for filter ecg value
 */
@@ -29,7 +29,7 @@ ecg滤波
 
 
 /**
- ecg滤波
+ ecg滤波 参数传一次测量的所有值
  @param ecgArray ecg raw data array
  @return result for filter ECG raw data
  */

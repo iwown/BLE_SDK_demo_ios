@@ -67,7 +67,6 @@
 		D643765322366E390020473C /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = D643764522366E390020473C /* DTTimePeriodCollection.m */; };
 		D643765422366E390020473C /* DTTimePeriodChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D643764722366E390020473C /* DTTimePeriodChain.m */; };
 		D646D526205A08C900B7C3AC /* BLEShareInstance+MTK.m in Sources */ = {isa = PBXBuildFile; fileRef = D646D524205A08C900B7C3AC /* BLEShareInstance+MTK.m */; };
-		D646D52A205A263100B7C3AC /* BLEMidAutumn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D646D529205A263100B7C3AC /* BLEMidAutumn.framework */; };
 		D64E928B1F95F80D0054A7F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D64E928A1F95F80D0054A7F0 /* AppDelegate.m */; };
 		D64E92911F95F80D0054A7F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64E928F1F95F80D0054A7F0 /* Main.storyboard */; };
 		D64E92931F95F80D0054A7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64E92921F95F80D0054A7F0 /* Assets.xcassets */; };
@@ -167,7 +166,6 @@
 		D643764822366E390020473C /* NSDate+DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateTools.h"; sourceTree = "<group>"; };
 		D646D524205A08C900B7C3AC /* BLEShareInstance+MTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BLEShareInstance+MTK.m"; sourceTree = "<group>"; };
 		D646D525205A08C900B7C3AC /* BLEShareInstance+MTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLEShareInstance+MTK.h"; sourceTree = "<group>"; };
-		D646D529205A263100B7C3AC /* BLEMidAutumn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BLEMidAutumn.framework; sourceTree = "<group>"; };
 		D64E92861F95F80D0054A7F0 /* AutumnTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutumnTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64E92891F95F80D0054A7F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D64E928A1F95F80D0054A7F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -195,7 +193,6 @@
 			files = (
 				D6437604223657740020473C /* libc++.tbd in Frameworks */,
 				D64375EE223656240020473C /* IVSleep.a in Frameworks */,
-				D646D52A205A263100B7C3AC /* BLEMidAutumn.framework in Frameworks */,
 				C168F8F0AB7BEC7CB7C8D667 /* Pods_AutumnTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -580,7 +577,6 @@
 			isa = PBXGroup;
 			children = (
 				D6437603223657740020473C /* libc++.tbd */,
-				D646D529205A263100B7C3AC /* BLEMidAutumn.framework */,
 				6FD030540D42FED5C5D8AD77 /* Pods_AutumnTest.framework */,
 			);
 			name = Frameworks;
