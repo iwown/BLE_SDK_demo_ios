@@ -254,6 +254,9 @@
 - (void)notifyToTakePicture
 {
     NSLog(@"%s",__func__);
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"TakePictureNotify" object:nil userInfo:nil];
+    });
 }
 
 - (void)notifyToSearchPhone
