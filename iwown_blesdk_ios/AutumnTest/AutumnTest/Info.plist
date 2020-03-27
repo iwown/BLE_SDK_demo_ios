@@ -51,5 +51,14 @@
 	</array>
 	<key>CFBundleShortVersionString</key>
 	<string>1.1</string>
+<<<<<<< HEAD
+=======
+	<key>NSCameraUsageDescription</key>
+	<string>You can use camera to take pictures or scan the QR code to bind the device</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Save photos to your photo library</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Save photos to your photo library</string>
+>>>>>>> refs/remotes/origin/master
 </dict>
 </plist>

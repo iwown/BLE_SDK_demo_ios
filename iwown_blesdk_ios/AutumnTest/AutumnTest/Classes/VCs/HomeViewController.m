@@ -44,6 +44,9 @@ typedef enum {
 #import "RealTimeDataViewController.h"
 #import "BLDurationViewController.h"
 
+#import "CameraView.h"
+#import <AVFoundation/AVFoundation.h>
+
 #define CEP_URL @"https://search.iwown.com/cep/1513^cep_pak_3days/cep_pak.bin"
 
 @interface HomeViewController ()<UITableViewDataSource,UITableViewDelegate,DeviceStateViewDelegate>
@@ -75,7 +78,7 @@ typedef enum {
     
     self.navigationItem.title = @"IVBLEDemo";
     
-    _arrS = @[@"DEVICE CONFIG",@"HWOption",@"SET&READ",@"DATA SYNC",@"MESSAGE",@"ECG", @"GPS", @"血压", @"PB_RealTime_sensor", @"Back light duration"];
+    _arrS = @[@"DEVICE CONFIG",@"HWOption",@"SET&READ",@"DATA SYNC",@"MESSAGE",@"ECG", @"GPS", @"血压", @"PB_RealTime_sensor", @"Back light duration", @"智拍"];
     _arr =  @[@[@"DEVICE CONFIG", @"Dev tmp", @"DND", @"ZRStart", @"File-Update", @"DFU(固件升级)"],
               @[@"HWOption",@"Schedule&Clock",@"Custom Option",@"Sedentary"],
               @[@"Date Time",@"More",@"Weather",@"Target",@"Motor"],
@@ -85,7 +88,8 @@ typedef enum {
               @[@"Color GPS", @"Color GPS Detail", @"开启辅助定位", @"结束辅助定位", @"获取手环的gps状态", @"检查今天是否更新", @"检查是否打开AGPS", @"AGPS包长度下发"],
               @[@"彩屏获取血压数据"],
               @[@"RealTime data"],
-              @[@"Back light duration"]
+              @[@"Back light duration"],
+              @[@"开启智拍"]
               ];
     [BLEShareInstance shareInstance];
 }
@@ -169,6 +173,9 @@ typedef enum {
     }
     else if (indexPath.section == 9){
         [self selectAtTen:indexPath.row];
+    }
+    else if (indexPath.section == 10){
+        [self selectAtEleven:indexPath.row];
     }
     else {
         [self selectAtNine:indexPath.row];
@@ -364,7 +371,7 @@ typedef enum {
             NSLog(@"=====muArr===jsonString:%@", jsonString);
         }
         
-        NSArray *reArr = [BLEAutumn filterEcgData:muArr];
+        NSArray *reArr = [ECGFilter filterEcgData:muArr];
         NSData *data = [NSJSONSerialization dataWithJSONObject:reArr options:0 error:&error];
         if (!error) {
             NSString *jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
@@ -468,6 +475,26 @@ typedef enum {
 - (void)selectAtTen:(NSInteger)row {
     [self.navigationController pushViewController:[BLDurationViewController new] animated:YES];
 }
+
+- (void)selectAtEleven:(NSInteger)row {
+    NSString *mediaType = AVMediaTypeVideo;//读取媒体类型
+    AVAuthorizationStatus authStatus = [AVCaptureDevice authorizationStatusForMediaType:mediaType];//读取设备授权状态
+    if (authStatus == AVAuthorizationStatusDenied || authStatus == AVAuthorizationStatusRestricted) {
+        NSLog(@"没有调用相机的权限");
+        return;
+    }
+    UIImagePickerController * imagePikerViewController = [[UIImagePickerController alloc] init];
+    imagePikerViewController.sourceType = UIImagePickerControllerSourceTypeCamera;
+    imagePikerViewController.showsCameraControls = NO;
+    imagePikerViewController.cameraDevice = UIImagePickerControllerCameraDeviceRear;
+    CameraView *overlayView = [CameraView cameraView];
+    overlayView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+    overlayView.backgroundColor = [UIColor clearColor];
+    overlayView.picker = imagePikerViewController;
+    imagePikerViewController.cameraOverlayView = overlayView;
+    [self presentViewController:imagePikerViewController animated:YES completion:NULL];
+}
+
 
 #pragma mark- StateViewDelegate
 - (void)reConnectAction {

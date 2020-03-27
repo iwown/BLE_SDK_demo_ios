@@ -24,6 +24,7 @@ FOUNDATION_EXPORT const unsigned char BLEMidAutumnVersionString[];
 #import <BLEMidAutumn/ZRModel.h>
 #import <BLEMidAutumn/ZRHWOption.h>
 #import <BLEMidAutumn/ZRHealthData.h>
+#import <BLEMidAutumn/ECGFilter.h>
 
 
 
@@ -32,8 +33,8 @@ FOUNDATION_EXPORT const unsigned char BLEMidAutumnVersionString[];
 /*****************************************************************************
  ****
  ** BLEMidAutumn.h                           *   * * *
- ** Version : 5.6.0                          *   *
- ** Date : 2020-03-04                        * * * * *
+ ** Version : 6.6.3                          *   *
+ ** Date : 2020-03-14                        * * * * *
  **                                              *   *
  **                                          * * *   *
  ****

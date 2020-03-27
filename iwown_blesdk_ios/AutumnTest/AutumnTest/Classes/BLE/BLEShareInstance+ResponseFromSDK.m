@@ -254,6 +254,9 @@
 - (void)notifyToTakePicture
 {
     NSLog(@"%s",__func__);
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"TakePictureNotify" object:nil userInfo:nil];
+    });
 }
 
 - (void)notifyToSearchPhone
@@ -315,7 +318,7 @@
         NSLog(@"=====muArr===jsonString:%@", jsonString);
     }
     
-    NSArray *reArr = [BLEAutumn filterEcgData:self.ecgArr];
+    NSArray *reArr = [ECGFilter filterEcgData:self.ecgArr];
     NSData *data = [NSJSONSerialization dataWithJSONObject:reArr options:0 error:&error];
     if (!error) {
         NSString *jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
